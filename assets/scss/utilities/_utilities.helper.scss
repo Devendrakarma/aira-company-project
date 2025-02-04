@@ -1,0 +1,97 @@
+// font classes
+.font-lt {
+  font-family: font(lt)!important;
+}
+.font-rg {
+  font-family: font(rg)!important;
+}
+.font-md {
+  font-family: font(md)!important;
+}
+.font-sm {
+  font-family: font(sm)!important;
+}
+.font-bd {
+  font-family: font(bd)!important;
+}
+.font-arg {
+  font-family: font(arg)!important;
+}
+.font-bys {
+  font-family: font(bys)!important;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+  @include media-breakpoint-down(xxl) {
+    margin-bottom: 20px;
+  }
+}
+.br-10 {
+  border-radius: 10px;
+}
+.br-5 {
+  border-radius: 5px !important;
+}
+
+.py-100 {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  @include media-breakpoint-down(xxl) {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  @include media-breakpoint-down(xl) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @include media-breakpoint-down(lg) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  // @include media-breakpoint-down(sm) {
+  //   padding-top: 20px;
+  //   padding-bottom: 20px;
+  // }
+}
+.py-70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  @include media-breakpoint-down(xxl) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  @include media-breakpoint-down(xl) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include media-breakpoint-down(lg) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @include media-breakpoint-down(sm) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  @include media-breakpoint-down(xxl) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  @include media-breakpoint-down(xl) {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  @include media-breakpoint-down(lg) {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.p-30 {
+  @include padding(30px, 20px, 15px, 15px);
+}

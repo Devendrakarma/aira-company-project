@@ -1,0 +1,151 @@
+// variables
+$height:52px;
+$height-md: 42px;
+$height-sm:40px;
+$btn-color:color(900);
+$btn-primary: color(900);
+$btn-warning: color(600);
+$btn-light: color(100);
+
+
+$btnColors: (
+  primary: (
+    clr: $btn-color,
+    bg: $btn-primary,
+  ),
+  warning: (
+    clr: $btn-color,
+    bg: $btn-warning,
+  ),
+
+  light: (
+    clr: $btn-color,
+    bg: $btn-light,
+  )
+);
+.btn{
+    height: $height;line-height: normal;display: flex;align-items: center;
+    border-radius: 10px;padding:8px 20px;font-family:font(sm);font-size: 18px;
+    em{
+      font-size: 15px;
+      color: color(900);
+      margin-left: 10px;
+    }
+    &-md{
+      height: $height-md;
+      font-size: 16px;
+    }
+    &-sm{
+        height:$height-sm;padding:6px 15px;
+    }
+    &-rounded{
+      border-radius: 60px;
+    }
+    @each $key, $clrValue in $btnColors {
+        // solid button
+        &-#{$key} {
+            @include button-variant(map-get($clrValue, clr), map-get($clrValue, bg), map-get($clrValue, bg));
+        }
+        // outline button
+        &-outline-#{$key} {
+            @include button-outline-variant(map-get($clrValue, bg), map-get($clrValue, clr), map-get($clrValue, bg));
+        }   
+    }
+
+    @media (max-width: 1599px){
+      line-height: 1;
+    }
+    @include media-breakpoint-down(xxl){
+        height: 48px; padding: 5px 10px;padding-top: 10px;font-size: 18px;white-space: nowrap;
+    }
+    @include media-breakpoint-down(md){
+      &-sm{
+        height:35px;
+      }
+    }
+}
+// Ripple Effect
+@keyframes ripple {
+    0% {
+        transform: scale(4);
+    }
+    100% {
+        opacity: 0; transform: scale(40);
+    }
+  }
+  .ripple-effect-dark,
+  .ripple-effect {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+  }
+  .ripple-effect span.ripple-overlay,
+  .ripple-effect-dark span.ripple-overlay {
+    animation: ripple 0.9s;
+    border-radius: 100%;
+    background: color(50);
+    height: 12px;
+    position: absolute;
+    width: 12px;
+    line-height: 12px;
+    opacity: 0.2;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .ripple-effect-dark span.ripple-overlay {
+    background: color(900); opacity: 0.07;
+  }
+
+
+
+.btnHover {
+  overflow: hidden;
+  position: relative;
+  overflow: hidden;
+  // background-color: rgba(0,0,0,0);
+  transition: all .4s ease-in-out;
+  z-index: 1
+}
+
+.btnHover_effect {
+  position: absolute;
+  display: block;
+  width: 0;
+  height: 0;
+  border-radius: 50%;
+  background-color: color(700);
+  transition: width .4s ease-in-out,height .4s ease-in-out;
+  transform: translate(-50%, -50%);
+  z-index: -1
+}
+
+.btnHover-dark .btnHover_effect {
+  background-color: color(900);
+}
+.btnHover-700 .btnHover_effect {
+  background-color: color(700);
+}
+.btnHover-dark:hover,.btnHover-dark:active,.btnHover-dark:focus-visible {
+  color: color(50);
+}
+
+.btnHover.btn-primary .btnHover_effect {
+  background-color: color(700);
+}
+
+.btnHover.btn-secondary:hover {
+  color: color(50);
+}
+
+.btnHover.btn-secondary .btnHover_effect {
+  background: -webkit-linear-gradient(34deg, rgb(255, 0, 117) 46%, rgb(255, 135, 0) 77%, rgb(255, 164, 59) 12%)
+}
+
+.btnHover:hover,.btnHover:active,.btnHover:focus-visible {
+  border-color: color(50)!important
+}
+
+.btnHover:hover .btnHover_effect,.btnHover:active .btnHover_effect,.btnHover:focus-visible .btnHover_effect {
+  width: 225%;
+  height: 562.5px
+}

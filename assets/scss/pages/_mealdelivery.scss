@@ -1,0 +1,194 @@
+.mealDelivery {
+    .innerBanner {
+        &_cnt {
+            padding-top: 80px;
+        }
+    }
+
+    .contactUs {
+        &_form {
+            max-width: 100%;
+        }
+    }
+
+    .calculateMeals {
+        padding: 55px 0;
+        background-color: #F9F8F6;
+
+        h3 {
+            font-size: 72px;
+            color: color(900);
+            margin-bottom: 30px;
+        }
+
+        &_tab {
+            .nav-tabs {
+                border: 1px solid color(900);
+                height: 60px;
+                border-radius: 50px;
+                padding: 5px;
+                width: fit-content;
+            }
+            .tab-content{
+                margin-top: 60px;
+                .form-label, .form-label + span{
+                    font-size: 30px;
+                    font-family: font(md);
+                }
+            }
+            .nav-item {
+                @include flexcenter('both');
+                border-radius: 60px;
+
+                .nav-link {
+                    border: 0;
+                    background-color: transparent;
+                    padding: 6px 30px 0px;
+                    height: 100%;
+                    font-size: 20px;
+                    font-family: font(rg);
+                    line-height: 2.1;
+                    border-radius: 50px;
+                    color: color(900);
+
+                    &.active {
+                        background-color: color(900);
+                        border-radius: 50px;
+                        color: color(50);
+
+                    }
+                }
+            }
+        }
+    }
+
+    .slider-container {
+        .form-range {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            background: #d3d3d3;
+            border-radius: 5px;
+            outline: none;
+            opacity: 0.7;
+            transition: opacity 0.2s;
+            background: linear-gradient(to right, #2e7d32 0%, #2e7d32 33%, #d3d3d3 33%, #d3d3d3 100%);
+
+            &::-webkit-slider-thumb {
+                -webkit-appearance: none;
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #f0c48d;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+            }
+
+            &::-moz-range-thumb {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background: #f0c48d;
+                cursor: pointer;
+                transition: background-color 0.2s ease;
+            }
+        }
+    }
+    .range-value{
+        span{
+            font-size: 22px;
+            color: rgba(color(900), 0.40);
+        }
+    }
+    .quantity{
+        font-size: 24px;
+        font-family: font(rg);
+        color: rgba(color(900), 0.60);
+    }
+    #quantity {
+        font-size: 1.2rem;
+    }
+
+    @media (max-width: 1599px){
+        .btn{
+            line-height: 1;
+        }
+        .calculateMeals {    
+            h3 {
+                font-size: 52px;
+            }
+        }
+    }
+    @include media-breakpoint-down(xl){
+        .calculateMeals {    
+            h3 {
+                font-size: 45px;
+            }
+            &_tab {
+                .tab-content{
+                    margin-top: 40px;
+                    .form-label, .form-label + span{
+                        font-size: 24px;
+                    }
+                }
+            }
+        }
+        .quantity{
+            font-size: 20px;
+        }
+    }
+    @include media-breakpoint-down(lg){
+    }
+    @include media-breakpoint-down(md){
+        .calculateMeals {   
+            padding: 35px 0; 
+            h3 {
+                font-size: 35px;
+                margin-bottom: 20px;
+            }
+            &_tab {
+                .nav-item {
+                    .nav-link {
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        .calculateMeals {
+            &_tab {
+                .nav-tabs{
+                    height: 48px;
+                }
+                .nav-item{
+                    .nav-link{
+                        padding: 6px 7px 0px;
+                        font-size: 15px;
+                    }
+                }
+                .tab-content{
+                    .form-label, .form-label + span{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+        .range-value span{
+            font-size: 16px;
+        }
+        .innerBanner_cnt{
+            padding: 25px 0;
+        }
+    }
+}
+.swiggyZomato{
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    p{
+        font-size: 24px;
+    }
+}

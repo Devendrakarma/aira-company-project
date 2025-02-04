@@ -1,0 +1,54 @@
+// Offer section scss 
+.offerSec{
+    &_card{
+        height: 255px;
+        padding: 0 15px;
+        &_img{
+            width: 100%;
+            height: 130px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img{
+                width: auto;
+                &.imgCircle{
+                    max-width: 120px;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        h3{
+            font-size: 20px;
+            font-family: font(sm);
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            margin-top: 20px;
+            line-height: 1;
+        }
+        p{
+            font-size: 17px;
+            font-family: font(rg);
+            color: color(200);
+            line-height: 1.3;
+        }
+        &.ourStoryCard{
+            height: auto;
+        }
+    }
+    @include media-breakpoint-down(xxl){
+        &_card{
+            &_img{
+                img{width: 100px;}
+            }
+            h3{font-size: 18px;}
+            p{ font-size: 16px;}
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &_card{
+            &.ourStoryCard{
+                width: 100%;
+            }
+        }
+    }
+}

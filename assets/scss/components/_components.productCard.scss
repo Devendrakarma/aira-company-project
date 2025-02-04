@@ -1,0 +1,105 @@
+.productCard{
+    &_img{
+        height: 265px;
+        object-fit: cover;
+        border-radius: 20px;
+        img{
+            border-radius: 20px;
+        }
+    }
+    &_cnt{
+        margin-top: 30px;
+        ul{
+            li{
+                color: color(200);
+                font-size: 18px;font-family: font(rg);
+                &:not(:last-child){
+                    margin-right: 15px;
+                }
+                img{
+                    margin-right: 6px;
+                }
+            }
+        }
+        .title{
+            font-size: 40px;
+             
+            margin-top: 12px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 18px;
+            color: color(200);
+            font-size: 18px;
+            font-family: font(rg);
+            line-height: 1.2;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #F3F1ED;
+        }
+        .btn{
+            line-height: 2.1;
+        }
+    }
+    &-plan{
+        .productCard_cnt{
+            p{
+                padding-top: 20px;
+                border-top: 2px solid #F3F1ED;
+            }
+        }
+        .price-container {
+            font-size: 36px;
+            font-family: font(sm);
+            display: flex;
+            align-items: center;
+        }
+        .currency-symbol {
+            font-size: 26px;
+            font-family: font(sm);
+            color: color(700);
+            margin-right: 4px;
+        }
+        .discounted-price {
+            color: color(700);
+        }
+        .original-price {
+            font-size: 20px;
+            font-family: font(rg);
+            color: color(200);
+            margin-left: 10px;
+            text-decoration: line-through;
+        }
+    }
+    @include media-breakpoint-down(xxl){
+        &_cnt{
+            .title{
+                font-size: 28px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+
+        &-plan{
+            .price-container{
+                font-size: 28px;
+            }
+        }
+    }
+    @include media-breakpoint-down(lg){
+        &-plan{
+            margin-bottom: 24px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &_cnt{
+            ul li{font-size: 15px;}
+            .title{
+                font-size: 20px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            p{font-size: 14px;}
+        }
+    }
+}

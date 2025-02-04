@@ -1,0 +1,68 @@
+.testimonialSec{    
+    .swiper-slide {
+        transition: 0.5s all;
+    }
+    .swiper-pagination-testimonial {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative!important;
+        margin-top: 100px;
+        margin: 0 -15px;
+    }
+    .swiper-pagination-bullet {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 92px;
+        height: 92px;
+        margin: 0 15px!important;
+        background-color: transparent;
+        border-radius: 50%;
+        cursor: pointer;
+        transition: 0.3s;
+        opacity: 1!important;
+    }
+    .swiper-pagination-bullet span {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 82px;
+        border-radius: 50%;
+    }
+    .progressBar {
+        transform: rotate(-90deg);
+        // width: 82px;
+        // height: 82px;
+    }
+    .circle-origin {
+        fill: transparent;
+        stroke: #427BB4;
+        stroke-width: 4px;
+        stroke-linecap: round;
+        stroke-dasharray: 272px;
+        stroke-dashoffset: 272px;
+    }
+    .swiper-pagination-bullet-active{
+        transform: scale(1.32);
+        background-color: #C1DFFF;
+    }
+    .swiper-pagination-bullet-active span{
+        padding: 5px;
+        width: 84px;
+        height: 84px;
+        display: block;
+        background-color: color(50);
+    }
+    .swiper-pagination-bullet-active .circle-origin {
+        animation: progress 5s;
+    }
+    @keyframes progress {
+        0% {stroke-dashoffset: 272px;}
+        90% {stroke-dashoffset: 0;}
+        100% {stroke-dashoffset: -272px;}
+    }
+}

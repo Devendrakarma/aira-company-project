@@ -1,0 +1,165 @@
+.container {
+  @include media-breakpoint-down(xxl){
+    max-width: 1300px;
+  }
+  @media (min-width: 1600px) {
+    max-width: 1500px;
+    &-lg{
+      max-width: 1434px;
+    }
+  }
+}
+.mainContent{
+  padding-top: 136px;
+  @include media-breakpoint-down(xl){
+    padding-top: 125px;
+  }
+  @include media-breakpoint-down(md){
+    padding-top: 68px;
+  }
+  @include media-breakpoint-down(sm){
+    padding-top: 62px;
+  }
+}
+
+// .custom-row
+.custom-row{
+  @include media-breakpoint-up(xxl){
+    margin: 0 -20px;
+    > [class^="col-"]{
+      padding: 0 20px;
+    }
+  }
+}
+
+// 404 page 
+.page404{
+  background-color: #E5E2DC;
+  height: 100vh;
+  @include flexcenter(both);
+  img{
+    max-width: 700px;
+    margin: 0 auto;
+    @include media-breakpoint-down(lg){
+      max-width: 400px;
+    }
+    @include media-breakpoint-down(sm){
+      max-width: 100%;
+      padding: 0 20px;
+    }
+  }
+  p{
+    font-size: 16px;
+    font-family: font(rg);
+    color: rgba(color(900), 0.40);
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  a{
+    color: color(500);
+    position: relative;
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    font-family: font(md);
+    &::after{
+      position: absolute;
+      content: '';
+      width: calc(100% - 20px);
+      background-color: color(500);
+      height: 1px;
+      bottom: 0px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
+
+// comming soon 
+.commmingSoon{
+  background-color: color(900);
+  section{
+    @include flexcenter(both);
+    height: 100vh;
+  }
+}
+
+// .cmsPages
+.cmsPages{
+  h2{
+    font-size: 32px;
+    font-family: font(md);
+  }
+  p{
+    font-size: 20px;
+    color: color(200);
+    line-height: 1.7;
+  }
+}
+
+.wpcf7-form{
+  p{
+    margin-bottom: 0!important;
+  }
+}
+
+.mvnPartner{
+  background-color: #E8F180;
+  h2{
+      font-size: 72px;
+      color: color(900);
+      font-family: font(md);
+      line-height: 1.2;
+      position: relative;
+      img{
+          position: absolute;
+          bottom: 0;
+          right: 50%;
+      }
+  }
+  .form-control{
+      background-color: transparent;
+  }
+  .btn-warning{
+      min-width: 195px;
+      margin-top: 20px;
+  }
+  @include media-breakpoint-down(xxl){
+      h2{
+          font-size: 62px;
+      }
+  }
+  @include media-breakpoint-down(xl){
+      h2{
+          font-size: 52px;
+      }
+  }
+  @include media-breakpoint-down(lg){
+      h2{
+          font-size: 42px;
+          img{
+              display: none;
+          }
+      }
+  }
+  @include media-breakpoint-down(md){
+      h2{
+          font-size: 32px;
+      }
+  }
+}
+
+.downloadBtn{
+  .btn{
+    min-width: 200px;
+    font-family: 'poppins'!important;
+  }
+  @media (max-width: 576px){
+    .btn{
+      min-width: 130px;
+      img{
+        width: 14px;
+      }
+    }
+  }
+}

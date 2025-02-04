@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+// color variables
+$colors: (
+  50:  #ffffff,
+  100: #F5F6F8,
+  200: #BEBEBE,
+  400: #6755DF,
+  450: #411D66,
+  500: #1D0A46,
+  550: #02021E,
+  600: #FFAF00,
+  700: #FF6227,
+  900: #000000,
+);
+
+@function color($color) {
+  @if map-has-key($colors, $color) {
+    @return map-get($colors, $color);
+  }
+  @error "Unknown `#{$color}` in $colors.";
+  @return null;
+}
+
+//fonts
+$fonts: (
+  arg: 'AllenoireFreePersonal-Regular',
+  bys: 'Better-Yesterday',
+  lt: 'DMSans-Light',
+  rg: 'DMSans-Regular',
+  md: 'DMSans-Medium',
+  sm: 'DMSans-SemiBold',
+  bd: 'DMSans-Bold',
+  blk: 'DMSans-Black',
+);
+
+@function font($font) {
+  @if map-has-key($fonts, $font) {
+    @return map-get($fonts, $font);
+  }
+  @error "Unknown `#{$font}` in $fonts.";
+  @return null;
+}
+
+$imageurl: "../images";
+$fonturl: "../fonts";
+
+// fields height variable
+$field-height: 48px; // field height
+$field-height-xl: 48px; // field height responsive xl
+$field-height-lg: 45px; // field height responsive lg
+$field-height-md: 42px; // field height responsive md
+
+// fields padding variable
+$field-padding: 10px 30px; //field padding
+$field-padding-xl: 10px; //field height responsive xl
+$field-padding-lg: 6px 10px; //field height responsive lg

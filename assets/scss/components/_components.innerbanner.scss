@@ -1,0 +1,56 @@
+.innerBanner{
+    background-color: #F9F8F6;
+    &_cnt{
+        height: 365px;
+        display: flex;
+        align-items: center;
+        h1{
+            font-size: 65px;
+             
+            color: color(900);
+            line-height: 1.30;
+        }
+    }
+    @media (max-width: 1599px){
+        &_cnt{
+            h1{
+                font-size: 55px;
+            }
+        }
+    }
+    @include media-breakpoint-down(xxl){
+        &_cnt{
+            height: 255px;
+            h1{
+                font-size: 48px;
+            }
+            img{
+                max-width: 250px;
+                width: 100%;
+            }
+        }
+    }
+    @include media-breakpoint-down(xl){
+        &_cnt{
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        &_cnt{
+            height: 200px;
+            h1{
+                font-size: 32px;
+            }
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &_cnt{
+            height: 180px;
+            h1{
+                font-size: 26px;
+            }
+        }
+    }
+}
