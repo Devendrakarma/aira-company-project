@@ -129,7 +129,7 @@
 
         <section class="tranformingManufacture">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6 tranformingManufacture_left">
                         <h1 class="text-42 font-bd">Transforming Manufacturing with Advanced AI Solutions</h1>
                         <p>
