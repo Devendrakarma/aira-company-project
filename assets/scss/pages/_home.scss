@@ -28,11 +28,12 @@
 }
 
 .trustedSec {
-    .commonHead{
-        &_title{
+    .commonHead {
+        &_title {
             letter-spacing: -0.06em !important;
         }
     }
+
     .trustedSwiper {
         border-radius: 30px;
 
@@ -68,6 +69,7 @@
                 margin-left: auto;
             }
         }
+
         .swiper-button-prev,
         .swiper-button-next {
             position: absolute;
@@ -82,7 +84,84 @@
             @include flexcenter('both');
             cursor: pointer;
         }
-        .swiper-button-prev{left: -30px;}
-        .swiper-button-next{right: -30px;}
+
+        .swiper-button-prev {
+            left: -30px;
+        }
+
+        .swiper-button-next {
+            right: -30px;
+        }
+    }
+}
+
+.solutionHome {
+    .solutionHomeCard {
+        position: relative;
+        z-index: 1;
+        border: 2px solid transparent;
+        border-image-slice: 1;
+        border-radius: 30px;
+        background-color: rgba(color(500), 0.41);
+        @include transition(all 0.3s ease);
+        &:after {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border-radius: 30px;
+            padding: 2px;
+            background: linear-gradient(to right,
+                    rgba(204, 158, 255, 0.28) 0%,
+                    rgba(172, 103, 250, 0.0) 50%,
+                    rgba(141, 49, 245, 0.22) 100%);
+            -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            z-index: -1;
+        }
+        &_img{
+            border-radius: 30px;
+        }
+        img {
+            height: 275px;
+            object-fit: cover;
+            @include transition(all 0.3s ease);
+        }
+
+        &_cnt {
+            padding: 30px;
+
+            h3 {
+                font-size: 28px;
+                font-family: font(sm);
+                margin-bottom: 15px;
+            }
+
+            p {
+                font-size: 18px;
+                color: rgba(color(50), 0.70);
+                margin-bottom: 0;
+            }
+        }
+
+        &:hover{
+            img{
+                transform: scale(1.1);
+                @include transition(all 0.3s ease);
+            }
+        }
+    }
+}
+
+.ourWorks{
+    background-color: color(500);
+    &:before{
+        position: absolute;
+        content: '';bottom: 0;right: 0;
+        background-image: url('#{$imageurl}/homepage/works-section-bg.png');
+        background-size: cover;        
     }
 }
