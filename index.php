@@ -128,9 +128,9 @@
                 </div>
             </div>
         </section>
-        <!-- !! Trusted by Fortune -->
+        <!-- !! Trusted by Fortune --> 
 
-        <!-- Solution at your fingertips -->
+        <!-- Solution at your fingertips -->  
         <section class="solutionHome py-80 pt-0 bgGrediantSection">
             <div class="container">
                 <div class="commonHead text-center">
