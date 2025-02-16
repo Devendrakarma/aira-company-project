@@ -4,10 +4,10 @@ html {
 body {
   font-size: 16px;
   font-family: font(rg);
-  color: color(900);
+  color: color(50);
   min-height: 100%;
   position: relative;
-  background-color: color(50);
+  background-color: color(550);
   @include media-breakpoint-down(sm) {
     font-size: 14px;
   }

@@ -1,27 +1,31 @@
 .header{
     z-index: 9999;
     .headerTop{
-        background-color: #E8F180;
-        padding: 15px 0;
-        p{color: color(900);font-family: font(lt);line-height: 1;
-            a{color: color(900);}
+        background-color: color(900);
+        padding: 7px 0;
+        p{
+            font-size: 13px;
+            color: color(50);
+            font-family: font(rg);
+            line-height: 1;
         }
     }
     .navbar{
-        padding: 17px 0;
+        padding: 10px 0;
+        background-color: transparent;
         &-brand{
-            margin-right: 102px;
+            padding: 0!important;
             display: inline-block;
             img{
-                max-width: 180px;
+                max-width: 140px;
             }
         }
         &-nav{
             .nav-item{
                 .nav-link{
-                    font-size: 18px;
-                    font-family: font(rg);
-                    font-weight: 500;
+                    font-size: 16px;
+                    font-family: font(md);
+                    color: color(50);
                     &.active{
                         font-family: font(sm);
                     }
@@ -33,7 +37,7 @@
                 }
                 &:not(:last-child){
                     .nav-link{
-                        margin-right: 60px;
+                        margin-right: 40px;
                     }
                 }
             }

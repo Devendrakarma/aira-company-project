@@ -1,26 +1,26 @@
 .container {
+  &-1760{
+    max-width: 1784px!important;
+  }
   @include media-breakpoint-down(xxl){
     max-width: 1300px;
   }
   @media (min-width: 1600px) {
-    max-width: 1500px;
-    &-lg{
-      max-width: 1434px;
-    }
+    max-width: 1518px;
   }
 }
-.mainContent{
-  padding-top: 136px;
-  @include media-breakpoint-down(xl){
-    padding-top: 125px;
-  }
-  @include media-breakpoint-down(md){
-    padding-top: 68px;
-  }
-  @include media-breakpoint-down(sm){
-    padding-top: 62px;
-  }
-}
+// .mainContent{
+//   padding-top: 136px;
+//   @include media-breakpoint-down(xl){
+//     padding-top: 125px;
+//   }
+//   @include media-breakpoint-down(md){
+//     padding-top: 68px;
+//   }
+//   @include media-breakpoint-down(sm){
+//     padding-top: 62px;
+//   }
+// }
 
 // .custom-row
 .custom-row{
