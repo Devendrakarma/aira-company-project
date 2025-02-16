@@ -1,0 +1,132 @@
+.workflowSection{
+    background-image: url('#{$imageurl}/common/full-gradient.png');
+    background-repeat: no-repeat;
+    background-position: center 80%;
+    .col{
+        padding: 0 8px;
+    }
+}
+
+.tranformingManufacture{
+    background-color: #1D0A46;
+    padding: 63px 0px;
+    &_left{
+        h1{
+            margin-bottom: 30px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+    &_right{
+        h2{
+            font-size: 18px;
+            font-family: font(md);
+            margin-bottom: 20px;
+            text-align: center;
+            color: rgba(255,255,255,0.8);
+        }
+        .percentBox{
+            padding: 0 30px;
+            background-color: rgba(255,255,255,0.10);
+            border-radius: 24px;
+            margin-bottom: 26px;
+            &_head{
+                display: flex;
+                align-items: center;
+                border-bottom: 1px solid rgba(255,255,255,0.7);
+                padding-top: 10px;
+            }
+            &_text{
+                font-size: 56px;
+                margin-left: 13px;
+                display: inline-block;
+                background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(149,115,222,1) 53%, rgba(255,255,255,1) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            &_body{
+                font-size: 18px;
+                padding: 14px 0px;
+            }
+        }
+    }
+}
+
+.featuredAi{
+    padding-bottom: 54px;
+    .featuredBox{
+        height: 100%;
+        padding-bottom: 26px;
+        &_inner{
+            border: 1px solid rgba(204, 158, 255, 0.3); 
+            background-color: rgba(29,10,70,.41);
+            height: 100%;
+            padding: 30px;
+            border-radius: 20px;
+        }
+        h2{
+            font-size: 22px;
+            font-family: font(sm);
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 14px;
+            color: rgba(255,255,255,0.70);
+            margin-bottom: 0px;
+        }
+    }
+}
+
+.solutionApproach{
+    background-color: #1D0A46;
+}
+
+.whyChoose{
+    &_inner{
+        background-color: #1D0A46;
+        border: 1px solid rgba(204, 158, 255, 0.3); 
+        padding: 77px 269px;
+        text-align: center;
+        border-radius: 30px;
+        h1{
+            margin-bottom: 29px;
+        }
+        p{
+            color: rgba(255,255,255,0.7);
+            font-size: 18px;
+            a{
+                color:#FFAF00;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+.Blog{
+    h1{
+        margin-bottom: 30px;
+    }
+    .blogBox{
+        position: relative;
+        &_date{
+            background-image: url('#{$imageurl}/common/blog-shap.png');
+            background-repeat: no-repeat;
+            height: 80px;
+            width: 200px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            padding: 5px 12px;
+        }
+        img{
+            margin-bottom: 26px;
+        }
+        p{
+            font-size: 24px;
+            font-family: font(md);
+        }
+    }
+}
+

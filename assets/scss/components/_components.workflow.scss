@@ -1,0 +1,50 @@
+.workflowBox{
+    background-color: #6755DF;
+    border-radius: 16px;
+    overflow: hidden;
+    padding-top: 13px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    height: 100%;
+    h2{
+        font-size: 22px;
+        font-family: font(bd);
+        text-align: center;
+        min-height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_inner{
+        background-color: #1F1253;
+        margin-top: 13px;
+        padding: 20px 16px;
+        border-radius: 16px; 
+        ul{
+            padding-bottom: 0;
+            margin-bottom: 0;
+            li{
+                position: relative;
+                padding: 9px 0 9px 28px; 
+                height: 60px;
+                font-size: 15px;
+                &:not(:last-child){
+                    border-bottom: 1px solid rgba(0,0,0,.21);
+                }
+                &::before{
+                    content: '';
+                    background-image: url('#{$imageurl}/icon/check-rounded.png');
+                    display: block;
+                    height: 18px;
+                    width: 18px;
+                    position: absolute;
+                    left: 0;
+                    top: 11px;
+                }
+                
+            }
+        }
+        
+    }
+}

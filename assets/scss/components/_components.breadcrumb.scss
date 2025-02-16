@@ -1,0 +1,21 @@
+.breadcrumb{
+    background-color: rgba(103, 85,233, 0.15);
+    border:1px solid rgba(255, 255, 255, 0.08);
+    padding: 8px 12px;
+    border-radius:10px;
+    display: inline-flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+    li{
+        font-size: 16px;
+        a{
+            color: rgba(255, 255, 255, 0.5);
+        }
+        &.active{
+            font-family: font(bd);
+            color: color(50);
+            opacity: 1;
+        }
+    }
+}
