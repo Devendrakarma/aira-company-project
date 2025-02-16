@@ -11,7 +11,7 @@
                },
                 dist: {
                     files: [{
-                        expand: true,
+                        expand: true, 
                         cwd: 'assets/scss',
                         src: ['*.scss'],
                         dest: 'assets/css',
