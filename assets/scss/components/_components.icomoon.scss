@@ -25,7 +25,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-ex:before {
+  content: "\e908";
+}
+.icon-facebook:before { 
+  content: "\e909";
+}
+.icon-github:before {
+  content: "\e90a";
+}
+.icon-linkedin:before {
+  content: "\e90b";
+}
+.icon-youtube:before {
+  content: "\e90c";
+}
 .icon-chat-setting:before {
   content: "\e900";
 }

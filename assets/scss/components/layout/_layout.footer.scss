@@ -1,216 +1,154 @@
 .footer{
-    background-color: color(900);
-    &_cnt{
+   position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        width: 1612px;
+        height: 100%;
+        background: rgb(96,30,249);
+        background: linear-gradient(0deg, rgba(96,30,249,1) 0%, rgba(255,255,255,0) 100%);
+        opacity: 0.75;
+        z-index: -1;
+        filter: blur(200px);
+    }
+    .getUpdatesWrapper{
         position: relative;
-        h3{
-            font-size: 80px;
-             
-            color: color(50);
-            margin-bottom: 30px;
-            line-height: 1.1;
-            span{
-                font-size: 60px;
-                 
-                color: color(700);
-            }
+        &::before{
+            content: '';
+            height:142px;
+            width: 100%;
+            position: absolute;
+            bottom: -50px;
+            background-image: url('#{$imageurl}/common/footer-curve.png'); 
+            background-repeat: no-repeat;
+            z-index: 1;
+        }
+    }
+ 
+    .getUpdates{
+        background-color: #FFF1D3;
+        max-width: 1358px;
+        margin: 0 auto;
+        border-radius: 50px;
+        text-align: center;
+        padding: 77px 0px;
+        overflow: hidden;position: relative;
+        &::before{
+            content: '';
+            height: 345px;
+            width: 345px;
+            border-radius: 50%;
+            background: rgb(255,175,0);
+            background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,255,255,1) 100%);
+            position: absolute;
+            left: -146px;
+            top: -42%;
+        }
+        &::after{
+            content: '';
+            height: 345px;
+            width: 345px;
+            border-radius: 50%;
+            background: rgb(255,175,0);
+            background: linear-gradient(180deg, rgba(255,175,0,1) 0%, rgba(255,255,255,1) 100%);
+            position: absolute;
+            right: -53px;
+            bottom: -58%;
+        }
+        h1{
+            font-size: 56px;
+            color: color(900);
+            font-family: font(bd);
         }
         p{
-            font-size: 20px;
+            font-size: 26px;
+            font-family: font(md);
+            color: rgba(0,0,0,0.74);
+            margin-bottom: 26px;
+        }
+    }
+    .subscribForm {
+        max-width: 463px;
+        margin: 0 auto;
+       
+        .form-control{
+            height: 58px;
+            border-radius: 60px;
+            padding: 7px 162px 7px 27px;
+            @include box-shadow(0,5px,21px, rgba(0,0,0,0.11));
+            border:1px solid rgba(0,0,0,0.09);
+            font-size: 16px;
+            font-family: font(md);
+        }
+        .btn{
             position: absolute;
-            top: 20px;right: 110px;
-            color: rgba(color(50), 0.50);
-            margin-bottom: 0;
+            top: 7px;
+            right: 6px;
+            height: 45px;
+            padding: 0px 14px 0px 5px;
+            span{
+                display: block;
+                height: 35px;
+                width: 35px;
+                background-color: color(50);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #000D49;
+                border-radius: 50%;
+                margin-right: 7px;
+                em{
+                    margin: 0;
+                }
+            }
         }
+    }
 
-        .form{
-            &-group{
-                max-width: 475px;
-            }
-            &-control{
-                height: 60px;
-                border-radius: 30px;
-                background-color: rgba(color(50), 0.09);
-                border: 0;color: rgba(color(50), 0.60);
-                padding: 15px 60px 10px 40px;
-                font-size: 18px;
-                &::placeholder{
-                    color: rgba(color(50), 0.30);
-                    font-family: font(lt);
-                    font-size: 18px;
-                }
-            }
+    .footerLinks{
+        padding-top: 117px;
+        background-color: #1D0A46;
+        h2{
+            font-size: 18px;
+            margin-bottom: 31px;
+            font-family: font(md);
         }
-        .formIcon{
-            width: 50px;
-            height: 50px;
-            @include flexcenter(both);
-            background-color: color(700);
-            border-radius: 50%;
-            color: color(50);
-            font-size: 20px;
-            top: 50%;transform: translateY(-50%);
-            right: 5px;
-        }
-    }
-    &_links{
-        margin-top: 40px;
         li{
-            line-height: 1;
-            &:not(:last-child){
-                margin-bottom: 20px;
-            }
+            margin-bottom: 18px;
             a{
-                font-size: 32px;
-                color: color(50);
-                font-family: font(rg);
-                transition: all 0.3s ease;
-                &:hover{
-                    color: color(700);
-                }
+                color: rgba(255,255,255,0.6);
             }
         }
     }
-    &_locations{
-        margin-top: 20px;
+    .copyrightWrapper{
+        background-color: #1D0A46;   
+    }
+    .copyright{
+        padding: 20px 0px;
+        border-top: 1px solid rgba(229,229,229,0.20);
+        p{
+            margin: 0;
+            color: rgba(255,255,255,0.6);
+        }   
+    }
+    .socialLink{
+        text-align: right;
+        margin: 0;
         li{
-            line-height: 1;
-            &:not(:last-child){
-                margin-bottom: 12px;
-            }
             a{
+                color: #411D66;
                 font-size: 20px;
-                font-family: font(lt);
-                color: rgba(color(50), 0.50);
-            }
-        }
-        @include  media-breakpoint-down(sm){
-            padding-top: 40px;
-            margin-top: 20px;
-            border-top: 2px solid rgba(color(50), 0.50);
-            li{
-                a{
-                    font-size: 15px;
-                }
-            }
-        }
-    }
-    .privacyLinks{
-        color: rgba(color(50), 0.50);
-        a{
-            color: rgba(color(50), 0.50);
-            @include transition(all 0.3s ease);
-            &:hover{
-                color: rgba(color(50), 1);
-            }
-        }
-    }
-    &_inner{
-        margin-top: 60px;
-        padding-top: 50px;
-        padding-bottom: 30px;
-        border-top: 1px solid rgba(color(50), 0.20);
-        &_address{
-            h4{
-                font-size: 20px;line-height: 1;
-                margin-bottom: 20px;color: color(50);
-                font-family: font(lt);
-            }
-            p, ul li{
-                font-size: 18px;line-height: 1.33;
-                color: rgba(color(50),0.50);
-                font-family: font(lt);
-                a{
-                    font-size: 18px;
-                    color: rgba(color(50),0.50);
-                    display: block;
-                    margin-bottom: 5px;
-                    @include transition(all 0.3s ease);
-                    &:hover{
-                        color: color(700);
-                    }
-                }
-            }
-        }
-    }
-    &_social{
-        li{
-            &:not(:last-child){
-                margin-right: 10px;
-            }
-            a{
-                width: 45px;height: 45px;
-                @include flexcenter(both);
-                background-color: rgba(color(50), 0.08);
-                color: color(50);border-radius: 50%;
-                @include transition(all 0.3s ease);
-                &:hover{
-                    background-color: color(700);
-                }
-            }
-        }
-    }
-
-    @media(max-width: 1599px){
-        &_cnt{
-            h3{
-                font-size: 70px;
-            }
-            p{
-                font-size: 18px;
-            }
-        } 
-        &_links{
-             li{
-                a{
-                    font-size: 26px;
-                }
-            }
-        }
-    }
-    @include media-breakpoint-down(xxl){
-        &_cnt{
-            p{
-                right: 60px;
-            }
-        }
-        &_inner{
-            img{
-                max-width: 200px;
-            }
-        }
-    }
-    @include media-breakpoint-down(xl){
-        &_cnt{
-            h3{font-size: 50px;margin-bottom: 10px;}
-            p{position: static; margin-bottom: 15px;}
-        }
-        &_links{
-            li{
-                &:not(:last-child){margin-bottom: 15px;}
-                a{font-size: 22px;}
-            }
-        }
-        &_inner{
-            margin-top: 40px;
-            padding-top: 30px;
-            h4{
-                margin-bottom: 12px;
-            }
-        }
-    }
-    @include media-breakpoint-down(md){
-        &_cnt{
-            padding-top: 30px;
-            h3{
-                font-size: 40px;line-height: 1;
-            }
-            .form{
-                &-group{
-                    max-width: 100%;
-                }
-                &-control{
-                    padding: 15px 60px 10px 20px;
-                }
+                height: 28px;
+                width: 28px;
+                display: block;
+                border-radius: 50%;
+                background-color: color(50);
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
