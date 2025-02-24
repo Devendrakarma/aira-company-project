@@ -176,11 +176,40 @@
             </div>
         </section>
 
+<<<<<<< HEAD
         <section class="dataConnectors py-80">
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Highly Pre-Integrated Data Connectors </h1>
                 <div class="dataConnectorsBox_wrapper">
+=======
+        <section class="dataConnectors py-80 glow">
+            <div class="container z-1">
+                <h1 class="text-42 text-center font-bd mb-50">Highly Pre-Integrated Data Connectors </h1>
+                <div class="dataConnectorsBox_wrapper d-flex justify-content-center">
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
                     <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+<<<<<<< HEAD
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+=======
+                   
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png" class="img-fluid" alt="salesforce" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid" alt="Open AI" />
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+<<<<<<< HEAD
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
                     </div>
                     <div class="dataConnectorsBox">
@@ -188,18 +217,9 @@
                     </div>
                     <div class="dataConnectorsBox">
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+=======
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/hubspot.png" class="img-fluid" alt="hubspot" />
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
                     </div>
                 </div>
                 <div class="dataConnectorsBox_wrapper">
@@ -207,13 +227,21 @@
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
                     </div>
                     <div class="dataConnectorsBox">
+<<<<<<< HEAD
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png" class="img-fluid" alt="SAP" />
+=======
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/oracle.png" class="img-fluid" alt="oracle" />
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
                     </div>
                     <div class="dataConnectorsBox">
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid" alt="SAP" />
                     </div>
                     <div class="dataConnectorsBox">
+<<<<<<< HEAD
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+=======
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/teams.png" class="img-fluid" alt="teams" />
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
                     </div>
                     <div class="dataConnectorsBox">
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
@@ -222,9 +250,23 @@
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
                     </div>
                     <div class="dataConnectorsBox">
+<<<<<<< HEAD
                         <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
                     </div>
                 </div>
+=======
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/shopify.png" class="img-fluid" alt="shopify" />
+                    </div>
+                </div>
+
+                <div class="dataConnectors_footer">
+                    <p>Plug and Play integration with COTS and Legacy Data Systems</p>
+                    <a href="#!" class="btn btn-warning btn-rounded position-relative">
+                        Know More 
+                        <em class="icon-arrow-right"></em>
+                    </a>
+                </div>
+>>>>>>> cfeaf258e595969801acf1d66ad4b6cdded2ccad
             </div>
         </section>
 

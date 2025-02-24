@@ -2,10 +2,9 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Home' ?>
+    <?php $pageTitle = 'Manufacturing' ?>
     <?php include 'include/head-link.php' ?>
     <?php include 'include/constant.php' ?>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="pt-0">
