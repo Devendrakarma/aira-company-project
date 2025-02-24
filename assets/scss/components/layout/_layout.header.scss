@@ -1,5 +1,6 @@
 .header{
     z-index: 9999;
+ 
     .headerTop{
         background-color: color(900);
         padding: 7px 0;
@@ -53,6 +54,16 @@
                 line-height: 3;
                 border: 0;
                 height: 56px;
+            }
+        }
+    }
+    &-light{
+        background-color: #fff;
+        .navbar{
+            .nav-item{
+                .nav-link{
+                    color: #000;
+                }
             }
         }
     }

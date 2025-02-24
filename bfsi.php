@@ -2,9 +2,10 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Manufacturing' ?>
+    <?php $pageTitle = 'BFSI' ?>
     <?php include 'include/head-link.php' ?>
     <?php include 'include/constant.php' ?>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="pt-0">
@@ -20,11 +21,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Manufacturing</li>
+                                <li class="breadcrumb-item active" aria-current="page">BFSI</li>
                             </ol>
                         </nav>
-                        <h1>Manufacturing</h1>
-                        <h2>Boost efficiency, cut downtime, and </br> improve quality with automation.</h2>
+                        <h1>BFSI</h1>
+                        <h2> Simplify processes, manage risks, and </br> enhance customer experiences.</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
@@ -35,89 +36,89 @@
 
         <section class="workflowSection py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Sample Manufacturing Workflows </br> Automated through AIRA</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Sample BSFI Workflows Automated </br> through AIRA</h1>
                 <div class="row">
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Supply Chain & </br> Procurement</h2>
+                            <h2>Banking Operation</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Component inventory management and tracking</li>
-                                    <li>Bill of Materials (BOM) processing and updates</li>
-                                    <li>Vendor evaluation and scoring</li>
-                                    <li>Purchase order automation and tracking</li>
-                                    <li>Lead time monitoring and analysis</li>
-                                    <li>Parts obsolescence tracking</li>
-                                    <li>Supply chain analytics reporting</li>
-                                    <li>MRP system data synchronization</li>
+                                    <li>Account opening and KYC processing</li>
+                                    <li>Transaction reconciliation and reporting</li>
+                                    <li>Loan application processing and approval</li>
+                                    <li>Credit card application processing</li>
+                                    <li>Payment processing & settlements</li>
+                                    <li>Account maintenance & updates</li>
+                                    <li>Statement generation and distribution</li>
+                                    <li>Fraud detection alert processing</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Production Planning </br> & Control</h2>
+                            <h2>Insurance Operations</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Production schedule optimization</li>
-                                    <li>Machine capacity planning</li>
-                                    <li>Work order generation and tracking</li>
-                                    <li>Equipment maintenance scheduling</li>
-                                    <li>Production yield analysis</li>
-                                    <li>Resource allocation management</li>
-                                    <li>Shop floor data collection</li>
-                                    <li>Real-time production monitoring</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="workflowBox">
-                            <h2>Quality & Compliance</h2>
-                            <div class="workflowBox_inner">
-                                <ul class="list-unstyled">
-                                    <li>Quality inspection data processing</li>
-                                    <li>Non-conformance reporting</li>
-                                    <li>FMEA (Failure Mode Effects Analysis) updates</li>
-                                    <li>ISO documentation management</li>
-                                    <li>Equipment calibration tracking</li>
+                                    <li>Policy quotation and issuance</li>
+                                    <li>Premium calculation and collection</li>
+                                    <li>Claims processing and verification</li>
+                                    <li>Policy renewal processing</li>
+                                    <li>Insurance document verification</li>
+                                    <li>Underwriting data collection</li>
+                                    <li>Agent commission calculations</li>
                                     <li>Regulatory compliance reporting</li>
-                                    <li>Test result analysis and documentation</li>
-                                    <li>Root cause analysis tracking</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Engineering & Design</h2>
+                            <h2>Investment Banking</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Engineering change order processing</li>
-                                    <li>CAD file management and version control</li>
-                                    <li>Technical documentation updates</li>
-                                    <li>Product lifecycle management</li>
-                                    <li>Design review tracking</li>
-                                    <li>Component specification updates</li>
-                                    <li>Engineering report generation</li>
-                                    <li>Design validation documentation</li>
+                                    <li>Trade settlement processing</li>
+                                    <li>Portfolio performance reporting</li>
+                                    <li>Client onboarding and KYC</li>
+                                    <li>Risk assessment reporting</li>
+                                    <li>Market data analysis and reporting</li>
+                                    <li>NAV calculations</li>
+                                    <li>NAV calculations</li>
+                                    <li>Financial statement analysis</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Operations & </br> Customer Service</h2>
+                            <h2>Regulatory Compliance</h2>
+                            <div class="workflowBox_inner">
+                                <ul class="list-unstyled">
+                                    <li>AML (Anti-Money Laundering) checks</li>
+                                    <li>Regulatory report generation</li>
+                                    <li>Audit documentation preparation</li>
+                                    <li>Risk monitoring and reporting</li>
+                                    <li>Compliance verification checks</li>
+                                    <li>Suspicious activity reporting</li>
+                                    <li>License and certification tracking</li>
+                                    <li>Policy enforcement monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="workflowBox">
+                            <h2>Customer Service</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
                                     <li>Customer order processing</li>
-                                    <li>RMA (Return Material Authorization) handling</li>
-                                    <li>Warranty claim processing</li>
-                                    <li>Service ticket management</li>
+                                    <li>Service request management</li>
+                                    <li>Address and contact updates</li>
+                                    <li>Document verification and processing</li>
                                     <li>Customer communication automation</li>
-                                    <li>Product configuration management</li>
-                                    <li>Shipping documentation </li>
-                                    <li>Customer feedback analysis</li>
+                                    <li>Complaint resolution tracking</li>
+                                    <li>Customer feedback analysis </li>
+                                    <li>Service level monitoring</li>
                                 </ul>
                             </div>
                         </div>
@@ -130,12 +131,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 tranformingManufacture_left">
-                        <h1 class="text-42 font-bd">Transforming Manufacturing with Advanced AI Solutions</h1>
+                        <h1 class="text-42 font-bd">Empowering Banking and Finance with Intelligent Solutions</h1>
                         <p>
-                            At AIRA, we empower manufacturing businesses to thrive in today’s competitive landscape
-                            by leveraging cutting-edge AI technologies and intelligent systems.
-                            Our tailored solutions improve operational efficiency, reduce costs,
-                            and enhance decision-making, enabling manufacturers to embrace innovation and unlock new growth opportunities.
+                        At AIRA, we revolutionize how Banking, Financial Services, and Insurance (BFSI) organizations operate. By leveraging cutting-edge AI, machine learning, and data analytics, we help institutions streamline operations, mitigate risks, enhance customer experiences, and drive sustainable growth. Discover our key solutions tailored for BFSI needs:
                         </p>
                     </div>
                     <div class="col-md-6 tranformingManufacture_right">
@@ -145,36 +143,36 @@
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">20-50%</span>
-                                    </div>
-                                    <div class="percentBox_body">Downtime Reduction</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-30%</span>
-                                    </div>
-                                    <div class="percentBox_body">Cost Savings</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
                                         <span class="percentBox_text">10-20%</span>
                                     </div>
-                                    <div class="percentBox_body">Improved Operational Efficiency</div>
+                                    <div class="percentBox_body">Reduced Operational Costs</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">5-15%</span>
+                                        <span class="percentBox_text">10-40%</span>
                                     </div>
-                                    <div class="percentBox_body">Enhanced Revenues</div>
+                                    <div class="percentBox_body">Financial Risk Reduction</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">20-40%</span>
+                                    </div>
+                                    <div class="percentBox_body">Improved Regulatory Compliance</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">10-25%</span>
+                                    </div>
+                                    <div class="percentBox_body">Higher Customer Satisfaction</div>
                                 </div>
                             </div>
                         </div>
@@ -185,13 +183,14 @@
 
         <section class="featuredAi py-80">
             <div class="container">
-                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Manufacturing</h1>
+                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for BSFI</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Predictive Maintenance for Machinery</h2>
-                            <p>Reduce Downtime & Extend equipment lifetime by predicting when machines or Components are likely to fail
+                            <h2>Network Performance
+                                 Optimization</h2>
+                            <p>Forecast network congestion or potential issues to proactively optimize bandwidth and manage network traffic to avoid disruptions
                             </p>
                             </div>
                         </div>
@@ -199,57 +198,59 @@
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Production Scheduling Optimization
+                            <h2>Predictive Maintenance of Network Infrastructure
                             </h2>
-                            <p>Enhance production line efficiency by predicting the best times to run machines or schedule production batches </p>
+                            <p>Predict potential failures in network infrastructure (such as servers, routers, or telecom towers) so that maintenance can be scheduled before issues occur </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Energy Usage Optimization</h2>
-                            <p>Reduce energy consumption and costs by predicting energy needs and optimizing energy use in manufacturing processes </p>
+                            <h2>Capacity Planning & Resource Optimization</h2>
+                            <p>Forecast the future capacity needs for servers, base stations, data centers, network bandwidth, and other infrastructure for effective planning of future upgrades and expansions </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Quality Control & Defect Detection</h2>
-                            <p>Improve product quality by identifying patterns that lead to defects and optimizing manufacturing processes </p>
+                            <h2>Demand Forecasting for Voice & Data Services</h2>
+                            <p>Predict demand for data and voice services to allow Telecom companies to allocate resources efficiently
+                            </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Product Lifecycle Management</h2>
-                            <p>Enable data-driven decisions at various stages of the product lifecycle to improve decision-making, reduce time-to-market of new products, and improve product quality </p>
+                            <h2>Fraud Detection & Prevention</h2>
+                            <p>Identify patterns of fraudulent activity in real-time so that Telecom companies can quickly detect and prevent fraud </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Workforce Planning</h2>
-                            <p>Optimize workforce allocation by predicting labor demand based on production needs</p>
+                            <h2>Network Security & Cyber Threat Detection</h2>
+                            <p>Detect potential threats or vulnerabilities, and take immediate action to protect their network</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Demand Forecasting</h2>
-                            <p>Anticipate future product demand to optimize production planning and inventory management</p>
+                            <h2>Proactive Customer Support</h2>
+                            <p>Anticipate customer issues, optimize service delivery, and enhance customer experience rather than waiting for customers to report problems</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Supply Chain Optimization</h2>
-                            <p>Streamline the supply chain by predicting demand, optimizing inventory levels, and managing supplier lead times</p>
+                            <h2>Call Center Optimization</h2>
+                            <p>Optimize Call Center operations by forecasting call volumes, adjust staffing and predict which customers are likely to need support
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -576,8 +577,8 @@
         <section class="whyChoose py-80 pb-0">
             <div class="container">
                 <div class="whyChoose_inner">
-                    <h1 class="text-42 font-bd">Why Choose AIRA for Manufacturing?</h1>
-                    <p>From predictive maintenance to quality control, AIRA’s AI-powered solutions are tailored to solve the unique challenges faced by manufacturers. Enhance your operations, reduce costs, and unlock greater profitability with the power of automation and analytics.
+                    <h1 class="text-42 font-bd">Why Choose AIRA for BSFI?</h1>
+                    <p>At AIRA, we combine deep industry expertise with a keen understanding of the unique challenges and opportunities within the BFSI sector. Powered by advanced AI, machine learning, and data analytics, we deliver actionable insights that drive innovation, optimize processes, and reduce risks. Our solutions have a proven impact—helping businesses achieve significant improvements in cost optimization, risk management, and customer satisfaction.
                     </p>
                     <p><a href="#!">Contact AIRA</a> today to learn how we can help transform your operations.</p>
                 </div>

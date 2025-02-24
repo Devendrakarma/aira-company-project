@@ -27,4 +27,13 @@
             left: relX
         })
     });
+
+    $(window).scroll(function(e){
+       if($(window).scrollTop() > 20) {
+        $('.header').addClass('header-light')
+       }else{
+        $('.header').removeClass('header-light')
+       }
+       
+    })
 </script>
