@@ -1,0 +1,129 @@
+
+.workflowAutomation{
+    position: relative;
+    &:after{
+        content: '';
+        position: absolute;
+        display: block;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 0;
+        margin: 0 auto;
+        right: 0;
+        width: 1633px;
+        height: 213px;
+        background: rgb(96,30,249);
+        background: linear-gradient(0deg, rgba(96,30,249,1) 0%, rgba(255,255,255,0) 100%);
+        opacity: 0.75;
+        z-index: -1;
+        filter: blur(60px);
+    }
+    .workflowAutomationBox{
+        background-color: rgba(29,10,70,0.41);
+        border-radius: 30px;
+        padding: 49px 28px;
+        text-align: center;
+        border: 1px solid rgba(204, 158, 255, 0.3); 
+        height: 100%;
+       
+        img{
+            margin-bottom: 26px;
+        }
+        h2{
+            font-size: 24px;
+            font-family: font(md);
+            margin-bottom: 25px;
+        }
+        p{
+            color: rgba(255,255,255,.5);
+            font-size: 18px;
+            margin: 0;
+        }
+    }
+}
+
+.automatedWorkflow{
+    .automatedWorkflowList{
+        position: relative;
+        background-color: #1D0A46;
+        padding: 112px 0;
+        &:before{
+            height: 365px;
+            background-image: url('#{$imageurl}/workflow/curve.png');
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: 100%;
+            background-position: center;
+            content: '';
+            position: absolute;
+            top: -202px;
+        }
+        h2{
+            margin-bottom: 35px;
+        }
+        p{
+            font-size: 18px;
+            color: rgba(255,255,255,.70);
+            max-width: 622px;
+        }
+        .mb-84{
+            margin-bottom: 84px;
+            z-index: 1;
+            position: relative;
+        }
+    }
+}
+
+.accordion {
+    max-width: 900px;
+    margin:0 auto;
+    --bs-accordion-bg : #1D0A47;
+    &-item{
+      border: 0;
+      margin-bottom: 10px;
+      border-radius: 10px !important;
+      overflow: hidden;
+       
+    }
+    &-body{
+        font-size: 18px;
+        color: #fff;
+        padding: 30px 30px;
+    }
+    &-button{
+        font-size: 20px;
+        font-family: font(sm);
+        color: #fff !important;
+        padding: 30px;
+        box-shadow: none !important;
+        background-color: #1D0A47 !important;
+        &:not(.collapsed)::after{
+            background-image: url('#{$imageurl}/common/arrow-icon.svg');
+        }
+        &:after{
+           background-image: url('#{$imageurl}/common/arrow-icon.svg');
+          
+        }
+       
+    }
+}
+
+.dataConnectors{
+    background-color: #1D0A46;
+    .dataConnectorsBox{
+        &_wrapper{
+            display: flex;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        max-width: 219px;
+        flex: 1;
+        background-color: #fff;
+        border-radius: 20px;
+        height: 118px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
