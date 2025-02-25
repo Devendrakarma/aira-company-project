@@ -15,8 +15,147 @@
             </a>
             <div class="collapse navbar-collapse order-lg-2 order-3 justify-content-center" id="navbarTogglerDemo01">
                 <ul class="navbar-nav mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="<?php echo BASE_URL?>/">Product</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" data-bs-toggle="dropdown" aria-current="page" href="<?php echo BASE_URL?>/">Product</a>
+                        <div class="dropdown-menu">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <h3>By Industry</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="list-unstyled">
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-5">
+                                    <h3>By department</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="list-unstyled">
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-2">
+                                    <h3>By application</h3>
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <ul class="list-unstyled">
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                                <li class="dropdownItem">
+                                                    <span class="dropdownItem_icon">
+                                                        <em class="icon-facebook"></em>
+                                                    </span>
+                                                    <span class="dropdownItem_text">Manufacturing</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" aria-current="page" href="<?php echo BASE_URL?>/">Solutions</a>
@@ -30,7 +169,16 @@
                 </ul>
             </div>
             <div class="headerBtn order-2 order-lg-3 d-flex align-items-center ms-auto me-lg-0 me-3">
-                <button class="btn btn-md btn-warning btn-rounded font-bd justify-content-center">
+                <div class="flagDropdown">
+                    <button class="btn btn-login btn-md btn-outline-warning btn-rounded font-bd justify-content-center">
+                        <span><img src="<?php echo IMAGES_URL?>/common/flag/us.png" class="img-fluid"/></span>
+                        <em class="icon-down"></em>
+                    </button>
+                </div>
+                <button class="btn btn-login btn-md btn-outline-warning btn-rounded font-bd justify-content-center">
+                    Login
+                </button>
+                <button class="btn btn-getstarted btn-md btn-warning btn-rounded font-bd justify-content-center">
                     Get Started <em class="icon-arrow-right"></em>
                 </button>
             </div>
