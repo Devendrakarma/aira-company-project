@@ -186,46 +186,61 @@
                 <div class="commonHead text-center">
                     <h2 class="commonHead_title mb-0">Use Cases that work - We've got you covered</h2>
                 </div>
-                <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home"
-                            aria-selected="true">Home</button>
-                    </li>
-                    <li class="nav-item" role="presentation">
-                        <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill"
-                            data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile"
-                            aria-selected="false">Profile</button>
-                    </li>
-                </ul>
-                <div class="tab-content" id="pills-tabContent">
-                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel"
-                        aria-labelledby="pills-home-tab" tabindex="0">
-                        <div class="d-flex align-items-start">
-                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                    aria-selected="true">Home</button>
-                            </div>
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                    aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
+                <div class="commonTabVert">
+                    <ul class="commonTabVert_top nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="industries-tab" data-bs-toggle="pill"
+                                data-bs-target="#industries" type="button" role="tab" aria-controls="industries"
+                                aria-selected="true">Industries</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="departments-tab" data-bs-toggle="pill"
+                                data-bs-target="#departments" type="button" role="tab" aria-controls="departments"
+                                aria-selected="false">Profile</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="industries" role="tabpanel"
+                            aria-labelledby="industries-tab" tabindex="0">
+                            <div class="commonTabVert_mid commonBorder d-flex align-items-start">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+
+                                    <button class="nav-link active" id="v-manufacturing-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-manufacturing" type="button" role="tab" aria-controls="v-manufacturing"
+                                        aria-selected="true">Manufacturing</button>
+
+                                    <button class="nav-link" id="v-banking-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-banking" type="button" role="tab" aria-controls="v-banking"
+                                        aria-selected="true">Banking, Finance & Insurance</button>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <!-- 1 -->
+                                    <div class="tab-pane fade show active" id="v-manufacturing" role="tabpanel"
+                                        aria-labelledby="v-manufacturing-tab" tabindex="0">
+                                        <img src="<?php echo IMAGES_URL?>/"/>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="tab-pane fade" id="v-banking" role="tabpanel"
+                                        aria-labelledby="v-banking-tab" tabindex="0">
+                                        <img src="<?php echo IMAGES_URL?>/"/>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"
-                        tabindex="0">
-                        <div class="d-flex align-items-start">
-                            <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                aria-orientation="vertical">
-                                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                    data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                    aria-selected="true">Home</button>
-                            </div>
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                    aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
+                        <div class="tab-pane fade" id="departments" role="tabpanel" aria-labelledby="departments-tab"
+                            tabindex="0">
+                            <div class="d-flex align-items-start">
+                                <!-- <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                                        aria-selected="true">Home</button>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
