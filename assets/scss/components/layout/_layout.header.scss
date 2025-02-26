@@ -41,6 +41,28 @@
                         margin-right: 40px;
                     }
                 }
+
+                &.dropdown{
+                    .nav-link{
+                        position: relative;
+                        &:after{
+                            content: '\e901';
+                            font-family: 'icomoon';
+                            @include absolutecenter(y);
+                            right: -15px;
+                            font-size: 12px;
+                            color: rgba(color(50), 0.50);
+                            transition: all 0.3s ease;
+                        }
+                        &.show{
+                            &:after{
+                                transform: translateY(-50%) rotate(180deg);
+                                transform-origin: center;
+                                transition: all 0.3s ease;
+                            }
+                        }
+                    }
+                }
             }
         }
         &-toggler{

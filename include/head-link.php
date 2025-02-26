@@ -20,4 +20,4 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <link href="<?php echo BASE_URL?>/assets/css/custom.min.css" rel="stylesheet" type="text/css"/>
 <!-- Title -->
-<title><?php echo $pageTitle ?> | Muscle Vision Nutrition India </title>
+<title><?php echo $pageTitle ?> | AIRA : RPA and Gen AI Powered Low Code Automation Platform</title>
