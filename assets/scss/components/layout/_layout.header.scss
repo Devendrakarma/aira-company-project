@@ -86,10 +86,59 @@
 
                 }
             }
+            .dropdown-menu{
+                position: absolute;
+                overflow: hidden;
+                width: 100px; 
+                padding: 10px;
+                top: 59px;
+                right: auto;
+                left: 0;
+                a{
+                    font-family: font(sm);
+                    &:hover, &:focus{
+                        background-color: transparent;
+                        color: #000;
+                    }
+                }
+            }
         }
         .dropdown{
-            &-menu{
+            &-product{
+               .dropdown-menu{
                 width: 1229px;
+               }
+            }
+            &-solution{
+                .dropdown-menu{
+                    left: 48%;
+                    ul{
+                        display: block;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+            &-resources{
+                .dropdown-menu{
+                    left: 48%;
+                    min-width: 271px;
+                    ul{
+                        display: block;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+            &-company{
+                .dropdown-menu{
+                    left: 60%;
+                    min-width: 264px;
+                    ul{
+                        display: block;
+                        flex-wrap: wrap;
+                    }
+                }
+            }
+            &-menu{
                 padding: 23px;
                 border-radius: 20px;
                 top: 113px;
@@ -97,6 +146,7 @@
                 transform: translateX(-50%);
                 position: fixed;
                 border: 0;
+              
                 h3{
                     font-size: 18px;
                     text-transform: uppercase;
@@ -108,12 +158,19 @@
                     flex-wrap: wrap;
                 }
                 .dropdownItem{
-                    margin-bottom: 15px;
+                    padding: 7px 0px;
                     display: flex;
                     align-items: center;
                     flex-basis: 50%;
                     flex-grow: 1;
                     flex-shrink: 0;
+                    a{
+                        display: flex;
+                        align-items: center;
+                        flex-basis: 50%;
+                        flex-grow: 1;
+                        flex-shrink: 0;
+                    }
                     &_icon{
                         height: 38px;
                         width: 38px;
@@ -125,6 +182,8 @@
                         justify-content: center;
                         margin-right: 12px;
                         color: #6755DF;
+                        flex-shrink: 0;
+                        font-size: 21px;
                     }
                     &_text{
                         font-size: 16px;
@@ -165,6 +224,10 @@
         }
     }
     @include media-breakpoint-down(xxl){
+        .btn{
+            padding-top: 5px;
+            font-size: 16px;
+        }
         .navbar{
             &-brand{
                 img{
@@ -183,11 +246,6 @@
                     }
                 }
             }
-            .headerBtn{
-                .btn{
-                    min-width: 150px;
-                }
-            }
         }
         &-search{
             margin-right: 15px;
@@ -198,6 +256,14 @@
             &-brand{
                 margin-right: 40px;
             }
+            .dropdown{
+                &-product{
+                    .dropdown-menu{
+                        width: 100% !important;
+                    }
+                }
+            }
+           
             &-nav{
                 .nav-item{
                     .nav-link{
@@ -207,31 +273,54 @@
             }
         }
     }
+
     @include media-breakpoint-down(lg){
         .navbar{
-            &-collapse{
-                padding-top: 15px;
-            }
-            &-nav{
-                .nav-item{
-                    .nav-link{
-                        padding: 5px 0;
-                    }
-                    &:not(:last-child){
-                        .nav-link{
-                            margin-right: 0;
-                        }
+            .dropdown{
+                &-menu{
+                    position: static;
+                    transform: none;
+                    width: 100% !important;
+                    max-height: 300px;
+                    overflow-y: auto;
+                    overflow-x: hidden;
+                    border-radius: 0;
+                    h3{
+                        font-size: 16px;
                     }
                 }
             }
+            &-toggler{
+                background-color: #fff;
+                padding: 2px 5px;
+            }
         }
     }
+ 
     @include media-breakpoint-down(md){
         .navbar{
             padding: 10px 0;
-            .headerBtn{
-                .btn{
-                    min-width: 120px;
+            .dropdown {
+                &-menu {
+                    padding: 10px;
+                    h3 {
+                        font-size: 14px;
+                        margin-bottom: 10px;
+                    }
+                    
+                    .dropdownItem {
+                        margin-bottom: 8px;
+                        
+                        &_icon {
+                            height: 28px;
+                            width: 28px;
+                            font-size: 16px;
+                        }
+                        
+                        &_text {
+                            font-size: 13px;
+                        }
+                    }
                 }
             }
         }
@@ -239,11 +328,13 @@
     @include media-breakpoint-down(sm){
         .navbar{
             &-brand{
+                margin-right: 0;
                 img{
-                    max-width: 120px;
+                    max-width: 100px;
                 }
             }
             .headerBtn{
+                margin-right: 10px !important;
                 .btn{
                     height: 42px;
                     font-size: 16px;

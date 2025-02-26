@@ -16,11 +16,11 @@
         <div class="container container-lg">
             <div class="row">
                 <div class="col-md-3">
-                    <img src="<?php echo IMAGES_URL ?>/common/logo-footer.png" class="img-fluid" alt="logo" />
+                    <img src="<?php echo IMAGES_URL ?>/common/logo-footer.png" class="img-fluid mb-4" alt="logo" />
                 </div>
                 <div class="col-md-9">
                     <div class="row">
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <h2>Product</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#!">Workflow</a></li>
@@ -32,7 +32,7 @@
                                 <li><a href="#!">App Integration</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <h2>Resources</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#!">Documentation</a></li>
@@ -43,7 +43,7 @@
                                 <li><a href="#!">Brochures</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <h2>Company</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#!">About Us</a></li>
@@ -53,7 +53,7 @@
                                 <li><a href="#!">Press Releases</a></li>
                             </ul>
                         </div>
-                        <div class="col-md-3">
+                        <div class="col-md-3 col-6">
                             <h2>Legal</h2>
                             <ul class="list-unstyled">
                                 <li><a href="#!">Disclaimer</a></li>
