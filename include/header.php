@@ -19,7 +19,7 @@
                         <a class="nav-link" data-bs-toggle="dropdown" aria-current="page" href="<?php echo BASE_URL?>/">Product</a>
                         <div class="dropdown-menu">
                             <div class="row">
-                                <div class="col-md-5">
+                                <div class="col-md-5 border-right">
                                     <h3>By Industry</h3>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -101,7 +101,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-md-5">
+                                <div class="col-md-5 border-right">
                                     <h3>By department</h3>
                                     <div class="row">
                                         <div class="col-md-12">
@@ -188,6 +188,7 @@
                                                     <span class="dropdownItem_text">JIRA</span>
                                                 </li>
                                             </ul>
+                                            <a href="#!" class="learnMore">Learn More</a>
                                         </div>
                                     </div>
                                 </div>

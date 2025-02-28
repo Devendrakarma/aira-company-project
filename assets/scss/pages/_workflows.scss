@@ -1,4 +1,26 @@
 
+.workflowSection {
+   @include media-breakpoint-up(xl){
+    .col{
+        max-width: 20%;
+    }
+   }
+   @include media-breakpoint-down(xl){
+    .row{
+        justify-content: center;
+       }
+    .col{
+      margin-bottom: 20px;
+    }
+  }
+ @media(max-width:575px){
+    .col{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+ }
+
+}
 .workflowAutomation{
     position: relative;
     &:after{

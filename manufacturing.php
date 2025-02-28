@@ -4,29 +4,29 @@
 <head>
     <?php $pageTitle = 'Manufacturing' ?>
     <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
     <?php include 'include/header.php' ?>
     <main class="mainContent">
+
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                        <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Manufacturing</li>
+                    </ol>
+                </nav>
                 <div class="row align-items-center">
-                    <div class="col-md-4 innerBanner_left">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Manufacturing</li>
-                            </ol>
-                        </nav>
+                    <div class="col-sm-6 col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4 order-sm-1 order-2 innerBanner_left">
                         <h1>Manufacturing</h1>
                         <h2>Boost efficiency, cut downtime, and </br> improve quality with automation.</h2>
                     </div>
-                    <div class="col-md-8 innerBanner_right">
+                    <div class="col-sm-6 col-12d-6 col-lg-6  col-xl-6 col-xxl-8 order-sm-2 order-1 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
                     </div>
                 </div>
@@ -37,7 +37,7 @@
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Sample Manufacturing Workflows </br> Automated through AIRA</h1>
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
                             <h2>Supply Chain & </br> Procurement</h2>
                             <div class="workflowBox_inner">
@@ -54,7 +54,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
                             <h2>Production Planning </br> & Control</h2>
                             <div class="workflowBox_inner">
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
                             <h2>Quality & Compliance</h2>
                             <div class="workflowBox_inner">
@@ -88,7 +88,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
                             <h2>Engineering & Design</h2>
                             <div class="workflowBox_inner">
@@ -105,7 +105,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
                             <h2>Operations & </br> Customer Service</h2>
                             <div class="workflowBox_inner">
@@ -129,7 +129,7 @@
         <section class="tranformingManufacture">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 tranformingManufacture_left">
+                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_left">
                         <h1 class="text-42 font-bd">Transforming Manufacturing with Advanced AI Solutions</h1>
                         <p>
                             At AIRA, we empower manufacturing businesses to thrive in today’s competitive landscape
@@ -138,10 +138,10 @@
                             and enhance decision-making, enabling manufacturers to embrace innovation and unlock new growth opportunities.
                         </p>
                     </div>
-                    <div class="col-md-6 tranformingManufacture_right">
+                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_right">
                         <h2>Some Typical Benefits:</h2>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
@@ -150,7 +150,7 @@
                                     <div class="percentBox_body">Downtime Reduction</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
@@ -159,7 +159,7 @@
                                     <div class="percentBox_body">Cost Savings</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
@@ -168,7 +168,7 @@
                                     <div class="percentBox_body">Improved Operational Efficiency</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
@@ -187,7 +187,7 @@
             <div class="container">
                  <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Manufacturing</h1>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Predictive Maintenance for Machinery</h2>
@@ -196,7 +196,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Production Scheduling Optimization
@@ -205,7 +205,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Energy Usage Optimization</h2>
@@ -213,7 +213,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Quality Control & Defect Detection</h2>
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Product Lifecycle Management</h2>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Workforce Planning</h2>
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Demand Forecasting</h2>
@@ -245,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Supply Chain Optimization</h2>
@@ -260,7 +260,7 @@
         <section class="solutionApproach py-80">
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Solution Approach</h1>
-                <svg width="100%" height="749" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="100%" height="auto" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.71875 30C0.71875 13.4315 14.1502 0 30.7187 0H1490.72C1507.29 0 1520.72 13.4315 1520.72 30V718.919C1520.72 735.487 1507.29 748.919 1490.72 748.919H30.7187C14.1501 748.919 0.71875 735.487 0.71875 718.919V30Z" fill="#140632"/>
                     <path d="M30.7187 1H1490.72C1506.74 1 1519.72 13.9837 1519.72 30V718.919C1519.72 734.935 1506.74 747.919 1490.72 747.919H30.7187C14.7024 747.919 1.71875 734.935 1.71875 718.919V30C1.71875 13.9838 14.7025 1 30.7187 1Z" stroke="#CC9EFF" stroke-opacity="0.2" stroke-width="2"/>
                     <path d="M772.289 275.166C772.289 266.329 779.453 259.166 788.289 259.166H1072.97C1081.81 259.166 1088.97 266.329 1088.97 275.166V411.578C1088.97 420.414 1081.81 427.578 1072.97 427.578H788.289C779.453 427.578 772.289 420.414 772.289 411.578V275.166Z" fill="#3B1EFF" fill-opacity="0.08" stroke="#6755DF" stroke-width="2"/>
@@ -588,7 +588,7 @@
             <div class="container">
                 <h1 class="text-42 text-center font-bd">Blogs</h1>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -599,7 +599,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -610,7 +610,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">

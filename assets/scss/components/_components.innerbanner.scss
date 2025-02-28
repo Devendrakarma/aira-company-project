@@ -24,4 +24,49 @@
             display: block;
         }
     }
+
+    @include media-breakpoint-down(xxl){
+        background-size: 67%;
+    }
+
+    @include media-breakpoint-down(xl){
+        h1{
+            font-size: 45px;
+            margin-bottom: 15px;
+        }
+        h2{
+            font-size: 22px;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        padding-top: 120px;
+        padding-bottom: 30px;
+        h1{
+            font-size: 38px;
+        }
+        h2{
+            font-size: 18px;
+        }
+    }
+    @include media-breakpoint-down(md){
+        padding-top: 90px;
+        h1{
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 16px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &_right{
+            margin-bottom: 20px;
+        }
+        &_left{
+            text-align: center;
+        }
+    }
+
+
+
 }
