@@ -90,7 +90,7 @@
                         <div class="col-md-6 col-sm-6 automatedWorkflowList_right">
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
-                        <div class="col-md-6 col-sm-6 automatedWorkflowList_">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_left">
                             <h2 class="text-42 font-sm">Create Unlimited Workflows</h2>
                             <p>Our platform offers infinite workflow possibilities, optimizing operations through simplified procedures, seamless collaborations, and task automation. Experience unparalleled efficiency and effectiveness in all your endeavors.</p>
                         </div>
