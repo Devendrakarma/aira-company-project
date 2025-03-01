@@ -204,7 +204,7 @@
                             aria-labelledby="industries-tab" tabindex="0">
                             <div class="commonTabVert_mid commonBorder d-flex align-items-start">
                                 <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                    aria-orientation="vertical">
+                                    aria-orientation="vertical"> 
 
                                     <button class="nav-link active" id="v-manufacturing-tab" data-bs-toggle="pill"
                                         data-bs-target="#v-manufacturing" type="button" role="tab" aria-controls="v-manufacturing"
