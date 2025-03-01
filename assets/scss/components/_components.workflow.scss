@@ -21,13 +21,14 @@
         margin-top: 13px;
         padding: 20px 16px;
         border-radius: 16px; 
+        height: calc(100% - 73px);
         ul{
             padding-bottom: 0;
             margin-bottom: 0;
             li{
                 position: relative;
                 padding: 9px 0 9px 28px; 
-                height: 60px;
+                min-height: 60px;
                 font-size: 15px;
                 &:not(:last-child){
                     border-bottom: 1px solid rgba(0,0,0,.21);
@@ -46,5 +47,13 @@
             }
         }
         
+    }
+    @include media-breakpoint-down(xxl){
+        h2{
+            font-size: 18px;
+        }
+        &_inner{
+            padding: 10px 10px;
+        }
     }
 }

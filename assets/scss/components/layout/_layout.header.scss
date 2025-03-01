@@ -14,6 +14,40 @@
     .navbar{
         padding: 10px 0;
         background-color: transparent;
+        @include media-breakpoint-up(lg){
+            .border-right{
+                position: relative;
+                padding-right: 30px;
+                &:after{
+                    content: '';
+                    position: absolute;
+                    right:15px;
+                    width: 1px;
+                    background-color: rgba(0,0,0,0.10);
+                    height: 100%;
+                    top: 0;
+                }
+            }
+        }
+      
+        .learnMore{
+            font-size: 16px;
+            color: #6755DF;
+            font-family: font(md);
+            display: inline-block;
+            margin-top: 17px;
+            padding-right: 20px;
+            position: relative;
+            &:after{
+                content:'\e906';
+                font-family: 'icomoon' !important;
+                position: absolute;
+                right:0;
+                top: 50%;
+                transform: translateY(-50%);
+                font-size: 12px;
+            }
+        }
         &-brand{
             padding: 0!important;
             display: inline-block;
