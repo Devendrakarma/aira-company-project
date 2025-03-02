@@ -13,20 +13,20 @@
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                        <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Workflows</li>
+                    </ol>
+                </nav>
                 <div class="row align-items-center">
-                    <div class="col-md-4 innerBanner_left">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Workflows</li>
-                            </ol>
-                        </nav>
+                    <div class="col-sm-6 col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4 order-sm-1 order-2 innerBanner_left">
                         <h1>Workflows</h1>
                         <h2>AIRA makes it easy to connect your </br> preferred apps and systems, weaving</br> them together into purposeful workflows.</h2>
                     </div>
-                    <div class="col-md-8 innerBanner_right">
+                    <div class="col-sm-6 col-12d-6 col-lg-6  col-xl-6 col-xxl-8 order-sm-2 order-1 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
                     </div>
                 </div>
@@ -37,28 +37,28 @@
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Workflow Automation Features</h1>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
                             <h2>Handle complex processes effortlessly</h2>
                             <p>Effortlessly manage intricate tasks with our Simple Drag-&-Drop Designer. Select, drag, and drop modules to streamline complex processes in an instant.</p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
                             <h2>Quick start with templates</h2>
                             <p>From project management to marketing strategies, choose the template that fits your needs and kickstart your journey towards efficiency. </p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
                             <h2>Connect to any system</h2>
                             <p>Connect to any system effortlessly with our versatile platform, boasting over 100 integrations to suit your needs. </p>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-6 col-sm-6 col-lg-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
                             <h2>Effortlessly reuse your work</h2>
@@ -70,37 +70,37 @@
         </section>
 
         <section class="automatedWorkflow">
-            <div class="container">
+            <div class="container glow">
                 <h1 class="text-42 text-center font-bd mb-50">User-Friendly Automated <br />Workflow Creation</h1>
                 <img src="<?php echo IMAGES_URL ?>/workflow/automated_workflow.png" alt="Automated Workkflow" class="img-fluid mx-auto d-block" />
             </div>
             <div class="automatedWorkflowList">
                 <div class="container">
                     <div class="row align-items-center mb-84">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_left">
                             <h2 class="text-42 font-sm">Visualize your <br /> Workflow for Clarity</h2>
                             <p>Visualizing your workflow provides clarity by mapping out each process step, revealing bottlenecks, and enhancing efficiency. From ideation to execution,
                                 a clear visualization fosters understanding and empowers effective decision-making.</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_right">
                             <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                     </div>
                     <div class="row align-items-center mb-84">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_right">
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_left">
                             <h2 class="text-42 font-sm">Create Unlimited Workflows</h2>
                             <p>Our platform offers infinite workflow possibilities, optimizing operations through simplified procedures, seamless collaborations, and task automation. Experience unparalleled efficiency and effectiveness in all your endeavors.</p>
                         </div>
                     </div>
                     <div class="row align-items-center">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_left">
                             <h2 class="text-42 font-sm">Execute Ideas in <br /> Minutes with Ease</h2>
                             <p>Unlock the power of swift execution by effortlessly building, testing, and refining workflows in mere minutes or hours, not drawn-out days. Turn your ideas into reality with unprecedented ease and efficiency, revolutionizing your creative process.</p>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 automatedWorkflowList_right">
                             <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                     </div>
@@ -176,8 +176,8 @@
             </div>
         </section>
 
-        <section class="dataConnectors py-80 glow">
-            <div class="container z-1">
+        <section class="dataConnectors py-80">
+            <div class="container z-1 glow">
                 <h1 class="text-42 text-center font-bd mb-50">Highly Pre-Integrated Data Connectors </h1>
                 <div class="dataConnectorsBox_wrapper d-flex justify-content-center">
                     <div class="dataConnectorsBox">
