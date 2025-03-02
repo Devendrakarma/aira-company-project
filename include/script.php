@@ -63,4 +63,78 @@
     }
 }); 
 
+    // Data Connectors Sliders
+    const dataConnectorsSwiper = new Swiper(".dataConnectorsSwiper", {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+        },
+        speed: 3000,
+        allowTouchMove: false,
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+            },
+            480: {
+                slidesPerView: 3,
+            },
+            768: {
+                slidesPerView: 4,
+            },
+            1024: {
+                slidesPerView: 5,
+            },
+            1200: {
+                slidesPerView: 6,
+            }
+        }
+    });
+
+    const dataConnectorsSwiper2 = new Swiper(".dataConnectorsSwiper2", {
+        slidesPerView: 6,
+        spaceBetween: 0,
+        loop: true,
+        autoplay: {
+            delay: 0,
+            disableOnInteraction: false,
+            reverseDirection: true // This makes it go in opposite direction
+        },
+        speed: 3000,
+        allowTouchMove: false,
+        breakpoints: {
+            320: {
+                slidesPerView: 2,
+            },
+            480: {
+                slidesPerView: 3,
+            },
+            768: {
+                slidesPerView: 4,
+            },
+            1024: {
+                slidesPerView: 5,
+            },
+            1200: {
+                slidesPerView: 6,
+            }
+        }
+    });
+
+    // Pause on hover for both sliders
+    $('.dataConnectorsSwiper, .dataConnectorsSwiper2').hover(
+        function() {
+            const swiper = this.classList.contains('dataConnectorsSwiper') ? 
+                          dataConnectorsSwiper : dataConnectorsSwiper2;
+            swiper.autoplay.stop();
+        }, 
+        function() {
+            const swiper = this.classList.contains('dataConnectorsSwiper') ? 
+                          dataConnectorsSwiper : dataConnectorsSwiper2;
+            swiper.autoplay.start();
+        }
+    );
+
 </script>
