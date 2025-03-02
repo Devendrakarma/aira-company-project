@@ -27,10 +27,9 @@
     }
 
     &_mid{
-        padding: 12px;
         background-color: rgba(color(550), 0.58);
         .nav-pills{
-            padding: 30px 18px;
+            padding: 30px 18px 30px 30px;
         }
         
         .nav-link{
@@ -41,13 +40,86 @@
             font-size: 20px;
             font-family: font(md);
             color: rgba(color(50), 0.80);
+            position: relative;
+            height: 66px;
+            .iconBox{
+                width: 30px;
+                flex-shrink: 0;
+                margin-right: 25px;
+                @include flexcenter(both);
+            }
             &.active{
                 background-color: color(400);
+                img{
+                    filter: brightness(2);
+                }
             }
             &:not(:last-child){
                 &:after{
+                    position: absolute;
+                    content: '';width: 100%;height: 2px;
+                    background-image: linear-gradient(to left, rgba(255,255,255,0), rgba(255,255,255,1));
+                    bottom: -2px;left: 75px;opacity: 0.18;
+                }
+            }
+        }
+        .tab{
+            &-content{
+                padding: 12px;
+            }
+            &-pane{
+                img{
                     width: 100%;
-                    height: 2px;
+                }
+            }
+        }
+
+        &_tab{
+            .tabContent{
+                &_cnt{
+                    position: absolute;
+                    top: 80px;
+                    left: 45px;
+                    h3{
+                        font-size: 40px;
+                        font-family: font(bd);
+                        color: color(900);
+                        max-width: 350px;
+                        margin-bottom: 40px;
+                    }
+                }
+                &_btm{
+                    position: absolute;
+                    bottom: 0;width: 100%;
+                    padding: 15px;
+                    .btmCard{
+                        background-color: color(50);
+                        border-radius: 20px;
+                        &_head{
+                            padding: 15px 17px;
+                        }
+                        &_text{
+                            font-size: 32px;
+                            color: color(450);
+                            font-family: font(sm);
+                            display: block;
+                            margin-left: 15px;
+                        }
+                        &_btm{
+                            padding: 15px;
+                            height: 55px;
+                            border-top: 1px solid rgba(color(900),0.20);
+                            height: 55px;
+                            @include flexcenter(both);
+                            p{
+                                font-size: 14px;
+                                font-family: font(md);
+                                line-height: normal;
+                                color: color(450);
+                                text-align: center;
+                            }
+                        }
+                    }
                 }
             }
         }
