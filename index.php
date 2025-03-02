@@ -716,7 +716,7 @@
                     <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-2.png" class="w-100"
-                            alt="innovate-one" />
+                                alt="innovate-one" />
                             <button class="btn btn-warning btn-rounded right">
                                 Know More
                                 <em class="icon-arrow-right"></em>
@@ -762,7 +762,7 @@
                     <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-4.png" class="w-100"
-                            alt="innovate-one" />
+                                alt="innovate-one" />
                             <button class="btn btn-warning btn-rounded right">
                                 Know More
                                 <em class="icon-arrow-right"></em>
@@ -784,6 +784,73 @@
             </div>
         </section>
         <!--!! Innovate with AIRA AI Agents -->
+
+        <!-- Highly Pre-Integrated Data Connectors  -->
+        <section class="dataConnectors py-80">
+            <div class="container z-1 glow">
+                <h1 class="text-42 text-center font-bd mb-50">Highly Pre-Integrated Data Connectors </h1>
+                <div class="dataConnectorsBox_wrapper d-flex justify-content-center">
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png" class="img-fluid"
+                            alt="salesforce" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid"
+                            alt="Open AI" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/hubspot.png" class="img-fluid"
+                            alt="hubspot" />
+                    </div>
+                </div>
+                <div class="dataConnectorsBox_wrapper">
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/oracle.png" class="img-fluid"
+                            alt="oracle" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid"
+                            alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/teams.png" class="img-fluid"
+                            alt="teams" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
+                    </div>
+                    <div class="dataConnectorsBox">
+                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/shopify.png" class="img-fluid"
+                            alt="shopify" />
+                    </div>
+                </div>
+
+                <div class="dataConnectors_footer">
+                    <p>Plug and Play integration with COTS and Legacy Data Systems</p>
+                    <a href="#!" class="btn btn-warning btn-rounded position-relative">
+                        Know More
+                        <em class="icon-arrow-right"></em>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!--!! Highly Pre-Integrated Data Connectors  -->
     </main>
     <!-- Footer Component -->
     <?php include 'include/footer.php' ?>
