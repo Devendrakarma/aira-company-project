@@ -23,47 +23,48 @@
                         <div class="col-md-3 col-6">
                             <h2>Product</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#!">Workflow</a></li>
-                                <li><a href="#!">AI Agents</a></li>
-                                <li><a href="#!">Robotics Process Automation</a></li>
-                                <li><a href="#!">AI in Action</a></li>
-                                <li><a href="#!">Generative AI</a></li>
-                                <li><a href="#!">Intelligent Document Processing</a></li>
-                                <li><a href="#!">App Integration</a></li>
+                                <li><a href="workflow.php">Workflow</a></li>
+                                <li><a href="ai-agents.php">AI Agents</a></li>
+                                <li><a href="robotics-process-automation.php">Robotics Process Automation</a></li>
+                                <li><a href="ai-in-action.php">AI in Action</a></li>
+                                <li><a href="generative-ai.php">Generative AI</a></li>
+                                <li><a href="intelligent-document-processing.php">Intelligent Document Processing</a>
+                                </li>
+                                <li><a href="app-integration.php">App Integration</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <h2>Resources</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#!">Documentation</a></li>
-                                <li><a href="#!">Blogs</a></li>
-                                <li><a href="#!">RHelp Center</a></li>
-                                <li><a href="#!">Partner</a></li>
-                                <li><a href="#!">Whitepaper</a></li>
-                                <li><a href="#!">Brochures</a></li>
+                                <li><a href="documentation.php">Documentation</a></li>
+                                <li><a href="blogs.php">Blogs</a></li>
+                                <li><a href="help-center.php">Help Center</a></li>
+                                <li><a href="partner.php">Partner</a></li>
+                                <li><a href="whitepaper.php">Whitepaper</a></li>
+                                <li><a href="brochures.php">Brochures</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <h2>Company</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#!">About Us</a></li>
-                                <li><a href="#!">Become a Partner</a></li>
-                                <li><a href="#!">Career</a></li>
-                                <li><a href="#!">Contact Us</a></li>
-                                <li><a href="#!">Press Releases</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="become-a-partner.php">Become a Partner</a></li>
+                                <li><a href="career.php">Career</a></li>
+                                <li><a href="contact-us.php">Contact Us</a></li>
+                                <li><a href="press-releases.php">Press Releases</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <h2>Legal</h2>
                             <ul class="list-unstyled">
-                                <li><a href="#!">Disclaimer</a></li>
-                                <li><a href="#!">Cookies Policy</a></li>
-                                <li><a href="#!">Privacy Policy</a></li>
-                                <li><a href="#!">Terms of Use</a></li>
-                                <li><a href="#!">Refund Policy</a></li>
-                                <li><a href="#!">Trust and Security</a></li>
-                                <li><a href="#!">Compliance</a></li>
-                                <li><a href="#!">sitemap</a></li>
+                                <li><a href="disclaimer.php">Disclaimer</a></li>
+                                <li><a href="cookies-policy.php">Cookies Policy</a></li>
+                                <li><a href="privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="terms-of-use.php">Terms of Use</a></li>
+                                <li><a href="refund-policy.php">Refund Policy</a></li>
+                                <li><a href="trust-and-security.php">Trust and Security</a></li>
+                                <li><a href="compliance.php">Compliance</a></li>
+                                <li><a href="sitemap.php">Sitemap</a></li>
                             </ul>
                         </div>
                     </div>
@@ -96,5 +97,30 @@
             </div>
         </div>
     </div>
+    <!-- <div class="fixedMenu">
+        <ul class="list-unstyled p-0">
+            <li>
+                <div class="btn-group dropleft">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        <em></em>
+                    </button>
+                    <div class="dropdown-menu">
+                         <div>dsaldk</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="btn-group dropleft">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+                        Dropleft
+                    </button>
+                    <div class="dropdown-menu">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div> -->
 </footer>
 <?php include 'include/script.php' ?>
