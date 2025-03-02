@@ -18,8 +18,11 @@
                     <div class="col-md-6">
                         <h2 class="commonSubHead mb-0">Start Your</h2>
                         <h1><span>Free Trial</span> with AIRA</h1>
-                        <p>Experience Seamless Workflow Automation, Intelligent Document Processing, and RPA at Your Fingertips.</p>
-                        <p>No credit card required. Take the first step toward transforming your business operations with AIRA’s cutting-edge AI automation platform. During your trial, unlock the power to streamline workflows, optimize processes, and boost efficiency across your organization.</p>
+                        <p>Experience Seamless Workflow Automation, Intelligent Document Processing, and RPA at Your
+                            Fingertips.</p>
+                        <p>No credit card required. Take the first step toward transforming your business operations
+                            with AIRA’s cutting-edge AI automation platform. During your trial, unlock the power to
+                            streamline workflows, optimize processes, and boost efficiency across your organization.</p>
                         <ul class="commonList">
                             <li>Effortless Onboarding</li>
                             <li>Unlimited Automation</li>
@@ -27,18 +30,24 @@
                             <li>Dedicated Support</li>
                         </ul>
                     </div>
-                    <div class="col-md-5 offset-md-1">
+                    <div class="col-md-5 offset-md-1 bgGrediantSection bgGrediantSection-sm">
                         <div class="freeTrialBanner_form">
                             <form>
                                 <div class="form-group">
-                                    <Input type="text" placeholder="First Name *" name="firstName" class="form-control"/>
+                                    <Input type="text" placeholder="First Name *" name="firstName"
+                                        class="form-control" />
                                 </div>
                                 <div class="form-group">
-                                    <Input type="text" placeholder="Last Name *" name="lastName" class="form-control"/>
+                                    <Input type="text" placeholder="Last Name *" name="lastName" class="form-control" />
                                 </div>
                                 <div class="form-group">
-                                    <Input type="email" placeholder="Work Email *" name="workEmail" class="form-control"/>
+                                    <Input type="email" placeholder="Work Email *" name="workEmail"
+                                        class="form-control" />
                                 </div>
+                                <button class="btn btn-warning btn-rounded iconBtn mx-auto">
+                                    <span><em class="icon-arrow-right"></em></span>
+                                    Continue
+                                </button>
                             </form>
                         </div>
                     </div>
