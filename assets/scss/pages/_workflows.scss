@@ -311,7 +311,40 @@
             flex-shrink: 0;
        }
     }
-  
+    &_slider {
+        margin: 30px 0;
+        
+        .swiper {
+            overflow: visible;
+        }
+        
+        .swiper-wrapper {
+            transition-timing-function: linear !important;
+        }
+        
+        .dataConnectorsBox {
+            // Keep existing styles for dataConnectorsBox
+            padding: 20px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.10);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            margin: 10px;
+            
+            img {
+                max-height: 60px;
+                object-fit: contain;
+                transition: all 0.3s ease;
+            }
+            
+            &:hover {
+                box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+            }
+        }
+    }
 
    
     
