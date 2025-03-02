@@ -24,7 +24,7 @@
                                 <div class="col-md-12">
                                     <ul class="list-unstyled">
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/workflows.php">
+                                            <a href="<?php echo BASE_URL ?>/workflow.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-grid"></em>
                                                 </span>
