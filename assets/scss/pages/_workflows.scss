@@ -32,7 +32,7 @@
         left: 0;
         margin: 0 auto;
         right: 0;
-        width: 1633px;
+        width: 100%;
         height: 213px;
         background: rgb(96,30,249);
         background: linear-gradient(0deg, rgba(96,30,249,1) 0%, rgba(255,255,255,0) 100%);
@@ -62,9 +62,62 @@
             margin: 0;
         }
     }
+    @media(max-width:1599px){
+        .workflowAutomationBox{
+            border-radius: 20px;
+            padding: 35px 15px;
+            img{
+                max-width: 65px;
+            }
+        }
+    }
+    @include media-breakpoint-down(xl){
+        .workflowAutomationBox{
+            padding: 25px 15px;
+            img{
+                max-width: 55px;
+            }
+            h2{
+                font-size: 22px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    @include media-breakpoint-down(lg){
+        [class^="col-"]{
+            margin-bottom: 24px;
+        }
+    }
 }
 
 .automatedWorkflow{
+     img{
+        z-index: 1;
+        position: relative;
+    }
+    .glow{
+        &:after{
+            content: '';
+            position: absolute;
+            display: block;
+            transform: none;
+            left: 0;
+            margin: 0 auto;
+            right: 0;
+            width: 79%;
+            height: 213px;
+            background: #601ef9;
+            background: linear-gradient(0deg, #601ef9 0%, rgba(255, 255, 255, 0) 100%);
+            opacity: 0.75;
+            filter: blur(149px);
+            top:auto;
+            bottom: 0;
+          
+        }
+    }
     .automatedWorkflowList{
         position: relative;
         background-color: #1D0A46;
@@ -79,6 +132,16 @@
             content: '';
             position: absolute;
             top: -202px;
+            z-index: 2;
+        }
+        &:after{
+            content: '';
+            height: 40px;
+            width: 100%;
+            position: absolute;
+            background-color: #1D0A46;
+            top: -97px;
+            z-index: -1;
         }
         h2{
             margin-bottom: 35px;
@@ -92,6 +155,47 @@
             margin-bottom: 84px;
             z-index: 1;
             position: relative;
+        }
+    }
+    @media(max-width:1599px){
+        .automatedWorkflowList{
+            padding: 45px 0px;
+        }
+    }
+    @include media-breakpoint-down(xl){
+        .automatedWorkflowList{
+            h2{
+                margin-bottom: 15px;
+            }
+            .mb-84{
+                margin-bottom: 40px;
+            }
+        }
+       
+    }
+    @include media-breakpoint-down(lg){
+        .automatedWorkflowList{
+            h2{
+                margin-bottom: 10px;
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+    }
+    @media(max-width:575px){
+        .automatedWorkflowList{
+            padding: 20px 0px;
+            .mb-84{
+                margin-bottom: 20px;
+            }
+            &_left{
+                order: 2;
+            }
+            &_right{
+                order: 1;
+                margin-bottom: 20px;
+            }
         }
     }
 }
@@ -110,7 +214,7 @@
     &-body{
         font-size: 18px;
         color: #fff;
-        padding: 30px 30px;
+        padding: 0 30px 30px;
     }
     &-button{
         font-size: 20px;
@@ -119,12 +223,9 @@
         padding: 30px;
         box-shadow: none !important;
         background-color: #1D0A47 !important;
-        &:not(.collapsed)::after{
-            background-image: url('#{$imageurl}/common/arrow-icon.svg');
-        }
-        &:after{
+        &:after, &:not(.collapsed)::after{
            background-image: url('#{$imageurl}/common/arrow-icon.svg');
-          
+           transform-origin: 10px 5px;
         }
        
     }
@@ -132,8 +233,33 @@
 
 .dataConnectors{
     background-color: #1D0A46;
-    &:after{
-
+    position: relative;
+    overflow: hidden;
+    &::before{
+        content: '';
+        background: rgb(29,10,70);
+        background: linear-gradient(0deg, rgba(29,10,70,1) 100%, rgba(255,255,255,0) 100%);
+        filter: blur(49px);
+        height: 100%;
+        width: 17%;
+        position: absolute;
+        display: block;
+        top: 0;
+        z-index: 2;
+        left: 0;
+    }
+    &::after{
+        content: '';
+        background: rgb(29,10,70);
+        background: linear-gradient(0deg, rgba(29,10,70,1) 100%, rgba(255,255,255,0) 100%);
+        filter: blur(49px);
+        height: 100%;
+        width: 17%;
+        position: absolute;
+        display: block;
+        top: 0;
+        z-index: 2;
+        right: 0;
     }
     .dataConnectorsBox{
         &_wrapper{
@@ -149,6 +275,8 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 0 15px;
+     
     }
     &_footer{
         text-align: center;
@@ -163,6 +291,62 @@
             align-items: center;
         }
     }
+    @media(max-width:1699px){
+        &:before{
+            left: -61px;
+        }
+        &:after{
+            right:-61px
+        }
+    }
+    @include media-breakpoint-down(xxl){
+      
+        &_footer{
+            margin-top: 55px;
+        }
+    }
+    @include media-breakpoint-down(xl){
+       .dataConnectorsBox{
+            flex-basis: 144px;
+            flex-shrink: 0;
+       }
+    }
+    &_slider {
+        margin: 30px 0;
+        
+        .swiper {
+            overflow: visible;
+        }
+        
+        .swiper-wrapper {
+            transition-timing-function: linear !important;
+        }
+        
+        .dataConnectorsBox {
+            // Keep existing styles for dataConnectorsBox
+            padding: 20px;
+            background: #FFFFFF;
+            border: 1px solid rgba(0, 0, 0, 0.10);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100px;
+            margin: 10px;
+            
+            img {
+                max-height: 60px;
+                object-fit: contain;
+                transition: all 0.3s ease;
+            }
+            
+            &:hover {
+                box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.08);
+            }
+        }
+    }
+
+   
     
 }
 
@@ -178,7 +362,7 @@
         left: 0;
         margin: 0 auto;
         right: 0;
-        width: 1633px;
+        width: 100%;
         height: 213px;
         background: rgb(96,30,249);
         background: linear-gradient(0deg, rgba(96,30,249,1) 0%, rgba(255,255,255,0) 100%);

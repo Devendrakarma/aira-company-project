@@ -56,9 +56,10 @@ $btnColors: (
       line-height: 1;
     }
     @include media-breakpoint-down(xxl){
-        height: 48px; padding: 5px 10px;padding-top: 10px;font-size: 18px;white-space: nowrap;
+        height: 48px; padding: 5px 20px;font-size: 18px;white-space: nowrap;
     }
     @include media-breakpoint-down(md){
+      padding: 5px 10px;
       &-sm{
         height:35px;
       }

@@ -26,7 +26,7 @@
             bottom: -50px;
             background-image: url('#{$imageurl}/common/footer-curve.png'); 
             background-repeat: no-repeat;
-            z-index: 1;
+            z-index: 9;
             left: 0;
             right: 0;
             margin: 0 auto;
@@ -43,6 +43,7 @@
         text-align: center;
         padding: 77px 0px;
         overflow: hidden;position: relative;
+        z-index: 2;
         &::before{
             content: '';
             height: 345px;

@@ -57,6 +57,13 @@
     filter: blur(60px);
     opacity: 0.55;
   }
+
+  &-sm{
+    &:after {
+      width: calc(100% + 100px);
+      top: 50%;
+    }
+  }
 }
 
 //common gradient border
@@ -85,5 +92,40 @@
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;
+  }
+}
+
+// free trial page scss 
+.freeTrialBanner{
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  padding-top: 200px!important;
+  background-color: color(500);
+  border-radius: 0 0 40px 40px;
+  h1{
+    font-size: 68px;
+    font-family: font(bd);
+    color: color(50);
+    margin-bottom: 30px;
+    span{
+      color: color(600);
+    }
+  }
+  p{
+    font-size: 22px;
+    line-height: normal;
+    + p{
+      font-size: 18px;
+      font-family: font(lt);
+      color: rgba(color(50), 0.70);
+      margin-bottom: 50px;
+    }
+  }
+
+  &_form{
+    background-color: color(50);
+    border-radius: 20px;
+    padding: 35px;
   }
 }
