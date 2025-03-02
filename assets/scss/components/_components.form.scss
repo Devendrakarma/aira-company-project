@@ -6,8 +6,8 @@ $label-color: color(900);
 $input-label-color: color(900);
 $input-bg-color: color(50);
 $input-border-color: rgba(color(900), 0.10);
-$input-focus-border: color(900);
-$placholder-color: rgba(color(900), 0.5);
+$input-focus-border: color(500);
+$placholder-color: color(900);
 $icon-color: rgba(37, 49, 76, 0.4);
 
 .form-group,
@@ -31,7 +31,7 @@ $icon-color: rgba(37, 49, 76, 0.4);
   }
   .form-control,
   .input-group-text {
-    border-color: rgba(color(900), 0.10);
+    border-color: rgba(color(900), 0.15);
     color: $input-label-color;
     background-color: color(50);
     border-radius: 8px;
