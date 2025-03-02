@@ -66,7 +66,7 @@
     // Data Connectors Sliders
     const dataConnectorsSwiper = new Swiper(".dataConnectorsSwiper", {
         slidesPerView: 6,
-        spaceBetween: 0,
+        spaceBetween: 20,
         loop: true,
         autoplay: {
             delay: 0,
@@ -95,7 +95,7 @@
 
     const dataConnectorsSwiper2 = new Swiper(".dataConnectorsSwiper2", {
         slidesPerView: 6,
-        spaceBetween: 0,
+        spaceBetween: 20,
         loop: true,
         autoplay: {
             delay: 0,
