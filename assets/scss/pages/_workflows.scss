@@ -313,6 +313,7 @@
     }
     &_slider {
         margin: 30px 0;
+        overflow: hidden;
         
         .swiper {
             overflow: visible;
