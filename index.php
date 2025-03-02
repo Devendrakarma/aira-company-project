@@ -128,9 +128,9 @@
                 </div>
             </div>
         </section>
-        <!-- !! Trusted by Fortune --> 
+        <!-- !! Trusted by Fortune -->
 
-        <!-- Solution at your fingertips -->  
+        <!-- Solution at your fingertips -->
         <section class="solutionHome py-80 pt-0 bgGrediantSection">
             <div class="container">
                 <div class="commonHead text-center">
@@ -196,51 +196,484 @@
                         <li class="nav-item" role="presentation">
                             <button class="nav-link" id="departments-tab" data-bs-toggle="pill"
                                 data-bs-target="#departments" type="button" role="tab" aria-controls="departments"
-                                aria-selected="false">Profile</button>
+                                aria-selected="false">Departments</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
                         <div class="tab-pane fade show active" id="industries" role="tabpanel"
                             aria-labelledby="industries-tab" tabindex="0">
-                            <div class="commonTabVert_mid commonBorder d-flex align-items-start">
-                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
-                                    aria-orientation="vertical"> 
+                            <div class="commonTabVert_mid commonBorder row align-items-start g-0">
+                                <div class="col-md-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link d-flex align-items-center active" id="v-manufacturing-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-manufacturing" type="button" role="tab"
+                                        aria-controls="v-manufacturing" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/tool.png" height="28"
+                                                alt="tool" />
+                                        </div>
+                                        Manufacturing
+                                    </button>
 
-                                    <button class="nav-link active" id="v-manufacturing-tab" data-bs-toggle="pill"
-                                        data-bs-target="#v-manufacturing" type="button" role="tab" aria-controls="v-manufacturing"
-                                        aria-selected="true">Manufacturing</button>
+                                    <button class="nav-link d-flex align-items-center" id="v-banking-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-banking" type="button" role="tab"
+                                        aria-controls="v-banking" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/bank.png" height="28"
+                                                alt="bank" />
+                                        </div>
+                                        Banking, Finance & Insurance
+                                    </button>
 
-                                    <button class="nav-link" id="v-banking-tab" data-bs-toggle="pill"
-                                        data-bs-target="#v-banking" type="button" role="tab" aria-controls="v-banking"
-                                        aria-selected="true">Banking, Finance & Insurance</button>
+                                    <button class="nav-link d-flex align-items-center" id="v-telecom-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-telecom" type="button" role="tab"
+                                        aria-controls="v-telecom" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/phone.png" height="28"
+                                                alt="phone" />
+                                        </div>
+                                        Telecom
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-retail-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-retail" type="button" role="tab"
+                                        aria-controls="v-retail" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/shopping-cart.png"
+                                                height="28" alt="shopping-cart" />
+                                        </div>
+                                        Retail
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-healthcare-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-healthcare" type="button" role="tab"
+                                        aria-controls="v-healthcare" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/heart-pulse.png"
+                                                height="28" alt="heart-pulse" />
+                                        </div>
+                                        Healthcare
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-pharma-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-pharma" type="button" role="tab"
+                                        aria-controls="v-pharma" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/pills.png" height="28"
+                                                alt="pills" />
+                                        </div>
+                                        Pharma
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-hospitality-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-hospitality" type="button" role="tab"
+                                        aria-controls="v-hospitality" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/bed.png" width="29"
+                                                height="20" alt="bed" />
+                                        </div>
+                                        Hospitality
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-textiles-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-textiles" type="button" role="tab"
+                                        aria-controls="v-textiles" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/football-shirt.png"
+                                                height="28" alt="football-shirt" />
+                                        </div>
+                                        Textiles
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-oil-gas-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-oil-gas" type="button" role="tab"
+                                        aria-controls="v-oil-gas" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/flask-round.png"
+                                                height="28" alt="flask-round" />
+                                        </div>
+                                        Oil & Gas
+                                    </button>
+
                                 </div>
-                                <div class="tab-content" id="v-pills-tabContent">
+                                <div class="col-md-8 tab-content" id="v-pills-tabContent">
                                     <!-- 1 -->
-                                    <div class="tab-pane fade show active" id="v-manufacturing" role="tabpanel"
-                                        aria-labelledby="v-manufacturing-tab" tabindex="0">
-                                        <img src="<?php echo IMAGES_URL?>/"/>
+                                    <div class="commonTabVert_mid_tab tab-pane fade show active" id="v-manufacturing"
+                                        role="tabpanel" aria-labelledby="v-manufacturing-tab" tabindex="0">
+                                        <div class="tabContent position-relative">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/manufacturing.png"
+                                                alt="manufacturing" />
+                                            <div class="tabContent_cnt">
+                                                <h3>Redefine what’s possible in production.</h3>
+                                                <button class="btn btn-warning btn-rounded position-relative">
+                                                    Know More
+                                                    <em class="icon-arrow-right"></em>
+                                                </button>
+                                            </div>
+                                            <div class="tabContent_btm row g-3">
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">20-50%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Downtime Reduction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-30%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Cost Savings</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-20%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Improved Operational Efficiency</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">5-15%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Enhanced Revenues</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                     <!-- 2 -->
-                                    <div class="tab-pane fade" id="v-banking" role="tabpanel"
+                                    <div class="commonTabVert_mid_tab tab-pane fade" id="v-banking" role="tabpanel"
                                         aria-labelledby="v-banking-tab" tabindex="0">
-                                        <img src="<?php echo IMAGES_URL?>/"/>
+                                        <div class="tabContent position-relative">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/banking.png"
+                                                alt="banking" />
+                                            <div class="tabContent_cnt">
+                                                <h3>Move beyond just counting and calculating.</h3>
+                                                <button class="btn btn-warning btn-rounded position-relative">
+                                                    Know More
+                                                    <em class="icon-arrow-right"></em>
+                                                </button>
+                                            </div>
+                                            <div class="tabContent_btm row g-3">
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-20%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Reduced Operational Costs</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-40%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Financial Risk Reduction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">20-40%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Improved Regulatory Compliance</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-25%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Higher Customer Satisfaction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="tab-pane fade" id="departments" role="tabpanel" aria-labelledby="departments-tab"
                             tabindex="0">
-                            <div class="d-flex align-items-start">
-                                <!-- <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                            <div class="commonTabVert_mid commonBorder row align-items-start g-0">
+                                <div class="col-md-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
-                                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
-                                        data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
-                                        aria-selected="true">Home</button>
+                                    <button class="nav-link d-flex align-items-center active" id="v-manufacturing-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-manufacturing" type="button" role="tab"
+                                        aria-controls="v-manufacturing" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/tool.png" height="28"
+                                                alt="tool" />
+                                        </div>
+                                        Manufacturing
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-banking-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-banking" type="button" role="tab"
+                                        aria-controls="v-banking" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/bank.png" height="28"
+                                                alt="bank" />
+                                        </div>
+                                        Banking, Finance & Insurance
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-telecom-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-telecom" type="button" role="tab"
+                                        aria-controls="v-telecom" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/phone.png" height="28"
+                                                alt="phone" />
+                                        </div>
+                                        Telecom
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-retail-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-retail" type="button" role="tab"
+                                        aria-controls="v-retail" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/shopping-cart.png"
+                                                height="28" alt="shopping-cart" />
+                                        </div>
+                                        Retail
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-healthcare-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-healthcare" type="button" role="tab"
+                                        aria-controls="v-healthcare" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/heart-pulse.png"
+                                                height="28" alt="heart-pulse" />
+                                        </div>
+                                        Healthcare
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-pharma-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-pharma" type="button" role="tab"
+                                        aria-controls="v-pharma" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/pills.png" height="28"
+                                                alt="pills" />
+                                        </div>
+                                        Pharma
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-hospitality-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-hospitality" type="button" role="tab"
+                                        aria-controls="v-hospitality" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/bed.png" width="29"
+                                                height="20" alt="bed" />
+                                        </div>
+                                        Hospitality
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-textiles-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-textiles" type="button" role="tab"
+                                        aria-controls="v-textiles" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/football-shirt.png"
+                                                height="28" alt="football-shirt" />
+                                        </div>
+                                        Textiles
+                                    </button>
+
+                                    <button class="nav-link d-flex align-items-center" id="v-oil-gas-tab"
+                                        data-bs-toggle="pill" data-bs-target="#v-oil-gas" type="button" role="tab"
+                                        aria-controls="v-oil-gas" aria-selected="true">
+                                        <div class="iconBox">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/icons/flask-round.png"
+                                                height="28" alt="flask-round" />
+                                        </div>
+                                        Oil & Gas
+                                    </button>
+
                                 </div>
-                                <div class="tab-content" id="v-pills-tabContent">
-                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                                        aria-labelledby="v-pills-home-tab" tabindex="0">...</div>
-                                </div> -->
+                                <div class="col-md-8 tab-content" id="v-pills-tabContent">
+                                    <!-- 1 -->
+                                    <div class="commonTabVert_mid_tab tab-pane fade show active" id="v-manufacturing"
+                                        role="tabpanel" aria-labelledby="v-manufacturing-tab" tabindex="0">
+                                        <div class="tabContent position-relative">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/manufacturing.png"
+                                                alt="manufacturing" />
+                                            <div class="tabContent_cnt">
+                                                <h3>Redefine what’s possible in production.</h3>
+                                                <button class="btn btn-warning btn-rounded position-relative">
+                                                    Know More
+                                                    <em class="icon-arrow-right"></em>
+                                                </button>
+                                            </div>
+                                            <div class="tabContent_btm row g-3">
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">20-50%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Downtime Reduction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-30%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Cost Savings</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-20%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Improved Operational Efficiency</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">5-15%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Enhanced Revenues</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- 2 -->
+                                    <div class="commonTabVert_mid_tab tab-pane fade" id="v-banking" role="tabpanel"
+                                        aria-labelledby="v-banking-tab" tabindex="0">
+                                        <div class="tabContent position-relative">
+                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/banking.png"
+                                                alt="banking" />
+                                            <div class="tabContent_cnt">
+                                                <h3>Move beyond just counting and calculating.</h3>
+                                                <button class="btn btn-warning btn-rounded position-relative">
+                                                    Know More
+                                                    <em class="icon-arrow-right"></em>
+                                                </button>
+                                            </div>
+                                            <div class="tabContent_btm row g-3">
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-20%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Reduced Operational Costs</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-40%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Financial Risk Reduction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">20-40%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Improved Regulatory Compliance</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class="btmCard w-100">
+                                                        <div class="btmCard_head d-flex align-items-center">
+                                                            <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
+                                                                width="36" height="36" alt="icon"
+                                                                class="w-auto flex-shrink-0">
+                                                            <span class="btmCard_text">10-25%</span>
+                                                        </div>
+                                                        <div class="btmCard_btm">
+                                                            <p class="mb-0">Higher Customer Satisfaction</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -248,6 +681,109 @@
             </div>
         </section>
         <!--!! Use Cases that work - We've got you covered -->
+
+        <!-- Innovate with AIRA AI Agents -->
+        <section class="innovateSec py-80">
+            <div class="container">
+                <div class="commonHead text-center">
+                    <h2 class="commonHead_title">Innovate with AIRA AI Agents</h2>
+                </div>
+                <!-- innovate section 1  -->
+                <div class="row align-items-center py-80 pt-0">
+                    <div class="col-md-5">
+                        <h3 class="commonSubHead">All-in-one, All that you need</h3>
+                        <ul class="commonList">
+                            <li>Intuitive User Interface</li>
+                            <li>Real-time Data Integration</li>
+                            <li>Customizable AI Models</li>
+                            <li>Task-based AI Agents</li>
+                            <li>Interactive User Input Forms</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                        <div class="innovateSec_img position-relative">
+                            <img src="<?php echo IMAGES_URL ?>/homepage/innovate-1.png" class="w-100"
+                                alt="innovate-one" />
+                            <button class="btn btn-warning btn-rounded">
+                                Know More
+                                <em class="icon-arrow-right"></em>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- innovate section 2  -->
+                <div class="row align-items-center py-80 pt-0">
+                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                        <div class="innovateSec_img position-relative">
+                            <img src="<?php echo IMAGES_URL ?>/homepage/innovate-2.png" class="w-100"
+                            alt="innovate-one" />
+                            <button class="btn btn-warning btn-rounded right">
+                                Know More
+                                <em class="icon-arrow-right"></em>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ps-4">
+                        <h3 class="commonSubHead">Scale Generative AI to maximize business value</h3>
+                        <ul class="commonList">
+                            <li>Multi-LLM Support</li>
+                            <li>Flexible Adoption</li>
+                            <li>Ease of Deployment</li>
+                            <li>Multi-Database Selection </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- innovate section 3  -->
+                <div class="row align-items-center py-80 pt-0">
+                    <div class="col-md-5">
+                        <h3 class="commonSubHead">Make AIRA AI Agent your own Virtual Assistant</h3>
+                        <ul class="commonList">
+                            <li>24/7 Availability</li>
+                            <li>Instant Query Responses</li>
+                            <li>Action Initiation & Orchestration</li>
+                            <li>Third-party Integration</li>
+                            <li>Intelligent Case Routing</li>
+                            <li>Multilingual Support</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                        <div class="innovateSec_img position-relative">
+                            <img src="<?php echo IMAGES_URL ?>/homepage/innovate-3.png" class="w-100"
+                                alt="innovate-one" />
+                            <button class="btn btn-warning btn-rounded top">
+                                Know More
+                                <em class="icon-arrow-right"></em>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- innovate section 4  -->
+                <div class="row align-items-center">
+                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                        <div class="innovateSec_img position-relative">
+                            <img src="<?php echo IMAGES_URL ?>/homepage/innovate-4.png" class="w-100"
+                            alt="innovate-one" />
+                            <button class="btn btn-warning btn-rounded right">
+                                Know More
+                                <em class="icon-arrow-right"></em>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-md-5 ps-4">
+                        <h3 class="commonSubHead">Automated Document handling with AIRA IDP</h3>
+                        <ul class="commonList">
+                            <li>Multi-Format Support</li>
+                            <li>Document Segregation</li>
+                            <li>Multi-Language Support</li>
+                            <li>Table Extraction </li>
+                            <li>Automated Validation Rules</li>
+                            <li>Rules-Based Extraction</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--!! Innovate with AIRA AI Agents -->
     </main>
     <!-- Footer Component -->
     <?php include 'include/footer.php' ?>

@@ -57,6 +57,13 @@
     filter: blur(60px);
     opacity: 0.55;
   }
+
+  &-sm{
+    &:after {
+      width: calc(100% + 100px);
+      top: 50%;
+    }
+  }
 }
 
 //common gradient border
