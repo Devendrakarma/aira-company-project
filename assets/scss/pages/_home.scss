@@ -25,6 +25,20 @@
             line-height: normal;
         }
     }
+
+    .swiper-slide {
+        position: relative;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+    }
+
+    .swiper-slide-active {
+        opacity: 1;
+    }
+
+    .swiper-slide:not(.swiper-slide-active) {
+        display: none;
+    }
 }
 
 .trustedSec {
@@ -94,6 +108,7 @@
         }
     }
 }
+
 .solutionHome {
     .solutionHomeCard {
         position: relative;
@@ -103,6 +118,7 @@
         border-radius: 30px;
         background-color: rgba(color(500), 0.41);
         @include transition(all 0.3s ease);
+
         &:after {
             content: "";
             position: absolute;
@@ -121,9 +137,11 @@
             mask-composite: exclude;
             z-index: -1;
         }
-        &_img{
+
+        &_img {
             border-radius: 30px;
         }
+
         img {
             height: 275px;
             object-fit: cover;
@@ -146,8 +164,8 @@
             }
         }
 
-        &:hover{
-            img{
+        &:hover {
+            img {
                 transform: scale(1.1);
                 @include transition(all 0.3s ease);
             }
@@ -155,29 +173,38 @@
     }
 }
 
-.ourWorks{
+.ourWorks {
     background-color: color(500);
-    &:before{
+
+    &:before {
         position: absolute;
-        width: 700px;height: 530px;
-        content: '';bottom: 0;right: 0;
+        width: 700px;
+        height: 530px;
+        content: '';
+        bottom: 0;
+        right: 0;
         background-image: url('#{$imageurl}/homepage/industries/background.png');
-        background-size: 100%;z-index: 1;
+        background-size: 100%;
+        z-index: 1;
     }
 }
 
-.innovateSec{
-    &_img{
-        .btn{
+.innovateSec {
+    &_img {
+        .btn {
             position: absolute;
             bottom: 20px;
             left: 50px;
-            &.top{
-                top: 25px;bottom: auto;
+
+            &.top {
+                top: 25px;
+                bottom: auto;
                 left: 25px;
             }
-            &.right{
-                left: auto;right: 25px;
+
+            &.right {
+                left: auto;
+                right: 25px;
             }
         }
     }
