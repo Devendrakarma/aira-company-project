@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'AI-In-Action' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'AI Agents' ?>
+    <?php include './../include/head-link.php' ?>
+    <?php include './../include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -20,11 +20,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">'AI-In-Action</li>
+                                <li class="breadcrumb-item active" aria-current="page">AI Agents</li>
                             </ol>
                         </nav>
-                         <h1>Ai</h1>
-               <h2> Real-time, data-driven AI analytics for enterprisess </h2>
+                        <h1>AI Agents</h1>
+                        <h2>Meet your new team members: AI Agents that learn your business from the inside out</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
@@ -35,34 +35,34 @@
 
         <section class="workflowAutomation py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Leading Your Organization into the Future</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Lwading Your Organization into the Future</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
-                            <h2>Intelligent Machine Learning</h2>
-                            <p>Machine Learning unlocks insights, enhances predictions, and drives efficiency through continuous learning. </p>
+                            <h2>Cognitive Capabilities</h2>
+                            <p>Empower your business with AI-driven intelligence; From Natural Language Processing (NLP) that understands human conversations to Intelligent Document Processing that extracts insights from images and documents, our AI agents bring human-like comprehension to automation. With speech recognition and deep learning, they continuously evolve, enabling smarter, more intuitive decision-making </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
-                            <h2>Future-Focused Predictive Analytics</h2>
-                            <p>Machine Learning anticipates trends, empowering businesses with insights for agility and success.</p>
+                            <h2>Process Automation & Orchestration</h2>
+                            <p>Unlock seamless process automation with AI-powered orchestration, whether it’s integrating Robotic Process Automation (RPA) for routine tasks or aligning with Business Process Management (BPM) for complex workflows, our AI agents ensure intelligent, efficient execution</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
-                            <h2>Enhanced Natural Language Processing</h2>
-                            <p>Enhanced NLP improves communication, enabling personalized experiences that boost satisfaction and loyalty. </p>
+                            <h2>Predictive & Prescriptive Analytics</h2>
+                            <p>Stay ahead of the curve with AI-powered predictive and prescriptive analytics! Leverage historical data to forecast trends, mitigate risks, and detect anomalies before they impact operations </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
-                            <h2>Seamless Advanced Automation</h2>
-                            <p>It streamlines workflows, boosts efficiency, and empowers growth with intuitive, cutting-edge technology.</p>
+                            <h2>Conversational & Interactive Capabilities</h2>
+                            <p>Deliver next-level customer experiences with AI-powered conversational interfaces, from intelligent chatbots that provide real-time assistance to multichannel AI-driven communication, our solutions ensure seamless interaction </p>
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm"> Insights for Decisions   </h2>
-                            <p>Gain actionable insights from data to drive informed decision-making, unlocking the power of information for strategic navigation. Harness the potential of data-driven insights as a compass in navigating complex scenarios, steering towards success.</p>
+                            <h2 class="text-42 font-sm"> Crafting Your AI Agents  </h2>
+                            <p>Crafting your AI Agents starts with mapping requirements, ensuring effective engagement, streamlined processes, and growth-driving capabilities. Every detail is designed for seamless integration and impactful performance, empowering your business.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
@@ -90,14 +90,14 @@
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Task Automation Boost </h2>
-                            <p> Automating repetitive tasks elevates efficiency and productivity. This streamlining liberates time for strategic initiatives, fostering innovation. With automation, businesses can seamlessly scale operations and accelerate success.</p>
+                            <h2 class="text-42 font-sm">Drag-&-Drop Automation </h2>
+                            <p> Our AI Agents adapt to users, offering seamless experiences across platforms. They understand individual needs, evolving with user behavior for engaging interactions. We prioritize dynamic, personalized engagement in the digital landscape.</p>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Personalized Customer </br> Engagement </h2>
-                            <p>Personalized customer engagement enhances connections by delivering tailored experiences. Through targeted messaging and customized offers, businesses anticipate needs, fostering satisfaction and brand advocacy.</p>
+                            <h2 class="text-42 font-sm">Seamless System Integration </br> Integration </h2>
+                            <p>Once your AI Agent is primed and ready, it's time to deploy it into action. Execute your digital strategy with precision, adaptability, and a keen understanding of your audience. Embrace opportunities and unleash the full potential of your digital initiatives.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
@@ -235,6 +235,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../include/footer.php' ?>
+    <?php include './../include/script.php' ?>
 
 </body>

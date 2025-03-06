@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Healthcare' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'Pharma' ?>
+    <?php include './../../include/head-link.php' ?>
+    <?php include './../../include/constant.php' ?>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -21,11 +21,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Retail</li>
+                                <li class="breadcrumb-item active" aria-current="page">BFSI</li>
                             </ol>
                         </nav>
-                        <h1>Healthcare</h1>
-                        <h2>Enhance care, streamline admin, and </br> enable faster diagnostics.</h2>
+                        <h1>Pharma</h1>
+                        <h2> Speed up discovery, ensure compliance,</br> and optimize supply chains.</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
@@ -36,70 +36,89 @@
 
         <section class="workflowSection py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Sample Healthcare Workflows</br> Automated through AIRA</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Sample Pharma Workflows</br> Automated through AIRA</h1>
                 <div class="row">
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Clinical Operations</h2>
+                            <h2>Research & Development</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Patient appointment scheduling and reminders</li>
-                                    <li>Patient registration and insurance verification</li>
-                                    <li>Medical records management and digitization</li>
-                                    <li>Clinical documentation processing</li>
-                                    <li>Lab results entry and distribution</li>
-                                    <li>Prescription refill processing</li>
-                                    <li>Care coordination between providers</li>
-                                    <li>Patient discharge processing</li>
+                                    <li>Account opening and KYC processing</li>
+                                    <li>Transaction reconciliation and reporting</li>
+                                    <li>Loan application processing and approval</li>
+                                    <li>Credit card application processing</li>
+                                    <li>Payment processing & settlements</li>
+                                    <li>Account maintenance & updates</li>
+                                    <li>Statement generation and distribution</li>
+                                    <li>Fraud detection alert processing</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Revenue Cycle Management</h2>
+                            <h2>Manufacturing & Quality</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Insurance eligibility verification</li>
-                                    <li>Prior authorization processing</li>
-                                    <li>Claims preparation and submission</li>
-                                    <li>Claims status tracking and follow-up</li>
-                                    <li>Payment posting & reconciliation</li>
-                                    <li>Denial management</li>
-                                    <li>Patient billing and collections</li>
-                                    <li>Accounts receivable monitoring</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="workflowBox">
-                            <h2>Administrative Tasks</h2>
-                            <div class="workflowBox_inner">
-                                <ul class="list-unstyled">
-                                    <li>Staff scheduling and credentialing</li>
-                                    <li>Vendor contract management</li>
-                                    <li>Inventory tracking and supply chain management</li>
+                                    <li>Policy quotation and issuance</li>
+                                    <li>Premium calculation and collection</li>
+                                    <li>Claims processing and verification</li>
+                                    <li>Policy renewal processing</li>
+                                    <li>Insurance document verification</li>
+                                    <li>Underwriting data collection</li>
+                                    <li>Agent commission calculations</li>
                                     <li>Regulatory compliance reporting</li>
-                                    <li>Quality metrics reporting</li>
-                                    <li>Audit preparation & documentation</li>
-                                    <li>HR onboarding/offboarding processes</li>
-                                    <li>Email & notification management</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Data Management</h2>
+                            <h2>Supply Chain & Distribution</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Data entry & validation across systems</li>
-                                    <li>Report generation and distribution</li>
-                                    <li>Data migration between systems</li>
-                                    <li>System integration and synchronization</li>
-                                    <li>Analytics and dashboard updates</li>
-                                    <li>Backup and archiving processes</li>
+                                    <li>Trade settlement processing</li>
+                                    <li>Portfolio performance reporting</li>
+                                    <li>Client onboarding and KYC</li>
+                                    <li>Risk assessment reporting</li>
+                                    <li>Market data analysis and reporting</li>
+                                    <li>NAV calculations</li>
+                                    <li>NAV calculations</li>
+                                    <li>Financial statement analysis</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="workflowBox">
+                            <h2>Regulatory Compliance</h2>
+                            <div class="workflowBox_inner">
+                                <ul class="list-unstyled">
+                                    <li>AML (Anti-Money Laundering) checks</li>
+                                    <li>Regulatory report generation</li>
+                                    <li>Audit documentation preparation</li>
+                                    <li>Risk monitoring and reporting</li>
+                                    <li>Compliance verification checks</li>
+                                    <li>Suspicious activity reporting</li>
+                                    <li>License and certification tracking</li>
+                                    <li>Policy enforcement monitoring</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="workflowBox">
+                            <h2>Pharmacovigilance</h2>
+                            <div class="workflowBox_inner">
+                                <ul class="list-unstyled">
+                                    <li>Adverse event case processing</li>
+                                    <li>Safety signal detection</li>
+                                    <li>Literature screening</li>
+                                    <li>Regulatory reporting</li>
+                                    <li>Medical coding</li>
+                                    <li>Safety database updates</li>
+                                    <li>Follow-up processing </li>
+                                    <li>Periodic safety report generation</li>
                                 </ul>
                             </div>
                         </div>
@@ -112,9 +131,9 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 tranformingManufacture_left">
-                        <h1 class="text-42 font-bd">Healthcare </br> Solutions by AIRA</h1>
+                        <h1 class="text-42 font-bd">Pharma Industry Solutions</h1>
                         <p>
-                        The healthcare industry faces ever-growing challenges, from improving patient outcomes to optimizing operations and controlling costs. AIRA offers innovative AI-powered solutions to revolutionize healthcare delivery, enabling data-driven decision-making, operational efficiency, and patient-centric care. Discover how AIRA’s advanced technologies can transform your healthcare operations.
+                        The pharmaceutical industry faces constant challenges to optimize production, ensure efficient supply chain management, and meet ever-evolving market demands. Our cutting-edge solutions empower pharmaceutical companies to stay ahead in the competitive landscape, leveraging predictive analytics, machine learning, and automation for informed decision-making.
                         </p>
                     </div>
                     <div class="col-md-6 tranformingManufacture_right">
@@ -126,34 +145,34 @@
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
                                         <span class="percentBox_text">10-20%</span>
                                     </div>
-                                    <div class="percentBox_body">Improved Resource Allocation</div>
+                                    <div class="percentBox_body">Reduction in Inventory Costs</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-30%</span>
+                                        <span class="percentBox_text">2%-5%</span>
                                     </div>
-                                    <div class="percentBox_body">Improved Operational Efficiency</div>
+                                    <div class="percentBox_body">Enhanced Market Share</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">15-25%</span>
+                                        <span class="percentBox_text">20-30%</span>
                                     </div>
-                                    <div class="percentBox_body">Costs Savings</div>
+                                    <div class="percentBox_body">Reduced Launch Costs</div>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">30-70%</span>
+                                        <span class="percentBox_text">10-15%</span>
                                     </div>
-                                    <div class="percentBox_body">Improved Patient Outcomes</div>
+                                    <div class="percentBox_body">Enhanced Customer Satisfaction</div>
                                 </div>
                             </div>
                         </div>
@@ -164,14 +183,14 @@
 
         <section class="featuredAi py-80">
             <div class="container">
-                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Healthcare</h1>
+                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Pharma</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Early Disease Detection and Prevention
+                            <h2>Network Performance
                                  Optimization</h2>
-                            <p>Use Predictive models to identify patterns that indicate a high risk of developing chronic diseases, allowing doctors to recommend lifestyle changes early
+                            <p>Forecast network congestion or potential issues to proactively optimize bandwidth and manage network traffic to avoid disruptions
                             </p>
                             </div>
                         </div>
@@ -179,25 +198,25 @@
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Hospital Readmission Prediction
+                            <h2>Predictive Maintenance of Network Infrastructure
                             </h2>
-                            <p>Predict the likelihood of a patient being readmitted after discharge to help healthcare teams take preventive actions to reduce readmission rates </p>
+                            <p>Predict potential failures in network infrastructure (such as servers, routers, or telecom towers) so that maintenance can be scheduled before issues occur </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Predictive Staffing for Hospitals</h2>
-                            <p>Forecast patient admissions based on historical data, seasonal trends, and external factors like flu outbreaks to help optimize staffing levels and resource allocation </p>
+                            <h2>Capacity Planning & Resource Optimization</h2>
+                            <p>Forecast the future capacity needs for servers, base stations, data centers, network bandwidth, and other infrastructure for effective planning of future upgrades and expansions </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Reducing No-Shows and Appointment Optimization</h2>
-                            <p>Predict which patients are likely to miss appointments to help healthcare providers reduce no-show rates and optimize scheduling
+                            <h2>Demand Forecasting for Voice & Data Services</h2>
+                            <p>Predict demand for data and voice services to allow Telecom companies to allocate resources efficiently
                             </p>
                             </div>
                         </div>
@@ -205,25 +224,32 @@
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Emergency Room Visit Predictions</h2>
-                            <p>Forecast emergency room (ER) visit volumes so that hospitals may plan for surges and allocate resources accordingly</p>
+                            <h2>Fraud Detection & Prevention</h2>
+                            <p>Identify patterns of fraudulent activity in real-time so that Telecom companies can quickly detect and prevent fraud </p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Cost Prediction and Budgeting</h2>
-                            <p>Use Predictive models to forecast future spending on medical supplies and patient care to helps hospitals & clinics optimize budgets, reduce costs, and improve financial planning
-                            </p>
+                            <h2>Network Security & Cyber Threat Detection</h2>
+                            <p>Detect potential threats or vulnerabilities, and take immediate action to protect their network</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Predictive Supply Chain Management for Medical Supplies</h2>
-                            <p>Forecast demand to optimize the supply of medical equipment, drugs, and consumables to prevent shortages or overstock situations
+                            <h2>Proactive Customer Support</h2>
+                            <p>Anticipate customer issues, optimize service delivery, and enhance customer experience rather than waiting for customers to report problems</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="featuredBox">
+                            <div class="featuredBox_inner">
+                            <h2>Call Center Optimization</h2>
+                            <p>Optimize Call Center operations by forecasting call volumes, adjust staffing and predict which customers are likely to need support
                             </p>
                             </div>
                         </div>
@@ -551,8 +577,8 @@
         <section class="whyChoose py-80 pb-0">
             <div class="container">
                 <div class="whyChoose_inner">
-                    <h1 class="text-42 font-bd">Why Choose AIRA for Healthcare?</h1>
-                    <p>AIRA combines advanced AI, predictive analytics, and automation to address the most pressing challenges in healthcare. By leveraging our solutions, healthcare providers can enhance patient outcomes, reduce costs, and improve operational efficiency. Whether you aim to prevent diseases, optimize hospital operations, or streamline finances, AIRA empowers you to deliver exceptional care.
+                    <h1 class="text-42 font-bd">Why Choose AIRA for Pharma?</h1>
+                    <p>AIRA delivers data-driven insights and innovative solutions, tailored to the pharmaceutical industry's unique challenges. Our expertise in predictive analytics, automation, and machine learning ensures optimized operations, cost savings, and a competitive edge in the market.
                     </p>
                     <p><a href="#!">Contact AIRA</a> today to learn how we can help transform your operations.</p>
                 </div>
@@ -602,6 +628,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../../include/footer.php' ?>
+    <?php include './../../include/script.php' ?>
 
 </body>

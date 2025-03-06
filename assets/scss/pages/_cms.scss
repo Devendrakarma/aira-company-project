@@ -1,0 +1,50 @@
+.cmsPages {
+    h3 {
+        font-size: 28px;
+        font-family: font(bd);
+        margin-bottom: 25px;
+    }
+
+    h4 {
+        font-size: 22px;
+        font-family: font(sm);
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: color(600);
+        text-decoration: underline;
+    }
+
+    p {
+        font-size: 20px;
+        font-family: font(rg);
+        color: color(50);
+        margin-bottom: 25px;
+        line-height: 1.6;
+    }
+
+    ul {
+        list-style: none;
+        margin-bottom: 40px;
+        padding-left: 0;
+        li {
+            position: relative;
+            font-size: 20px;
+            font-family: font(rg);
+            color: color(50);
+            line-height: 1.6;
+            margin-bottom: 15px;
+            padding-left: 20px;
+            &:before {
+                position: absolute;
+                content: '';
+                width: 6px;
+                height: 6px;
+                background-color: color(50);
+                border-radius: 50%;
+                left: 0;top: 14px;
+            }
+        }
+    }
+}

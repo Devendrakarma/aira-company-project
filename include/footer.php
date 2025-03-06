@@ -23,14 +23,13 @@
                         <div class="col-md-3 col-6">
                             <h2>Product</h2>
                             <ul class="list-unstyled">
-                                <li><a href="workflow.php">Workflow</a></li>
-                                <li><a href="ai-agents.php">AI Agents</a></li>
-                                <li><a href="robotics-process-automation.php">Robotics Process Automation</a></li>
-                                <li><a href="ai-in-action.php">AI in Action</a></li>
-                                <li><a href="generative-ai.php">Generative AI</a></li>
-                                <li><a href="intelligent-document-processing.php">Intelligent Document Processing</a>
-                                </li>
-                                <li><a href="app-integration.php">App Integration</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/workflow.php">Workflow</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/ai-agents.php">AI Agents</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/robotics-process-automation.php">Robotics Process Automation</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/ai-in-action.php">AI in Action</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/generative-ai.php">Generative AI</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/intelligent-document-processing.php">Intelligent Document Processing</a></li>
+                                <li><a href="<?php echo BASE_URL?>/product/app-integration.php">App Integration</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
@@ -47,24 +46,24 @@
                         <div class="col-md-3 col-6">
                             <h2>Company</h2>
                             <ul class="list-unstyled">
-                                <li><a href="about-us.php">About Us</a></li>
-                                <li><a href="become-a-partner.php">Become a Partner</a></li>
-                                <li><a href="career.php">Career</a></li>
-                                <li><a href="contact-us.php">Contact Us</a></li>
-                                <li><a href="press-releases.php">Press Releases</a></li>
+                                <li><a href="<?php echo BASE_URL?>/company/about-us.php">About Us</a></li>
+                                <li><a href="<?php echo BASE_URL?>/company/become-a-partner.php">Become a Partner</a></li>
+                                <li><a href="<?php echo BASE_URL?>/company/career.php">Career</a></li>
+                                <li><a href="<?php echo BASE_URL?>/company/contact-us.php">Contact Us</a></li>
+                                <li><a href="<?php echo BASE_URL?>/company/press-releases.php">Press Releases</a></li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
                             <h2>Legal</h2>
                             <ul class="list-unstyled">
-                                <li><a href="disclaimer.php">Disclaimer</a></li>
-                                <li><a href="cookies-policy.php">Cookies Policy</a></li>
-                                <li><a href="privacy-policy.php">Privacy Policy</a></li>
-                                <li><a href="terms-of-use.php">Terms of Use</a></li>
-                                <li><a href="refund-policy.php">Refund Policy</a></li>
-                                <li><a href="trust-and-security.php">Trust and Security</a></li>
-                                <li><a href="compliance.php">Compliance</a></li>
-                                <li><a href="sitemap.php">Sitemap</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/disclaimer.php">Disclaimer</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/cookies-policy.php">Cookies Policy</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/privacy-policy.php">Privacy Policy</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/terms-of-use.php">Terms of Use</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/refund-policy.php">Refund Policy</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/trust-and-security.php">Trust and Security</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/compliance.php">Compliance</a></li>
+                                <li><a href="<?php echo BASE_URL?>/legal/sitemap.php">Sitemap</a></li>
                             </ul>
                         </div>
                     </div>
@@ -123,4 +122,3 @@
         </ul>
     </div> -->
 </footer>
-<?php include 'include/script.php' ?>

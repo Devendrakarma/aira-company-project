@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Generative AI' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'Intelligent Document Processing' ?>
+    <?php include './../include/head-link.php' ?>
+    <?php include './../include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -20,11 +20,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">Generative AI</li>
+                                <li class="breadcrumb-item active" aria-current="page">IDP</li>
                             </ol>
                         </nav>
-                         <h1>Generative AI</h1>
-               <h2>Harness the power of next-generation automation where Generative AI doesn't just execute tasks – it understands, adapts, and innovates</h2>
+                         <h1>Intelligent Document </br> Processing</h1>
+               <h2>Experience a cutting-edge AI-driven solution, designed to automate every step of your </br> document workflow seamlessly.</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
@@ -40,29 +40,29 @@
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
-                            <h2>Adaptive Learning</h2>
-                            <p>Adaptive learning empowers AI Agents to improve with every interaction, enabling more natural, human-like conversations for smoother and more helpful online experiences. </p>
+                            <h2>Automated Data Extraction</h2>
+                            <p>Our advanced algorithms can handle various document types, such as invoices, receipts, contracts, and emails. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
-                            <h2>Multi-LLM Support</h2>
-                            <p>Experience the power of choice with our intelligent automation platform that seamlessly orchestrates multiple Large Language Models to tackle your unique business challenges; Use specialized LLMs for specialized tasks, all through one seamless interface</p>
+                            <h2>Integration Capabilities</h2>
+                            <p>Seamlessly integrate with your existing systems and applications for a more cohesive workflow.  </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
-                            <h2>Multi-Channel Integration</h2>
-                            <p>Multi-channel integration delivers a seamless, consistent experience across platforms, enhancing brand loyalty by unifying AI Agents across social media, websites, and apps. </p>
+                            <h2>Document Classification</h2>
+                            <p>The system uses machine learning models to recognize different document types and classify them accordingly. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
-                            <h2>24/7 Availability</h2>
-                            <p>Your AI Agents ensure 24/7 availability, addressing customer queries anytime to build trust and reinforce your brand's commitment to excellence. </p>
+                            <h2>Customizable Workflows</h2>
+                            <p>We offer a flexible workflow engine that allows you to design and implement processes that align with your unique operational needs.  </p>
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm"> Crafting Your AI Agents  </h2>
-                            <p>Crafting your AI Agents starts with mapping requirements, ensuring effective engagement, streamlined processes, and growth-driving capabilities. Every detail is designed for seamless integration and impactful performance, empowering your business.</p>
+                            <h2 class="text-42 font-sm">Automate at Speed</h2>
+                            <p>Efficiently extract data from scanned documents, regardless of their format or source. Automate communication to minimize the need for manual follow-up on discrepancies. Additionally, filter out spam and duplicate documents to streamline your workflow.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
@@ -90,14 +90,14 @@
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Drag-&-Drop Automation </h2>
-                            <p> Our AI Agents adapt to users, offering seamless experiences across platforms. They understand individual needs, evolving with user behavior for engaging interactions. We prioritize dynamic, personalized engagement in the digital landscape.</p>
+                            <h2 class="text-42 font-sm">Adapt to Document Layout Changes</h2>
+                            <p>Our system, powered by advanced LLM technology, is trained on millions of complex transactional documents, ensuring accuracy and rapid learning. It adjusts seamlessly to various document styles, smoothly includes detailed inputs in validations, and adeptly handles intricate elements such as nested tables and grids.</p>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Seamless System Integration </br> Integration </h2>
-                            <p>Once your AI Agent is primed and ready, it's time to deploy it into action. Execute your digital strategy with precision, adaptability, and a keen understanding of your audience. Embrace opportunities and unleash the full potential of your digital initiatives.</p>
+                            <h2 class="text-42 font-sm">Consolidate Automation </br> within One Platform </h2>
+                            <p>Eliminate manual processes such as calculations, sorting, and endless email exchanges regarding your processed documents. Tailor automations to match your business requirements effortlessly through our intuitive low-code interface. Overcome communication barriers with external partners and ensure seamless sharing of real-time updates.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
@@ -235,6 +235,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../include/footer.php' ?>
+    <?php include './../include/script.php' ?>
 
 </body>

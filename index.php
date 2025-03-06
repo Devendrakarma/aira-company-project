@@ -924,6 +924,7 @@
     </main>
     <!-- Footer Component -->
     <?php include 'include/footer.php' ?>
+    <?php include 'include/script.php' ?>
     <script>
         var swiper = new Swiper(".fadeSlider", {
             spaceBetween: 30,

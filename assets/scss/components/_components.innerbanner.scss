@@ -5,6 +5,13 @@
     background-position: right center;
     padding: 153px 0px 49px;
     border-radius: 0 0 40px 40px;
+    &-sm{
+        background-image: none;
+        .breadcrumb{
+            margin-bottom: 40px;
+            left: 0px;
+        }
+    }
     .container{
         position: relative;
     }

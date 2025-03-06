@@ -2,15 +2,15 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Hospitality' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'BFSI' ?>
+    <?php include './../../include/head-link.php' ?>
+    <?php include './../../include/constant.php' ?>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -24,8 +24,8 @@
                                 <li class="breadcrumb-item active" aria-current="page">BFSI</li>
                             </ol>
                         </nav>
-                        <h1>Hospitality</h1>
-                        <h2>Accelerate innovation and drive </br>revenue growth while optimizing costs.</h2>
+                        <h1>BFSI</h1>
+                        <h2> Simplify processes, manage risks, and </br> enhance customer experiences.</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
@@ -36,89 +36,89 @@
 
         <section class="workflowSection py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Sample Hospitality Workflows</br> Automated through AIRA</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Sample BSFI Workflows Automated </br> through AIRA</h1>
                 <div class="row">
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Reservations & Bookings</h2>
+                            <h2>Banking Operation</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Reservation processing and confirmation</li>
-                                    <li>Room allocation management</li>
-                                    <li>Rate and availability updates</li>
-                                    <li>Group booking processing</li>
-                                    <li>Cancellation handling</li>
-                                    <li>Guest preference tracking</li>
-                                    <li>Travel agent commission processing</li>
-                                    <li>Booking data synchronization</li>
+                                    <li>Account opening and KYC processing</li>
+                                    <li>Transaction reconciliation and reporting</li>
+                                    <li>Loan application processing and approval</li>
+                                    <li>Credit card application processing</li>
+                                    <li>Payment processing & settlements</li>
+                                    <li>Account maintenance & updates</li>
+                                    <li>Statement generation and distribution</li>
+                                    <li>Fraud detection alert processing</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Front Office Operations</h2>
+                            <h2>Insurance Operations</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Guest check-in/check-out processing</li>
-                                    <li>Room status updates</li>
-                                    <li>Key card system management</li>
-                                    <li>Guest folio management</li>
-                                    <li>Late checkout processing</li>
-                                    <li>VIP guest handling</li>
-                                    <li>Lost and found tracking</li>
-                                    <li>Guest request management</li>
+                                    <li>Policy quotation and issuance</li>
+                                    <li>Premium calculation and collection</li>
+                                    <li>Claims processing and verification</li>
+                                    <li>Policy renewal processing</li>
+                                    <li>Insurance document verification</li>
+                                    <li>Underwriting data collection</li>
+                                    <li>Agent commission calculations</li>
+                                    <li>Regulatory compliance reporting</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Revenue Management</h2>
+                            <h2>Investment Banking</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Dynamic pricing updates</li>
-                                    <li>Competitor rate monitoring</li>
-                                    <li>Revenue forecasting reports</li>
-                                    <li>Occupancy analysis</li>
-                                    <li>Channel rate management</li>
-                                    <li>Package pricing updates</li>
-                                    <li>Promotion management</li>
-                                    <li>Performance reporting</li>
+                                    <li>Trade settlement processing</li>
+                                    <li>Portfolio performance reporting</li>
+                                    <li>Client onboarding and KYC</li>
+                                    <li>Risk assessment reporting</li>
+                                    <li>Market data analysis and reporting</li>
+                                    <li>NAV calculations</li>
+                                    <li>NAV calculations</li>
+                                    <li>Financial statement analysis</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Food & Beverage</h2>
+                            <h2>Regulatory Compliance</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Food & Beverage</li>
-                                    <li>Purchase order processing</li>
-                                    <li>Menu item costing</li>
-                                    <li>Recipe management</li>
-                                    <li>Supplier order processing</li>
-                                    <li>Stock reconciliation</li>
-                                    <li>Waste management reporting</li>
-                                    <li>Cost analysis reporting</li>
+                                    <li>AML (Anti-Money Laundering) checks</li>
+                                    <li>Regulatory report generation</li>
+                                    <li>Audit documentation preparation</li>
+                                    <li>Risk monitoring and reporting</li>
+                                    <li>Compliance verification checks</li>
+                                    <li>Suspicious activity reporting</li>
+                                    <li>License and certification tracking</li>
+                                    <li>Policy enforcement monitoring</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="workflowBox">
-                            <h2>Back Office Operations</h2>
+                            <h2>Customer Service</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Invoice processing</li>
-                                    <li>Payroll data management</li>
-                                    <li>Expense reporting</li>
-                                    <li>Vendor payment processing</li>
-                                    <li>Financial reconciliation</li>
-                                    <li>Staff scheduling</li>
-                                    <li>Maintenance request tracking </li>
-                                    <li>Compliance reporting</li>
+                                    <li>Customer order processing</li>
+                                    <li>Service request management</li>
+                                    <li>Address and contact updates</li>
+                                    <li>Document verification and processing</li>
+                                    <li>Customer communication automation</li>
+                                    <li>Complaint resolution tracking</li>
+                                    <li>Customer feedback analysis </li>
+                                    <li>Service level monitoring</li>
                                 </ul>
                             </div>
                         </div>
@@ -131,32 +131,14 @@
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-md-6 tranformingManufacture_left">
-                        <h1 class="text-42 font-bd">Transforming Hospitality with AI-Powered Solutions</h1>
+                        <h1 class="text-42 font-bd">Empowering Banking and Finance with Intelligent Solutions</h1>
                         <p>
-                        In the dynamic world of hospitality, creating exceptional guest experiences while optimizing operations is key to staying competitive. Our AI-driven solutions empower hotels and resorts to achieve operational excellence, boost revenue, and enhance guest satisfaction through predictive analytics and innovative automation.
+                        At AIRA, we revolutionize how Banking, Financial Services, and Insurance (BFSI) organizations operate. By leveraging cutting-edge AI, machine learning, and data analytics, we help institutions streamline operations, mitigate risks, enhance customer experiences, and drive sustainable growth. Discover our key solutions tailored for BFSI needs:
                         </p>
                     </div>
                     <div class="col-md-6 tranformingManufacture_right">
                         <h2>Some Typical Benefits:</h2>
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-20%</span>
-                                    </div>
-                                    <div class="percentBox_body">Increased Revenues</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">15-25%</span>
-                                    </div>
-                                    <div class="percentBox_body"> Enhanced Brand Perception</div>
-                                </div>
-                            </div>
                             <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
@@ -170,9 +152,27 @@
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">10-40%</span>
+                                    </div>
+                                    <div class="percentBox_body">Financial Risk Reduction</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">20-40%</span>
+                                    </div>
+                                    <div class="percentBox_body">Improved Regulatory Compliance</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
                                         <span class="percentBox_text">10-25%</span>
                                     </div>
-                                    <div class="percentBox_body">Increased Operational Efficiency</div>
+                                    <div class="percentBox_body">Higher Customer Satisfaction</div>
                                 </div>
                             </div>
                         </div>
@@ -183,7 +183,7 @@
 
         <section class="featuredAi py-80">
             <div class="container">
-                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Hospitality</h1>
+                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for BSFI</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="featuredBox">
@@ -577,8 +577,8 @@
         <section class="whyChoose py-80 pb-0">
             <div class="container">
                 <div class="whyChoose_inner">
-                    <h1 class="text-42 font-bd">Why Choose AIRA for Hospitality?</h1>
-                    <p>Embrace the power of AI to streamline operations, exceed guest expectations, and stay ahead in a competitive market. Let us help you deliver exceptional experiences while maximizing your profitability.
+                    <h1 class="text-42 font-bd">Why Choose AIRA for BSFI?</h1>
+                    <p>At AIRA, we combine deep industry expertise with a keen understanding of the unique challenges and opportunities within the BFSI sector. Powered by advanced AI, machine learning, and data analytics, we deliver actionable insights that drive innovation, optimize processes, and reduce risks. Our solutions have a proven impact—helping businesses achieve significant improvements in cost optimization, risk management, and customer satisfaction.
                     </p>
                     <p><a href="#!">Contact AIRA</a> today to learn how we can help transform your operations.</p>
                 </div>
@@ -628,6 +628,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../../include/footer.php' ?>
+    <?php include './../../include/script.php' ?>
 
 </body>

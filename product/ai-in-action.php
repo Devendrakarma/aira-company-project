@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'IDP' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'AI-In-Action' ?>
+    <?php include './../include/head-link.php' ?>
+    <?php include './../include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -20,11 +20,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">IDP</li>
+                                <li class="breadcrumb-item active" aria-current="page">'AI-In-Action</li>
                             </ol>
                         </nav>
-                         <h1>Intelligent Document </br> Processing</h1>
-               <h2>Experience a cutting-edge AI-driven solution, designed to automate every step of your </br> document workflow seamlessly.</h2>
+                         <h1>Ai</h1>
+               <h2> Real-time, data-driven AI analytics for enterprisess </h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
@@ -35,34 +35,34 @@
 
         <section class="workflowAutomation py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">More Features</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Leading Your Organization into the Future</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
-                            <h2>Automated Data Extraction</h2>
-                            <p>Our advanced algorithms can handle various document types, such as invoices, receipts, contracts, and emails. </p>
+                            <h2>Intelligent Machine Learning</h2>
+                            <p>Machine Learning unlocks insights, enhances predictions, and drives efficiency through continuous learning. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
-                            <h2>Integration Capabilities</h2>
-                            <p>Seamlessly integrate with your existing systems and applications for a more cohesive workflow.  </p>
+                            <h2>Future-Focused Predictive Analytics</h2>
+                            <p>Machine Learning anticipates trends, empowering businesses with insights for agility and success.</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
-                            <h2>Document Classification</h2>
-                            <p>The system uses machine learning models to recognize different document types and classify them accordingly. </p>
+                            <h2>Enhanced Natural Language Processing</h2>
+                            <p>Enhanced NLP improves communication, enabling personalized experiences that boost satisfaction and loyalty. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
-                            <h2>Customizable Workflows</h2>
-                            <p>We offer a flexible workflow engine that allows you to design and implement processes that align with your unique operational needs.  </p>
+                            <h2>Seamless Advanced Automation</h2>
+                            <p>It streamlines workflows, boosts efficiency, and empowers growth with intuitive, cutting-edge technology.</p>
                         </div>
                     </div>
                 </div>
@@ -78,8 +78,8 @@
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Automate at Speed</h2>
-                            <p>Efficiently extract data from scanned documents, regardless of their format or source. Automate communication to minimize the need for manual follow-up on discrepancies. Additionally, filter out spam and duplicate documents to streamline your workflow.</p>
+                            <h2 class="text-42 font-sm"> Insights for Decisions   </h2>
+                            <p>Gain actionable insights from data to drive informed decision-making, unlocking the power of information for strategic navigation. Harness the potential of data-driven insights as a compass in navigating complex scenarios, steering towards success.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
@@ -90,14 +90,14 @@
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Adapt to Document Layout Changes</h2>
-                            <p>Our system, powered by advanced LLM technology, is trained on millions of complex transactional documents, ensuring accuracy and rapid learning. It adjusts seamlessly to various document styles, smoothly includes detailed inputs in validations, and adeptly handles intricate elements such as nested tables and grids.</p>
+                            <h2 class="text-42 font-sm">Task Automation Boost </h2>
+                            <p> Automating repetitive tasks elevates efficiency and productivity. This streamlining liberates time for strategic initiatives, fostering innovation. With automation, businesses can seamlessly scale operations and accelerate success.</p>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Consolidate Automation </br> within One Platform </h2>
-                            <p>Eliminate manual processes such as calculations, sorting, and endless email exchanges regarding your processed documents. Tailor automations to match your business requirements effortlessly through our intuitive low-code interface. Overcome communication barriers with external partners and ensure seamless sharing of real-time updates.</p>
+                            <h2 class="text-42 font-sm">Personalized Customer </br> Engagement </h2>
+                            <p>Personalized customer engagement enhances connections by delivering tailored experiences. Through targeted messaging and customized offers, businesses anticipate needs, fostering satisfaction and brand advocacy.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
@@ -235,6 +235,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../include/footer.php' ?>
+    <?php include './../include/script.php' ?>
 
 </body>

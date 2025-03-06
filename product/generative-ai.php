@@ -2,14 +2,14 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'App Integration' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
+    <?php $pageTitle = 'Generative AI' ?>
+    <?php include './../include/head-link.php' ?>
+    <?php include './../include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../include/header.php' ?>
     <main class="mainContent">
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
@@ -20,11 +20,11 @@
                                 <li class="breadcrumb-item"><a href="#">Home</a></li>
                                 <li class="breadcrumb-item"><a href="#">Solutions</a></li>
                                 <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">'App Integration</li>
+                                <li class="breadcrumb-item active" aria-current="page">Generative AI</li>
                             </ol>
                         </nav>
-                         <h1>App Integration </h1>
-                         <h2>Empower Your Workflow with AIRA's App Integration Solutions
+                         <h1>Generative AI</h1>
+               <h2>Harness the power of next-generation automation where Generative AI doesn't just execute tasks – it understands, adapts, and innovates</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
@@ -35,34 +35,34 @@
 
         <section class="workflowAutomation py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Explore Enhanced App Integration Features </h1>
+                <h1 class="text-42 text-center font-bd mb-50">More Features</h1>
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
-                            <h2>Intelligent Data Sync
-                            <p>Say goodbye to delays and discrepancies as updates are instantaneously propagated throughout your ecosystem. 
+                            <h2>Adaptive Learning</h2>
+                            <p>Adaptive learning empowers AI Agents to improve with every interaction, enabling more natural, human-like conversations for smoother and more helpful online experiences. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
-                            <h2>Cross-Platform Compatibility</h2>
-                            <p>It makes collaborating easy and ensures everyone can access and use the apps they need, no matter what device they have.
+                            <h2>Multi-LLM Support</h2>
+                            <p>Experience the power of choice with our intelligent automation platform that seamlessly orchestrates multiple Large Language Models to tackle your unique business challenges; Use specialized LLMs for specialized tasks, all through one seamless interface</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
-                            <h2>AI-Powered Automation </h2>
-                            <p>AI-powered automation frees time from mundane tasks, enabling teams to focus on innovation and strategy. </p>
+                            <h2>Multi-Channel Integration</h2>
+                            <p>Multi-channel integration delivers a seamless, consistent experience across platforms, enhancing brand loyalty by unifying AI Agents across social media, websites, and apps. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox">
                             <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
-                            <h2>Robust Security Measures </h2>
-                            <p>AIRA secures your data with advanced protocols, ensuring confidentiality and integrity across systems.</p>
+                            <h2>24/7 Availability</h2>
+                            <p>Your AI Agents ensure 24/7 availability, addressing customer queries anytime to build trust and reinforce your brand's commitment to excellence. </p>
                         </div>
                     </div>
                 </div>
@@ -78,10 +78,8 @@
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Effortless Compatibility </h2>
-                            <p>AIRA Intelligent Automation Solution seamlessly integrates with Input/Output source systems  
-                       </br>
-                        AIRA Integration framework includes Native connectors for an ever-increasing list of IT systems. This ensures quick and efficient connectivity with these systems for data availability as well as automation orchestration </p>
+                            <h2 class="text-42 font-sm"> Crafting Your AI Agents  </h2>
+                            <p>Crafting your AI Agents starts with mapping requirements, ensuring effective engagement, streamlined processes, and growth-driving capabilities. Every detail is designed for seamless integration and impactful performance, empowering your business.</p>
                         </div>
                         <div class="col-md-6">
                             <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
@@ -92,10 +90,18 @@
                             <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
                         </div>
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Efficient Adaptability </h2>
-                            <p> For systems not yet having Native connectivity with AIRA, a plug-and-play integration/adaptation layer consisting of a wide range of connectivity options is made available.</p>
+                            <h2 class="text-42 font-sm">Drag-&-Drop Automation </h2>
+                            <p> Our AI Agents adapt to users, offering seamless experiences across platforms. They understand individual needs, evolving with user behavior for engaging interactions. We prioritize dynamic, personalized engagement in the digital landscape.</p>
                         </div>
                     </div>
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="text-42 font-sm">Seamless System Integration </br> Integration </h2>
+                            <p>Once your AI Agent is primed and ready, it's time to deploy it into action. Execute your digital strategy with precision, adaptability, and a keen understanding of your audience. Embrace opportunities and unleash the full potential of your digital initiatives.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
+                        </div>
                     </div>
                 </div>
             </div>
@@ -229,6 +235,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../include/footer.php' ?>
+    <?php include './../include/script.php' ?>
 
 </body>
