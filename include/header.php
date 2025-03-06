@@ -18,13 +18,13 @@
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item dropdown dropdown-solution">
                         <a class="nav-link" data-bs-toggle="dropdown" aria-current="page"
-                            href="<?php echo BASE_URL ?>/">Product</a>
+                            href="javscript:void(0)">Product</a>
                         <div class="dropdown-menu">
                             <div class="row">
                                 <div class="col-md-12">
                                     <ul class="list-unstyled">
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/workflow.php">
+                                            <a href="<?php echo BASE_URL ?>/product/workflow.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-grid"></em>
                                                 </span>
@@ -32,7 +32,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/ai-agents.php">
+                                            <a href="<?php echo BASE_URL ?>/product/ai-agents.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-chat-settings"></em>
                                                 </span>
@@ -40,7 +40,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/ai-in-action.php">
+                                            <a href="<?php echo BASE_URL ?>/product/ai-in-action.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-magicoon"></em>
                                                 </span>
@@ -48,7 +48,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/intelligent-document-processing.php">
+                                            <a href="<?php echo BASE_URL ?>/product/intelligent-document-processing.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-note-list"></em>
                                                 </span>
@@ -56,7 +56,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/robotics-process-automation.php">
+                                            <a href="<?php echo BASE_URL ?>/product/robotics-process-automation.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-cpu"></em>
                                                 </span>
@@ -64,7 +64,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/generative-ai.php">
+                                            <a href="<?php echo BASE_URL ?>/product/generative-ai.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-brain"></em>
                                                 </span>
@@ -72,7 +72,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/app-integration.php">
+                                            <a href="<?php echo BASE_URL ?>/product/app-integration.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-folder-settings"></em>
                                                 </span>
@@ -95,7 +95,7 @@
                                         <div class="col-md-12">
                                             <ul class="list-unstyled">
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/manufacturing.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/manufacturing.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-tool"></em>
                                                         </span>
@@ -103,7 +103,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/bfsi.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-bank"></em>
                                                         </span>
@@ -112,7 +112,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/telecom.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/telecom.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-phone"></em>
                                                         </span>
@@ -120,7 +120,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/retail.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/retail.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-shopping-cart"></em>
                                                         </span>
@@ -128,7 +128,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/healthcare.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/healthcare.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-heart-pulse"></em>
                                                         </span>
@@ -136,7 +136,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/pharma.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/pharma.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-pills"></em>
                                                         </span>
@@ -144,7 +144,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/hospitality.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/hospitality.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-bed"></em>
                                                         </span>
@@ -152,7 +152,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/textiles.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/textiles.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-football-shirt"></em>
                                                         </span>
@@ -160,7 +160,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/oil-gas.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/oil-gas.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-flask-round"></em>
                                                         </span>
@@ -177,7 +177,7 @@
                                         <div class="col-md-12">
                                             <ul class="list-unstyled">
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/data-center.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/datacenter.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-database"></em>
                                                         </span>
@@ -185,7 +185,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/it-department.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/it-department.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-laptop-code"></em>
                                                         </span>
@@ -193,7 +193,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/finance.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/finance.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-dollar-square"></em>
                                                         </span>
@@ -201,7 +201,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/sales-and-marketing.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/sales-and-marketing.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-chart-pie"></em>
                                                         </span>
@@ -209,7 +209,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/customer-support.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/customer-support.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-hand-holding-user"></em>
                                                         </span>
@@ -217,7 +217,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/hr.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/hr.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-file-search"></em>
                                                         </span>
@@ -225,7 +225,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/logistics.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/logistics.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-truck"></em>
                                                         </span>
@@ -233,7 +233,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/supply-chain.php">
+                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/supply-chain.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-box-check"></em>
                                                         </span>

@@ -2,32 +2,32 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'BFSI' ?>
-    <?php include 'include/head-link.php' ?>
-    <?php include 'include/constant.php' ?>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <?php $pageTitle = 'Supply Chain'?>
+    <?php include './../../include/head-link.php' ?>
+    <?php include './../../include/constant.php' ?>
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../../include/header.php' ?>
     <main class="mainContent">
+
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="#">Home</a></li>
+                        <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                        <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Supply chain</a></li>
+                    </ol>
+                </nav>
                 <div class="row align-items-center">
-                    <div class="col-md-4 innerBanner_left">
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">BFSI</li>
-                            </ol>
-                        </nav>
-                        <h1>BFSI</h1>
-                        <h2> Simplify processes, manage risks, and </br> enhance customer experiences.</h2>
+                    <div class="col-sm-6 col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4 order-sm-1 order-2 innerBanner_left">
+                        <h1>Supply Chain</h1>
+                        <h2>Optimize operations, reduce costs, </br> and ensure seamless product flow..</h2>
                     </div>
-                    <div class="col-md-8 innerBanner_right">
+                    <div class="col-sm-6 col-12d-6 col-lg-6  col-xl-6 col-xxl-8 order-sm-2 order-1 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
                     </div>
                 </div>
@@ -36,89 +36,89 @@
 
         <section class="workflowSection py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Sample BSFI Workflows Automated </br> through AIRA</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Sample Supply Chain Workflows </br> Automated through AIRA</h1>
                 <div class="row">
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
-                            <h2>Banking Operation</h2>
+                            <h2>Procurement Operations</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Account opening and KYC processing</li>
-                                    <li>Transaction reconciliation and reporting</li>
-                                    <li>Loan application processing and approval</li>
-                                    <li>Credit card application processing</li>
-                                    <li>Payment processing & settlements</li>
-                                    <li>Account maintenance & updates</li>
-                                    <li>Statement generation and distribution</li>
-                                    <li>Fraud detection alert processing</li>
+                                    <li>Purchase order creation and tracking</li>
+                                    <li>Vendor registration processing</li>
+                                    <li>Price comparison analysis</li>
+                                    <li>Contract management</li>
+                                    <li>RFQ (Request for Quote) processing</li>
+                                    <li>Supplier performance tracking</li>
+                                    <li>Payment processing</li>
+                                    <li>Spend analysis reporting</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
-                            <h2>Insurance Operations</h2>
+                            <h2>Payroll & Benefits</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Policy quotation and issuance</li>
-                                    <li>Premium calculation and collection</li>
-                                    <li>Claims processing and verification</li>
-                                    <li>Policy renewal processing</li>
-                                    <li>Insurance document verification</li>
-                                    <li>Underwriting data collection</li>
-                                    <li>Agent commission calculations</li>
-                                    <li>Regulatory compliance reporting</li>
+                                    <li>Timesheet validation</li>
+                                    <li>Leave balance tracking</li>
+                                    <li>Attendance processing</li>
+                                    <li>Payroll calculations</li>
+                                    <li>Benefits enrollment</li>
+                                    <li>Insurance updates</li>
+                                    <li>Tax documentation</li>
+                                    <li>Expense reimbursement</li> 
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
-                            <h2>Investment Banking</h2>
+                            <h2>Employee Management</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Trade settlement processing</li>
-                                    <li>Portfolio performance reporting</li>
-                                    <li>Client onboarding and KYC</li>
-                                    <li>Risk assessment reporting</li>
-                                    <li>Market data analysis and reporting</li>
-                                    <li>NAV calculations</li>
-                                    <li>NAV calculations</li>
-                                    <li>Financial statement analysis</li>
+                                    <li>Personnel file maintenance</li>
+                                    <li>Performance review tracking</li>
+                                    <li>Training record management</li>
+                                    <li>Certification tracking</li>
+                                    <li>Employee data updates</li>
+                                    <li>Transfer processing</li>
+                                    <li>Promotion documentation</li>
+                                    <li>Exit processing</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
-                            <h2>Regulatory Compliance</h2>
+                            <h2>Order Management</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>AML (Anti-Money Laundering) checks</li>
-                                    <li>Regulatory report generation</li>
-                                    <li>Audit documentation preparation</li>
-                                    <li>Risk monitoring and reporting</li>
-                                    <li>Compliance verification checks</li>
-                                    <li>Suspicious activity reporting</li>
-                                    <li>License and certification tracking</li>
-                                    <li>Policy enforcement monitoring</li>
+                                    <li>Order entry and validation</li>
+                                    <li>Order status tracking</li>
+                                    <li>Back-order management</li>
+                                    <li>Invoice reconciliation</li>
+                                    <li>Return processing</li>
+                                    <li>Customer communication</li>
+                                    <li>Order fulfillment tracking</li>
+                                    <li>Delivery confirmation</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col col-lg-4 col-md-4 col-sm-6">
                         <div class="workflowBox">
-                            <h2>Customer Service</h2>
+                            <h2>Quality & Compliance</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Customer order processing</li>
-                                    <li>Service request management</li>
-                                    <li>Address and contact updates</li>
-                                    <li>Document verification and processing</li>
-                                    <li>Customer communication automation</li>
-                                    <li>Complaint resolution tracking</li>
-                                    <li>Customer feedback analysis </li>
-                                    <li>Service level monitoring</li>
+                                    <li>Quality inspection reports</li>
+                                    <li>Compliance documentation</li>
+                                    <li>Audit trail maintenance</li>
+                                    <li>Certificate management</li>
+                                    <li>Non-conformance tracking</li>
+                                    <li>Corrective action monitoring</li>
+                                    <li>Standard operating procedure updates</li>
+                                    <li>Regulatory reporting</li>
                                 </ul>
                             </div>
                         </div>
@@ -130,49 +130,49 @@
         <section class="tranformingManufacture">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6 tranformingManufacture_left">
-                        <h1 class="text-42 font-bd">Empowering Banking and Finance with Intelligent Solutions</h1>
+                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_left">
+                        <h1 class="text-42 font-bd">Optimize Your Supply Chain with AIRA’s AI-Driven Solutions</h1>
                         <p>
-                        At AIRA, we revolutionize how Banking, Financial Services, and Insurance (BFSI) organizations operate. By leveraging cutting-edge AI, machine learning, and data analytics, we help institutions streamline operations, mitigate risks, enhance customer experiences, and drive sustainable growth. Discover our key solutions tailored for BFSI needs:
+                        In today’s fast-paced and competitive market, supply chain efficiency is critical to business success. AIRA’s advanced AI-powered solutions empower supply chain teams to predict, optimize, and automate key processes—from demand forecasting and inventory management to route optimization and supplier performance. By leveraging cutting-edge machine learning algorithms and real-time data analytics, AIRA transforms your supply chain into a highly efficient, resilient, and future-ready operation.
                         </p>
                     </div>
-                    <div class="col-md-6 tranformingManufacture_right">
+                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_right">
                         <h2>Some Typical Benefits:</h2>
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-20%</span>
+                                        <span class="percentBox_text">10-30%</span>
                                     </div>
-                                    <div class="percentBox_body">Reduced Operational Costs</div>
+                                    <div class="percentBox_body">Inventory Costs Reduction</div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-40%</span>
-                                    </div>
-                                    <div class="percentBox_body">Financial Risk Reduction</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">20-40%</span>
-                                    </div>
-                                    <div class="percentBox_body">Improved Regulatory Compliance</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6 col-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
                                         <span class="percentBox_text">10-25%</span>
                                     </div>
-                                    <div class="percentBox_body">Higher Customer Satisfaction</div>
+                                    <div class="percentBox_body">Improved Operational Efficiency</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">5-10%</span>
+                                    </div>
+                                    <div class="percentBox_body">Enhanced Profit Margins</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6 col-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">10-25%</span>
+                                    </div>
+                                    <div class="percentBox_body">Reduced Operational Costs</div>
                                 </div>
                             </div>
                         </div>
@@ -183,19 +183,19 @@
 
         <section class="featuredAi py-80">
             <div class="container">
-                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for BSFI</h1>
+                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Logistics</h1>
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Network Performance
-                                 Optimization</h2>
+                            <h2>Network Performance Optimization
+                            </h2>
                             <p>Forecast network congestion or potential issues to proactively optimize bandwidth and manage network traffic to avoid disruptions
                             </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Predictive Maintenance of Network Infrastructure
@@ -204,15 +204,15 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Capacity Planning & Resource Optimization</h2>
-                            <p>Forecast the future capacity needs for servers, base stations, data centers, network bandwidth, and other infrastructure for effective planning of future upgrades and expansions </p>
+                            <p>Forecast the future capacity needs for servers, base stations, data centers, network bandwidth, and other infrastructure for effective planning of future upgrades and expansions</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Demand Forecasting for Voice & Data Services</h2>
@@ -221,7 +221,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Fraud Detection & Prevention</h2>
@@ -229,7 +229,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sEnergy Usage Optimization</m-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Network Security & Cyber Threat Detection</h2>
@@ -237,7 +237,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Proactive Customer Support</h2>
@@ -245,7 +245,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
                             <h2>Call Center Optimization</h2>
@@ -261,7 +261,7 @@
         <section class="solutionApproach py-80">
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Solution Approach</h1>
-                <svg width="100%" height="749" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="100%" height="auto" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.71875 30C0.71875 13.4315 14.1502 0 30.7187 0H1490.72C1507.29 0 1520.72 13.4315 1520.72 30V718.919C1520.72 735.487 1507.29 748.919 1490.72 748.919H30.7187C14.1501 748.919 0.71875 735.487 0.71875 718.919V30Z" fill="#140632"/>
                     <path d="M30.7187 1H1490.72C1506.74 1 1519.72 13.9837 1519.72 30V718.919C1519.72 734.935 1506.74 747.919 1490.72 747.919H30.7187C14.7024 747.919 1.71875 734.935 1.71875 718.919V30C1.71875 13.9838 14.7025 1 30.7187 1Z" stroke="#CC9EFF" stroke-opacity="0.2" stroke-width="2"/>
                     <path d="M772.289 275.166C772.289 266.329 779.453 259.166 788.289 259.166H1072.97C1081.81 259.166 1088.97 266.329 1088.97 275.166V411.578C1088.97 420.414 1081.81 427.578 1072.97 427.578H788.289C779.453 427.578 772.289 420.414 772.289 411.578V275.166Z" fill="#3B1EFF" fill-opacity="0.08" stroke="#6755DF" stroke-width="2"/>
@@ -577,8 +577,8 @@
         <section class="whyChoose py-80 pb-0">
             <div class="container">
                 <div class="whyChoose_inner">
-                    <h1 class="text-42 font-bd">Why Choose AIRA for BSFI?</h1>
-                    <p>At AIRA, we combine deep industry expertise with a keen understanding of the unique challenges and opportunities within the BFSI sector. Powered by advanced AI, machine learning, and data analytics, we deliver actionable insights that drive innovation, optimize processes, and reduce risks. Our solutions have a proven impact—helping businesses achieve significant improvements in cost optimization, risk management, and customer satisfaction.
+                    <h1 class="text-42 font-bd">Why Choose AIRA for Supply Chain?</h1>
+                    <p>AIRA uses AI and machine learning to streamline logistics, boosting efficiency, cutting costs, and enhancing customer satisfaction. It offers actionable insights for demand forecasting, route optimization, and maintenance, enabling data-driven decisions that improve performance, scalability, and sustainability.
                     </p>
                     <p><a href="#!">Contact AIRA</a> today to learn how we can help transform your operations.</p>
                 </div>
@@ -589,7 +589,7 @@
             <div class="container">
                 <h1 class="text-42 text-center font-bd">Blogs</h1>
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -600,7 +600,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -611,7 +611,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md-4 col-sm-6 col-6">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -628,6 +628,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../../include/footer.php' ?>
+    <?php include './../../include/script.php' ?>
 
 </body>

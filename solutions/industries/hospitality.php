@@ -2,31 +2,32 @@
 <html>
 
 <head>
-    <?php $pageTitle = 'Manufacturing' ?>
-    <?php include 'include/head-link.php' ?>
+    <?php $pageTitle = 'Hospitality' ?>
+    <?php include './../../include/head-link.php' ?>
+    <?php include './../../include/constant.php' ?>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
 </head>
 
 <body class="pt-0">
     <!-- Header Component -->
-    <?php include 'include/header.php' ?>
+    <?php include './../../include/header.php' ?>
     <main class="mainContent">
-
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
-                <nav aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="#">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                        <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Manufacturing</li>
-                    </ol>
-                </nav>
                 <div class="row align-items-center">
-                    <div class="col-sm-6 col-12 col-md-6 col-lg-6 col-xl-6 col-xxl-4 order-sm-1 order-2 innerBanner_left">
-                        <h1>Manufacturing</h1>
-                        <h2>Boost efficiency, cut downtime, and </br> improve quality with automation.</h2>
+                    <div class="col-md-4 innerBanner_left">
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
+                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">BFSI</li>
+                            </ol>
+                        </nav>
+                        <h1>Hospitality</h1>
+                        <h2>Accelerate innovation and drive </br>revenue growth while optimizing costs.</h2>
                     </div>
-                    <div class="col-sm-6 col-12d-6 col-lg-6  col-xl-6 col-xxl-8 order-sm-2 order-1 innerBanner_right">
+                    <div class="col-md-8 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/manufacturing/manufacturing.png" alt="manufacturing" />
                     </div>
                 </div>
@@ -35,89 +36,89 @@
 
         <section class="workflowSection py-80">
             <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Sample Manufacturing Workflows </br> Automated through AIRA</h1>
+                <h1 class="text-42 text-center font-bd mb-50">Sample Hospitality Workflows</br> Automated through AIRA</h1>
                 <div class="row">
-                    <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="col">
                         <div class="workflowBox">
-                            <h2>Supply Chain & </br> Procurement</h2>
+                            <h2>Reservations & Bookings</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Component inventory management and tracking</li>
-                                    <li>Bill of Materials (BOM) processing and updates</li>
-                                    <li>Vendor evaluation and scoring</li>
-                                    <li>Purchase order automation and tracking</li>
-                                    <li>Lead time monitoring and analysis</li>
-                                    <li>Parts obsolescence tracking</li>
-                                    <li>Supply chain analytics reporting</li>
-                                    <li>MRP system data synchronization</li>
+                                    <li>Reservation processing and confirmation</li>
+                                    <li>Room allocation management</li>
+                                    <li>Rate and availability updates</li>
+                                    <li>Group booking processing</li>
+                                    <li>Cancellation handling</li>
+                                    <li>Guest preference tracking</li>
+                                    <li>Travel agent commission processing</li>
+                                    <li>Booking data synchronization</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="col">
                         <div class="workflowBox">
-                            <h2>Production Planning </br> & Control</h2>
+                            <h2>Front Office Operations</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Production schedule optimization</li>
-                                    <li>Machine capacity planning</li>
-                                    <li>Work order generation and tracking</li>
-                                    <li>Equipment maintenance scheduling</li>
-                                    <li>Production yield analysis</li>
-                                    <li>Resource allocation management</li>
-                                    <li>Shop floor data collection</li>
-                                    <li>Real-time production monitoring</li>
+                                    <li>Guest check-in/check-out processing</li>
+                                    <li>Room status updates</li>
+                                    <li>Key card system management</li>
+                                    <li>Guest folio management</li>
+                                    <li>Late checkout processing</li>
+                                    <li>VIP guest handling</li>
+                                    <li>Lost and found tracking</li>
+                                    <li>Guest request management</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="col">
                         <div class="workflowBox">
-                            <h2>Quality & Compliance</h2>
+                            <h2>Revenue Management</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Quality inspection data processing</li>
-                                    <li>Non-conformance reporting</li>
-                                    <li>FMEA (Failure Mode Effects Analysis) updates</li>
-                                    <li>ISO documentation management</li>
-                                    <li>Equipment calibration tracking</li>
-                                    <li>Regulatory compliance reporting</li>
-                                    <li>Test result analysis and documentation</li>
-                                    <li>Root cause analysis tracking</li>
+                                    <li>Dynamic pricing updates</li>
+                                    <li>Competitor rate monitoring</li>
+                                    <li>Revenue forecasting reports</li>
+                                    <li>Occupancy analysis</li>
+                                    <li>Channel rate management</li>
+                                    <li>Package pricing updates</li>
+                                    <li>Promotion management</li>
+                                    <li>Performance reporting</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="col">
                         <div class="workflowBox">
-                            <h2>Engineering & Design</h2>
+                            <h2>Food & Beverage</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Engineering change order processing</li>
-                                    <li>CAD file management and version control</li>
-                                    <li>Technical documentation updates</li>
-                                    <li>Product lifecycle management</li>
-                                    <li>Design review tracking</li>
-                                    <li>Component specification updates</li>
-                                    <li>Engineering report generation</li>
-                                    <li>Design validation documentation</li>
+                                    <li>Food & Beverage</li>
+                                    <li>Purchase order processing</li>
+                                    <li>Menu item costing</li>
+                                    <li>Recipe management</li>
+                                    <li>Supplier order processing</li>
+                                    <li>Stock reconciliation</li>
+                                    <li>Waste management reporting</li>
+                                    <li>Cost analysis reporting</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col col-lg-4 col-md-4 col-sm-6">
+                    <div class="col">
                         <div class="workflowBox">
-                            <h2>Operations & </br> Customer Service</h2>
+                            <h2>Back Office Operations</h2>
                             <div class="workflowBox_inner">
                                 <ul class="list-unstyled">
-                                    <li>Customer order processing</li>
-                                    <li>RMA (Return Material Authorization) handling</li>
-                                    <li>Warranty claim processing</li>
-                                    <li>Service ticket management</li>
-                                    <li>Customer communication automation</li>
-                                    <li>Product configuration management</li>
-                                    <li>Shipping documentation </li>
-                                    <li>Customer feedback analysis</li>
+                                    <li>Invoice processing</li>
+                                    <li>Payroll data management</li>
+                                    <li>Expense reporting</li>
+                                    <li>Vendor payment processing</li>
+                                    <li>Financial reconciliation</li>
+                                    <li>Staff scheduling</li>
+                                    <li>Maintenance request tracking </li>
+                                    <li>Compliance reporting</li>
                                 </ul>
                             </div>
                         </div>
@@ -129,52 +130,49 @@
         <section class="tranformingManufacture">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_left">
-                        <h1 class="text-42 font-bd">Transforming Manufacturing with Advanced AI Solutions</h1>
+                    <div class="col-md-6 tranformingManufacture_left">
+                        <h1 class="text-42 font-bd">Transforming Hospitality with AI-Powered Solutions</h1>
                         <p>
-                            At AIRA, we empower manufacturing businesses to thrive in today’s competitive landscape
-                            by leveraging cutting-edge AI technologies and intelligent systems.
-                            Our tailored solutions improve operational efficiency, reduce costs,
-                            and enhance decision-making, enabling manufacturers to embrace innovation and unlock new growth opportunities.
+                        In the dynamic world of hospitality, creating exceptional guest experiences while optimizing operations is key to staying competitive. Our AI-driven solutions empower hotels and resorts to achieve operational excellence, boost revenue, and enhance guest satisfaction through predictive analytics and innovative automation.
                         </p>
                     </div>
-                    <div class="col-sm-12 col-md-12 col-lg-6 tranformingManufacture_right">
+                    <div class="col-md-6 tranformingManufacture_right">
                         <h2>Some Typical Benefits:</h2>
                         <div class="row">
-                            <div class="col-md-6 col-sm-6 col-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">20-50%</span>
-                                    </div>
-                                    <div class="percentBox_body">Downtime Reduction</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-6">
-                                <div class="percentBox">
-                                    <div class="percentBox_head">
-                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">10-30%</span>
-                                    </div>
-                                    <div class="percentBox_body">Cost Savings</div>
-                                </div>
-                            </div>
-                            <div class="col-md-6 col-sm-6 col-6">
+                            <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
                                         <span class="percentBox_text">10-20%</span>
                                     </div>
-                                    <div class="percentBox_body">Improved Operational Efficiency</div>
+                                    <div class="percentBox_body">Increased Revenues</div>
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6 col-6">
+                            <div class="col-md-6">
                                 <div class="percentBox">
                                     <div class="percentBox_head">
                                         <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
-                                        <span class="percentBox_text">5-15%</span>
+                                        <span class="percentBox_text">15-25%</span>
                                     </div>
-                                    <div class="percentBox_body">Enhanced Revenues</div>
+                                    <div class="percentBox_body"> Enhanced Brand Perception</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">10-20%</span>
+                                    </div>
+                                    <div class="percentBox_body">Reduced Operational Costs</div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="percentBox">
+                                    <div class="percentBox_head">
+                                        <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon" class="img-fluid" />
+                                        <span class="percentBox_text">10-25%</span>
+                                    </div>
+                                    <div class="percentBox_body">Increased Operational Efficiency</div>
                                 </div>
                             </div>
                         </div>
@@ -185,71 +183,74 @@
 
         <section class="featuredAi py-80">
             <div class="container">
-                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Manufacturing</h1>
+                 <h1 class="text-42 text-center font-bd mb-50">Featured AI Use Cases for Hospitality</h1>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Predictive Maintenance for Machinery</h2>
-                            <p>Reduce Downtime & Extend equipment lifetime by predicting when machines or Components are likely to fail
+                            <h2>Network Performance
+                                 Optimization</h2>
+                            <p>Forecast network congestion or potential issues to proactively optimize bandwidth and manage network traffic to avoid disruptions
                             </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Production Scheduling Optimization
+                            <h2>Predictive Maintenance of Network Infrastructure
                             </h2>
-                            <p>Enhance production line efficiency by predicting the best times to run machines or schedule production batches </p>
+                            <p>Predict potential failures in network infrastructure (such as servers, routers, or telecom towers) so that maintenance can be scheduled before issues occur </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Energy Usage Optimization</h2>
-                            <p>Reduce energy consumption and costs by predicting energy needs and optimizing energy use in manufacturing processes </p>
+                            <h2>Capacity Planning & Resource Optimization</h2>
+                            <p>Forecast the future capacity needs for servers, base stations, data centers, network bandwidth, and other infrastructure for effective planning of future upgrades and expansions </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Quality Control & Defect Detection</h2>
-                            <p>Improve product quality by identifying patterns that lead to defects and optimizing manufacturing processes </p>
+                            <h2>Demand Forecasting for Voice & Data Services</h2>
+                            <p>Predict demand for data and voice services to allow Telecom companies to allocate resources efficiently
+                            </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Product Lifecycle Management</h2>
-                            <p>Enable data-driven decisions at various stages of the product lifecycle to improve decision-making, reduce time-to-market of new products, and improve product quality </p>
+                            <h2>Fraud Detection & Prevention</h2>
+                            <p>Identify patterns of fraudulent activity in real-time so that Telecom companies can quickly detect and prevent fraud </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Workforce Planning</h2>
-                            <p>Optimize workforce allocation by predicting labor demand based on production needs</p>
+                            <h2>Network Security & Cyber Threat Detection</h2>
+                            <p>Detect potential threats or vulnerabilities, and take immediate action to protect their network</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Demand Forecasting</h2>
-                            <p>Anticipate future product demand to optimize production planning and inventory management</p>
+                            <h2>Proactive Customer Support</h2>
+                            <p>Anticipate customer issues, optimize service delivery, and enhance customer experience rather than waiting for customers to report problems</p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-lg-4 col-xxl-3">
+                    <div class="col-md-3">
                         <div class="featuredBox">
                             <div class="featuredBox_inner">
-                            <h2>Supply Chain Optimization</h2>
-                            <p>Streamline the supply chain by predicting demand, optimizing inventory levels, and managing supplier lead times</p>
+                            <h2>Call Center Optimization</h2>
+                            <p>Optimize Call Center operations by forecasting call volumes, adjust staffing and predict which customers are likely to need support
+                            </p>
                             </div>
                         </div>
                     </div>
@@ -260,7 +261,7 @@
         <section class="solutionApproach py-80">
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Solution Approach</h1>
-                <svg width="100%" height="auto" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="100%" height="749" viewBox="0 0 1521 749" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M0.71875 30C0.71875 13.4315 14.1502 0 30.7187 0H1490.72C1507.29 0 1520.72 13.4315 1520.72 30V718.919C1520.72 735.487 1507.29 748.919 1490.72 748.919H30.7187C14.1501 748.919 0.71875 735.487 0.71875 718.919V30Z" fill="#140632"/>
                     <path d="M30.7187 1H1490.72C1506.74 1 1519.72 13.9837 1519.72 30V718.919C1519.72 734.935 1506.74 747.919 1490.72 747.919H30.7187C14.7024 747.919 1.71875 734.935 1.71875 718.919V30C1.71875 13.9838 14.7025 1 30.7187 1Z" stroke="#CC9EFF" stroke-opacity="0.2" stroke-width="2"/>
                     <path d="M772.289 275.166C772.289 266.329 779.453 259.166 788.289 259.166H1072.97C1081.81 259.166 1088.97 266.329 1088.97 275.166V411.578C1088.97 420.414 1081.81 427.578 1072.97 427.578H788.289C779.453 427.578 772.289 420.414 772.289 411.578V275.166Z" fill="#3B1EFF" fill-opacity="0.08" stroke="#6755DF" stroke-width="2"/>
@@ -576,8 +577,8 @@
         <section class="whyChoose py-80 pb-0">
             <div class="container">
                 <div class="whyChoose_inner">
-                    <h1 class="text-42 font-bd">Why Choose AIRA for Manufacturing?</h1>
-                    <p>From predictive maintenance to quality control, AIRA’s AI-powered solutions are tailored to solve the unique challenges faced by manufacturers. Enhance your operations, reduce costs, and unlock greater profitability with the power of automation and analytics.
+                    <h1 class="text-42 font-bd">Why Choose AIRA for Hospitality?</h1>
+                    <p>Embrace the power of AI to streamline operations, exceed guest expectations, and stay ahead in a competitive market. Let us help you deliver exceptional experiences while maximizing your profitability.
                     </p>
                     <p><a href="#!">Contact AIRA</a> today to learn how we can help transform your operations.</p>
                 </div>
@@ -588,7 +589,7 @@
             <div class="container">
                 <h1 class="text-42 text-center font-bd">Blogs</h1>
                 <div class="row">
-                    <div class="col-md-4 col-sm-6 col-6">
+                    <div class="col-md-4">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -599,7 +600,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-6">
+                    <div class="col-md-4">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -610,7 +611,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 col-sm-6 col-6">
+                    <div class="col-md-4">
                         <div class="blogBox">
                             <div class="blogBox">
                                 <div class="blogBox_date">
@@ -627,6 +628,7 @@
 
     </main>
     <!-- Footer Component -->
-    <?php include 'include/footer.php' ?>
+    <?php include './../../include/footer.php' ?>
+    <?php include './../../include/script.php' ?>
 
 </body>
