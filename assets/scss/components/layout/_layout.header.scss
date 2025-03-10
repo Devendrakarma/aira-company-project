@@ -167,7 +167,7 @@
             }
             &-solution{
                 .dropdown-menu{
-                    left: 48%;
+                    left: 40%;
                     ul{
                         display: block;
                         flex-wrap: wrap;
@@ -245,6 +245,18 @@
                         font-size: 16px;
                         font-family: font(md);
                         color: #000;
+                    }
+                    &:hover{
+                        @include transition(all 0.3s ease);
+                        .dropdownItem_icon{
+                            @include transition(all 0.3s ease);
+                            background-color: rgba(color(500), 0.80);
+                            em{color: color(50)}
+                        }
+                        .dropdownItem_text{
+                            @include transition(all 0.3s ease);
+                            color: color(500);
+                        }
                     }
                 }
             }

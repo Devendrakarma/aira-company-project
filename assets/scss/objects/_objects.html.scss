@@ -2,7 +2,9 @@
   &-1760 {
     max-width: 1784px !important;
   }
-
+  &-sm{
+    max-width: 1360px!important;
+  }
   @include media-breakpoint-down(xxl) {
     max-width: 1300px;
   }
@@ -58,7 +60,7 @@
     opacity: 0.55;
   }
 
-  &-sm{
+  &-sm {
     &:after {
       width: calc(100% + 100px);
       top: 50%;
@@ -96,26 +98,30 @@
 }
 
 // free trial page scss 
-.freeTrialBanner{
+.freeTrialBanner {
   min-height: 900px;
   display: flex;
   align-items: center;
-  padding-top: 200px!important;
+  padding-top: 200px !important;
   background-color: color(500);
   border-radius: 0 0 40px 40px;
-  h1{
+
+  h1 {
     font-size: 68px;
     font-family: font(bd);
     color: color(50);
     margin-bottom: 30px;
-    span{
+
+    span {
       color: color(600);
     }
   }
-  p{
+
+  p {
     font-size: 22px;
     line-height: normal;
-    + p{
+    margin-bottom: 30px;
+    +p {
       font-size: 18px;
       font-family: font(lt);
       color: rgba(color(50), 0.70);
@@ -123,9 +129,41 @@
     }
   }
 
-  &_form{
+  &_form {
     background-color: color(50);
     border-radius: 20px;
     padding: 35px;
   }
+}
+
+// icons button 
+.iconBtn {
+  height: 45px;
+  padding: 0px 14px 0px 5px!important ;
+  min-width: 150px;
+  span {
+    display: block;
+    height: 35px;
+    width: 35px;
+    background-color: color(50);
+    @include flexcenter(both);
+    color: #000D49;
+    border-radius: 50%;
+    margin-right: 7px;
+
+    em {
+      margin: 0;
+    }
+  }
+}
+
+//fixed menu right 
+.fixedMenu{
+  position: fixed;
+  top: 250px;
+  right: 0;
+  width: 60px;
+  background-color: color(50);
+  border-radius: 10px 0 0 10px;
+  z-index: 999;
 }

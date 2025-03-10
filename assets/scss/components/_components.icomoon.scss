@@ -25,6 +25,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-setting:before {
+  content: "\e915";
+}
+.icon-support:before {
+  content: "\e916";
+}
 .icon-bank:before {
   content: "\e90d";
 }

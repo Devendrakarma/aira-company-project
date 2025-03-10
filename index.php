@@ -29,19 +29,15 @@
                         <div class="swiper-container fadeSlider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
-                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider.png"
+                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider-1.png" class="w-100"
                                         alt="banner-slider" />
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider.png"
+                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider-2.png" class="w-100"
                                         alt="banner-slider" />
                                 </div>
                                 <div class="swiper-slide">
-                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider.png"
-                                        alt="banner-slider" />
-                                </div>
-                                <div class="swiper-slide">
-                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider.png"
+                                    <img src="<?php echo IMAGES_URL ?>/homepage/banner-slider-3.png" class="w-100"
                                         alt="banner-slider" />
                                 </div>
                             </div>
@@ -81,7 +77,7 @@
                                         </div>
                                         <div class="col-md-7 h-100">
                                             <div class="trustedSwiper_right ms-auto">
-                                                <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider.png"
+                                                <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-1.png"
                                                     alt="trusted-slider" />
                                             </div>
                                         </div>
@@ -93,14 +89,10 @@
                                     <div class="row align-items-center">
                                         <div class="col-md-5 h-100">
                                             <div class="trustedSwiper_left">
-                                                <h3>Financial Wealth<br /> Management</h3>
-                                                <p>Discover how a leading wealth management firm deployed AIRA
-                                                    Intelligent
-                                                    Automation to gain a <span class="font-bd">360°</span> view of
-                                                    client assets, boosting <span class="font-bd">operational
-                                                        efficiency by 75%,</span> while clients enjoyed instant,
-                                                    personalised portfolio
-                                                    insights anytime, anywhere</p>
+                                                <h3>Telecommunications </h3>
+                                                <p>Gain insights into how a major telecom provider automated <span class="font-bd">80%</span> of
+                                                customer interactions, <span class="font-bd">reducing wait times by 60%</span> and enhancing service
+                                                with <span class="font-bd">24/7 AIRA AI agents</span></p>
                                                 <button class="btn btn-warning btn-rounded">
                                                     Know More <em class="icon-arrow-right"></em>
                                                 </button>
@@ -108,7 +100,28 @@
                                         </div>
                                         <div class="col-md-7 h-100">
                                             <div class="trustedSwiper_right ms-auto">
-                                                <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider.png"
+                                                <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-2.png"
+                                                    alt="trusted-slider" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="row align-items-center">
+                                        <div class="col-md-5 h-100">
+                                            <div class="trustedSwiper_left">
+                                                <h3>Manufacturing </h3>
+                                                <p>Find out how a leading manufacturer achieved operational excellence by integrating AIRA intelligent document processing (IDP) with generative AI to improve <span class="font-bd">order fulfilment speed by 50%</span></p>
+                                                <button class="btn btn-warning btn-rounded">
+                                                    Know More <em class="icon-arrow-right"></em>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-7 h-100">
+                                            <div class="trustedSwiper_right ms-auto">
+                                                <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-3.png"
                                                     alt="trusted-slider" />
                                             </div>
                                         </div>
@@ -789,55 +802,112 @@
         <section class="dataConnectors py-80">
             <div class="container z-1 glow">
                 <h1 class="text-42 text-center font-bd mb-50">Highly Pre-Integrated Data Connectors </h1>
-                <div class="dataConnectorsBox_wrapper d-flex justify-content-center">
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png" class="img-fluid"
-                            alt="salesforce" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid"
-                            alt="Open AI" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/hubspot.png" class="img-fluid"
-                            alt="hubspot" />
+                <div class="dataConnectors_slider mb-4">
+                    <div class="swiper dataConnectorsSwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid"
+                                        alt="SAP" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png"
+                                        class="img-fluid" alt="salesforce" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png"
+                                        class="img-fluid" alt="Open AI" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/hubspot.png"
+                                        class="img-fluid" alt="hubspot" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/oracle.png"
+                                        class="img-fluid" alt="oracle" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/teams.png"
+                                        class="img-fluid" alt="teams" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/shopify.png"
+                                        class="img-fluid" alt="shopify" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid"
+                                        alt="SAP" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="dataConnectorsBox_wrapper">
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/oracle.png" class="img-fluid"
-                            alt="oracle" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png" class="img-fluid"
-                            alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/teams.png" class="img-fluid"
-                            alt="teams" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid" alt="SAP" />
-                    </div>
-                    <div class="dataConnectorsBox">
-                        <img src="<?php echo IMAGES_URL ?>/common/data-connector/shopify.png" class="img-fluid"
-                            alt="shopify" />
+                <div class="dataConnectors_slider">
+                    <div class="swiper dataConnectorsSwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid"
+                                        alt="SAP" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/salesforce.png"
+                                        class="img-fluid" alt="salesforce" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/open-ai.png"
+                                        class="img-fluid" alt="Open AI" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/hubspot.png"
+                                        class="img-fluid" alt="hubspot" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/oracle.png"
+                                        class="img-fluid" alt="oracle" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/teams.png"
+                                        class="img-fluid" alt="teams" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/shopify.png"
+                                        class="img-fluid" alt="shopify" />
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="dataConnectorsBox">
+                                    <img src="<?php echo IMAGES_URL ?>/common/data-connector/sap.png" class="img-fluid"
+                                        alt="SAP" />
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -854,6 +924,7 @@
     </main>
     <!-- Footer Component -->
     <?php include 'include/footer.php' ?>
+    <?php include 'include/script.php' ?>
     <script>
         var swiper = new Swiper(".fadeSlider", {
             spaceBetween: 30,
