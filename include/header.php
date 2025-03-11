@@ -310,7 +310,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/blogs.php">
+                                            <a href="<?php echo BASE_URL?>/resources/blogs.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-papers-text"></em>
                                                 </span>
@@ -318,7 +318,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/whitepaper.php">
+                                            <a href="<?php echo BASE_URL ?>/resources/whitepaper.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-note-text"></em>
                                                 </span>

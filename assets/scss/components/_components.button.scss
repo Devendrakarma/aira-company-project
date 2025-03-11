@@ -41,6 +41,38 @@ $btnColors: (
     &-rounded{
       border-radius: 60px;
     }
+    &-filterBtn{
+      border: rgba(color(50), 0.10)!important;
+      background-color: #1D0A47;
+      color: color(50);
+      &:focus, &:hover{
+        background-color: color(600)!important;
+        color: color(900)!important;
+      }
+      &.active{
+        background-color: color(600);
+        color: color(900);
+        &:focus{
+          color: color(900);
+          background-color: darken(color(600), 10%);
+        }
+        em{
+          font-size: 12px!important;
+          color: color(900);
+        }
+      }
+    }
+
+    &-download{
+      border: 1px solid color(400);
+      color: color(50);
+      font-size: 22px;
+      font-family: font(md);
+      &:hover, &:focus, &:active{
+        background-color: color(400)!important;
+        border-color: color(400)!important;
+      }
+    }
     @each $key, $clrValue in $btnColors {
         // solid button
         &-#{$key} {

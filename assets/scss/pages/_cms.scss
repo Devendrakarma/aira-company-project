@@ -48,3 +48,24 @@
         }
     }
 }
+
+
+.compliance{
+    .commonHead{
+        p{
+            font-size: 18px;
+            color: rgba(color(50), 0.70);
+        }
+    }
+    &_card{
+        padding: 20px;
+        height: 355px;
+        @include flexcenter(both);
+        flex-direction: column;
+        p{
+            font-size: 24px;
+            font-family: font(sm);
+            margin-top: 55px;
+        }
+    }
+}

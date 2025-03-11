@@ -15,7 +15,7 @@
                 <div class="text-center">
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb position-relative">
-                            <li class="breadcrumb-item"><a href="#">Home</a></li>
+                            <li class="breadcrumb-item"><a href="<?php echo BASE_URL?>/">Home</a></li>
                             <li class="breadcrumb-item"><a href="#">Legal</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Disclaimer</li>
                         </ol>

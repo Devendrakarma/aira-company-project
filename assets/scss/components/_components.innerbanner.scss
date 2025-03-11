@@ -7,8 +7,9 @@
     border-radius: 0 0 40px 40px;
     &-sm{
         background-image: none;
+        min-height: 450px;
         .breadcrumb{
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             left: 0px;
         }
     }
@@ -29,6 +30,32 @@
         img{
             margin-left: auto;
             display: block;
+        }
+    }
+
+    .searchWrapper{
+        min-width: 550px;
+        bottom: -30px;
+        left: 50%;
+        transform: translateX(-50%);
+        .form-control{
+            border-radius: 60px;
+            padding: 10px 65px 10px 35px;
+            &::placeholder{
+                color: #737676;
+            }
+        }
+        .btn{
+            position: absolute;
+            width: 44px;height: 44px;
+            right: 10px;top: 50%;
+            background-color: color(400);          
+            transform: translateY(-50%);
+            em{
+                color: color(50);
+                margin: 0;
+                font-size: 18px;
+            }
         }
     }
 

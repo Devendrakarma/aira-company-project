@@ -36,10 +36,10 @@
                             <h2>Resources</h2>
                             <ul class="list-unstyled">
                                 <li><a href="documentation.php">Documentation</a></li>
-                                <li><a href="blogs.php">Blogs</a></li>
+                                <li><a href="<?php echo BASE_URL?>/resources/blogs.php">Blogs</a></li>
                                 <li><a href="help-center.php">Help Center</a></li>
                                 <li><a href="partner.php">Partner</a></li>
-                                <li><a href="whitepaper.php">Whitepaper</a></li>
+                                <li><a href="<?php echo BASE_URL?>/resources/whitepaper.php">Whitepaper</a></li>
                                 <li><a href="brochures.php">Brochures</a></li>
                             </ul>
                         </div>
@@ -63,7 +63,6 @@
                                 <li><a href="<?php echo BASE_URL?>/legal/refund-policy.php">Refund Policy</a></li>
                                 <li><a href="<?php echo BASE_URL?>/legal/trust-and-security.php">Trust and Security</a></li>
                                 <li><a href="<?php echo BASE_URL?>/legal/compliance.php">Compliance</a></li>
-                                <li><a href="<?php echo BASE_URL?>/legal/sitemap.php">Sitemap</a></li>
                             </ul>
                         </div>
                     </div>

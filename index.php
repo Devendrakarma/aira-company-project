@@ -318,10 +318,10 @@
                                                 alt="manufacturing" />
                                             <div class="tabContent_cnt">
                                                 <h3>Redefine what’s possible in production.</h3>
-                                                <button class="btn btn-warning btn-rounded position-relative">
+                                                <a href="<?php echo BASE_URL?>/solutions/industries/manufacturing.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
-                                                </button>
+                                                </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
                                                 <div class="col-md-3">
@@ -934,6 +934,8 @@
             speed: 1000,
         });
         var trustedSwiper = new Swiper(".trustedSwiper", {
+            autoplay: true,
+            delay: 3000,
             navigation: {
                 nextEl: ".swiper-button-next",
                 prevEl: ".swiper-button-prev",
