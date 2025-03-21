@@ -154,8 +154,8 @@ textarea {
         display: block;
         width: 28px;
         height: 28px;
-        border-radius: 3px;
-        background: color(900);
+        border-radius: 6px;
+        background: transparent;
         top: 0;
         border: 1.5px solid $chkrdo-border-color;
         cursor: pointer;
@@ -177,14 +177,14 @@ textarea {
   &-input[type="checkbox"]:checked ~ &-label {
     &:before {
       border-color: $chkrdo-bg-color;
-      border-radius: 3px;
+      border-radius: 6px;
       background: $chkrdo-bg-color;
     }
     &:after {
       left: 6px;
       top: 6px;
-      content: "\e91e";
-      font-family: "splash";
+      content: '\e901';
+      font-family: 'icomoon';
       color: color(50);
       text-align: center;
     }
@@ -467,9 +467,9 @@ textarea {
     }
   }
 }
-input:-internal-autofill-selected {
+input:-internal-autofill-selected, input:-internal-autofill-previewed {
   -webkit-appearance: menulist-button;
-  background-color: rgb(247, 248, 249) !important;
+  background-color: color(50) !important;
   background-image: none !important;
   color: -internal-light-dark-color(color(900), color(50)) !important;
 }

@@ -35,14 +35,8 @@
 
         <section class="compliance py-80">
             <div class="container">
-                <div class="row commonHead">
-                    <div class="col-md-4">
-                        <h2 class="commonHead_title">What We Do</h2>
-                    </div>
-                    <div class="col-md-6 offset-md-2">
-                        <p>Delivering groundbreaking AI-driven innovations to streamline your business processes and
-                        drive unprecedented growth.</p>
-                    </div>
+                <div class="commonHead text-center">
+                    <h2 class="commonHead_title">Compliance</h2>
                 </div>
 
                 <div class="row gy-5">

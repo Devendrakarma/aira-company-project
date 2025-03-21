@@ -34,6 +34,13 @@
   border-radius: 5px !important;
 }
 
+.link-secondary{
+  color: color(400)!important;
+  &:hover{
+    color: darken(color(400), 10%)!important;
+  }
+}
+
 .py-80 {
   padding-top: 80px;
   padding-bottom: 80px;
@@ -113,6 +120,16 @@
     font-size: 22px;
   }
 }
+
+.text-24{
+  font-size: 24px;
+  font-family: font(rg);
+}
+.text-18{
+  font-size: 18px;
+  opacity: 0.70;
+}
+
 .mb-50{
   margin-bottom: 50px;
   @include media-breakpoint-down(xxl){

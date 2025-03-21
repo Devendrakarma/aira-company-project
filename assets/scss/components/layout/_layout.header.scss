@@ -212,6 +212,11 @@
                 ul{
                     display: flex;
                     flex-wrap: wrap;
+                    &.noHover{
+                        .dropdownItem{
+                            pointer-events: none!important;
+                        }
+                    }
                 }
                 .dropdownItem{
                     padding: 7px 0px;
@@ -410,4 +415,12 @@
             } 
         }
     }
+}
+
+
+.fixedBtn{
+    position: fixed;
+    right: 0;
+    top: 200px;
+    background-color: color(50);
 }
