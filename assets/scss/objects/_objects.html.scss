@@ -162,10 +162,67 @@
   position: fixed;
   top: 250px;
   right: 0;
-  width: 60px;
+  width: 55px;
   background-color: color(50);
   border-radius: 10px 0 0 10px;
   z-index: 999;
+  .dropstart{
+    width: 100%;
+    .btn{
+      width: 100%;
+      padding: 6px !important;
+    }
+    .dropdown-toggle{
+      justify-content: center;
+      em{
+        font-size: 24px;
+        color: #737373;
+        margin-left: 0!important;
+      }
+      &:before{
+        display: none;
+      }
+    }
+    .dropdown-menu{
+      width: 440px;height: 268px;
+      background-color: #EDEBFF;
+      border-radius: 26px;
+      padding: 0;
+      p{
+        margin: 20px 20px 0 20px;
+        padding-bottom: 15px;
+        border-bottom: 1px dashed color(900);
+        font-size: 24px;
+        font-family: font(bd);
+        color: color(900);
+      }
+      .cnt{
+        padding: 24px;
+        em{
+          font-size: 52px;
+        }
+      }
+    }
+  }
+  &_ul{
+    position: relative;
+    &:after{
+      position: absolute;
+      content: '';
+      width: 17px;height: 24px;
+      background-image: url('#{$imageurl}/common/bottom-shape.png');
+      background-size: 100%;background-repeat: no-repeat;
+      bottom: -23px;right: 0;z-index: 999;
+    }
+    &:before{
+      position: absolute;
+      content: '';
+      width: 17px;height: 24px;
+      background-image: url('#{$imageurl}/common/top-shape.png');
+      background-size: 100%;background-repeat: no-repeat;
+      top: -23px;right: 0;z-index: 999;
+    }
+  }
 }
 
 

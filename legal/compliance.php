@@ -39,38 +39,38 @@
                     <h2 class="commonHead_title">Compliance</h2>
                 </div>
 
-                <div class="row gy-5">
-                    <div class="col-md-4">
+                <div class="row gy-4 gy-xl-5">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/ISOIEC.png" class="img-fluid" alt="ISOIEC"/>
                             <p>ISO/IEC 27001</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/soc-2.png" class="img-fluid" alt="soc-2"/>
                             <p>SOC 2</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/soc-3.png" class="img-fluid" alt="soc-3"/>
                             <p>SOC 3</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/gdpr.png" class="img-fluid" alt="gdpr"/>
                             <p>GDPR</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/qualys-ssl.png" class="img-fluid" alt="qualys-ssl"/>
                             <p>Qualys SSL</p>
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-lg-4 col-sm-6">
                         <div class="compliance_card commonBorder text-center">
                             <img src="<?php echo IMAGES_URL?>/legal/google-api-disclosure.png" class="img-fluid" alt="google-api-disclosure"/>
                             <p>Google API Disclosure</p>

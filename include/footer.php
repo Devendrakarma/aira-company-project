@@ -31,7 +31,8 @@
                                 <li><a href="<?php echo BASE_URL ?>/product/generative-ai.php">Generative AI</a></li>
                                 <li><a href="<?php echo BASE_URL ?>/product/intelligent-document-processing.php">Intelligent
                                         Document Processing</a></li>
-                                <li><a href="<?php echo BASE_URL ?>/product/app-integration.php">App Integration</a></li>
+                                <li><a href="<?php echo BASE_URL ?>/product/app-integration.php">App Integration</a>
+                                </li>
                             </ul>
                         </div>
                         <div class="col-md-3 col-6">
@@ -101,29 +102,43 @@
     </div>
 
     <button id="scrollBtn" onclick="scrollToTop()"><em class="icon icon-down"></em></button>
-    <!-- <div class="fixedMenu">
-        <ul class="list-unstyled p-0">
+
+    <div class="fixedMenu">
+        <div class="fixedMenu_ul list-unstyled p-0 mb-0">
             <li>
-                <div class="btn-group dropleft">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        <em></em>
+                <div class="btn-group dropstart">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <em class="icon-support"></em>
                     </button>
                     <div class="dropdown-menu">
-                         <div>dsaldk</div>
+                        <p>Technical Support</p>
+                        <div class="cnt d-flex align-items-end justify-content-between">
+                            <a href="#">
+                                <em class="icon-arrow-circle"></em>
+                            </a>
+                            <img src="<?php echo IMAGES_URL ?>/common/technical-supprt.png" width="112" height="112"
+                                alt="technical-supprt" />
+                        </div>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="btn-group dropleft">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown"
-                        aria-haspopup="true" aria-expanded="false">
-                        Dropleft
+                <div class="btn-group dropstart">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                        <em class="icon-chat-setting"></em>
                     </button>
                     <div class="dropdown-menu">
+                        <p>Technical Support</p>
+                        <div class="cnt d-flex align-items-end justify-content-between">
+                            <a href="#">
+                                <em class="icon-arrow-circle"></em>
+                            </a>
+                            <img src="<?php echo IMAGES_URL ?>/common/community.png" width="114" height="114"
+                                alt="community" />
+                        </div>
                     </div>
                 </div>
             </li>
-        </ul>
-    </div> -->
+            </ul>
+        </div>
 </footer>

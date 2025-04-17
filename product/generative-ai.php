@@ -18,8 +18,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">Generative AI</li>
                             </ol>
                         </nav>
@@ -28,8 +27,8 @@
                             tasks – it understands, adapts, and innovates</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
-                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png"
-                            alt="workflow banner" />
+                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/products/generative-ai/generative-ai-banner.png"
+                            alt="generative-ai-banner" />
                     </div>
                 </div>
             </div>
@@ -41,7 +40,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process"
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/icon-1.png" alt="Adaptive Learning"
                                 class="img-fluid" />
                             <h2>Adaptive Learning</h2>
                             <p>Adaptive learning empowers AI Agents to improve with every interaction, enabling more
@@ -50,7 +49,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start"
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/icon-2.png" alt="Multi-LLM Support"
                                 class="img-fluid" />
                             <h2>Multi-LLM Support</h2>
                             <p>Experience the power of choice with our intelligent automation platform that seamlessly
@@ -60,7 +59,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system"
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/icon-3.png" alt="Multi-Channel Integration"
                                 class="img-fluid" />
                             <h2>Multi-Channel Integration</h2>
                             <p>Multi-channel integration delivers a seamless, consistent experience across platforms,
@@ -70,8 +69,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png"
-                                alt="Effortlessly reuse your work" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/icon-4.png"
+                                alt="Availability" class="img-fluid" />
                             <h2>24/7 Availability</h2>
                             <p>Your AI Agents ensure 24/7 availability, addressing customer queries anytime to build
                                 trust and reinforce your brand's commitment to excellence. </p>
@@ -82,12 +81,7 @@
         </section>
 
         <section class="automatedWorkflow">
-            <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Automated Document handling with </br>AIRA IDP </h1>
-                <img src="<?php echo IMAGES_URL ?>/workflow/automated_workflow.png" alt="Automated Workkflow"
-                    class="img-fluid mx-auto d-block" />
-            </div>
-            <div class="automatedWorkflowList">
+            <div class="automatedWorkflowList noImg">
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
@@ -97,14 +91,14 @@
                                 seamless integration and impactful performance, empowering your business.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/details-1.png" class="img-fluid"
+                                alt="Crafting Your AI Agents" />
                         </div>
                     </div>
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/details-2.png" class="img-fluid"
+                                alt="Drag-&-Drop Automation" />
                         </div>
                         <div class="col-md-6">
                             <h2 class="text-42 font-sm">Drag-&-Drop Automation </h2>
@@ -122,8 +116,8 @@
                                 initiatives.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/generative-ai/details-3.png" class="img-fluid"
+                                alt="Seamless System Integration" />
                         </div>
                     </div>
                 </div>
@@ -338,7 +332,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

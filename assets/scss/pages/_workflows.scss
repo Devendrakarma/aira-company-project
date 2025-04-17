@@ -95,6 +95,11 @@
             margin-bottom: 24px;
         }
     }
+    @include media-breakpoint-down(sm){
+        [class^="col-"]{
+            margin-bottom: 12px;
+        }
+    }
 }
 
 .automatedWorkflow{
@@ -146,6 +151,11 @@
             background-color: #1D0A46;
             top: -97px;
             z-index: -1;
+        }
+        &.noImg{
+            &:before, &:after{
+                display: none;
+            }
         }
         h2{
             margin-bottom: 35px;

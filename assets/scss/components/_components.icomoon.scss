@@ -25,6 +25,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-arrow-circle:before {
+  content: "\e92f";
+}
 .icon-search:before {
   content: "\e92d";
 }

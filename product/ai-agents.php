@@ -18,8 +18,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">AI Agents</li>
                             </ol>
                         </nav>
@@ -27,8 +26,8 @@
                         <h2>Meet your new team members: AI Agents that learn your business from the inside out</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
-                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png"
-                            alt="workflow banner" />
+                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/products/ai-agents/ai-agents-banner.png"
+                            alt="ai-agents-banner" />
                     </div>
                 </div>
             </div>
@@ -40,8 +39,8 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process"
-                                class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/icon-2.png"
+                                alt="Cognitive Capabilities" class="img-fluid" />
                             <h2>Cognitive Capabilities</h2>
                             <p>Empower your business with AI-driven intelligence; From Natural Language Processing (NLP)
                                 that understands human conversations to Intelligent Document Processing that extracts
@@ -52,8 +51,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start"
-                                class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/icon-2.png"
+                                alt="Process Automation & Orchestration" class="img-fluid" />
                             <h2>Process Automation & Orchestration</h2>
                             <p>Unlock seamless process automation with AI-powered orchestration, whether it’s
                                 integrating Robotic Process Automation (RPA) for routine tasks or aligning with Business
@@ -63,8 +62,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system"
-                                class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/icon-3.png"
+                                alt="Predictive & Prescriptive Analytics" class="img-fluid" />
                             <h2>Predictive & Prescriptive Analytics</h2>
                             <p>Stay ahead of the curve with AI-powered predictive and prescriptive analytics! Leverage
                                 historical data to forecast trends, mitigate risks, and detect anomalies before they
@@ -73,8 +72,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png"
-                                alt="Effortlessly reuse your work" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/icon-4.png"
+                                alt="Conversational & Interactive Capabilities" class="img-fluid" />
                             <h2>Conversational & Interactive Capabilities</h2>
                             <p>Deliver next-level customer experiences with AI-powered conversational interfaces, from
                                 intelligent chatbots that provide real-time assistance to multichannel AI-driven
@@ -86,48 +85,42 @@
         </section>
 
         <section class="automatedWorkflow">
-            <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Automated Document handling with </br>AIRA IDP </h1>
-                <img src="<?php echo IMAGES_URL ?>/workflow/automated_workflow.png" alt="Automated Workkflow"
-                    class="img-fluid mx-auto d-block" />
-            </div>
-            <div class="automatedWorkflowList">
+            <div class="automatedWorkflowList noImg">
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm"> Crafting Your AI Agents </h2>
-                            <p>Crafting your AI Agents starts with mapping requirements, ensuring effective engagement,
-                                streamlined processes, and growth-driving capabilities. Every detail is designed for
-                                seamless integration and impactful performance, empowering your business.</p>
+                            <h2 class="text-42 font-sm"> Insights for Decisions </h2>
+                            <p>Gain actionable insights from data to drive informed decision-making, unlocking the power
+                                of information for strategic navigation. Harness the potential of data-driven insights
+                                as a compass in navigating complex scenarios, steering towards success.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/details-1.png" class="img-fluid"
+                                alt="Insights for Decisions" />
                         </div>
                     </div>
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/details-2.png" class="img-fluid"
+                                alt="Task Automation Boost " />
                         </div>
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Drag-&-Drop Automation </h2>
-                            <p> Our AI Agents adapt to users, offering seamless experiences across platforms. They
-                                understand individual needs, evolving with user behavior for engaging interactions. We
-                                prioritize dynamic, personalized engagement in the digital landscape.</p>
+                            <h2 class="text-42 font-sm">Task Automation Boost </h2>
+                            <p> Automating repetitive tasks elevates efficiency and productivity. This streamlining
+                                liberates time for strategic initiatives, fostering innovation. With automation,
+                                businesses can seamlessly scale operations and accelerate success.</p>
                         </div>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-6">
-                            <h2 class="text-42 font-sm">Seamless System Integration </br> Integration </h2>
-                            <p>Once your AI Agent is primed and ready, it's time to deploy it into action. Execute your
-                                digital strategy with precision, adaptability, and a keen understanding of your
-                                audience. Embrace opportunities and unleash the full potential of your digital
-                                initiatives.</p>
+                            <h2 class="text-42 font-sm">Personalized Customer<br/> Engagement </h2>
+                            <p>Personalized customer engagement enhances connections by delivering tailored experiences.
+                                Through targeted messaging and customized offers, businesses anticipate needs, fostering
+                                satisfaction and brand advocacy.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-agents/details-3.png" class="img-fluid"
+                                alt="Personalized Customer Engagement" />
                         </div>
                     </div>
                 </div>
@@ -342,7 +335,8 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL ?>/product/app-integration.php"
+                        class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

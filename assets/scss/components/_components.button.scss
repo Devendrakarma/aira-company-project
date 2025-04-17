@@ -26,6 +26,7 @@ $btnColors: (
 .btn{
     height: $height;line-height: normal;display: flex;align-items: center;
     border-radius: 10px;padding:8px 20px;font-family:font(sm);font-size: 18px;
+    br{display: none!important; } 
     em{
       font-size: 15px;
       color: color(900);

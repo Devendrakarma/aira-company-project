@@ -303,12 +303,33 @@
                 <div class="text-center">
                     <p class="customBadge">Location</p>
                     <h3 class="text-42 font-bd">Global Locations</h3>
-                    <p class="text-18">AIRA empowers businesses to optimize their connectivity and scalability<br/>
+                    <p class="text-18">AIRA empowers businesses to optimize their connectivity and scalability<br />
                         through a single integration and workflow automation platform.</p>
                 </div>
 
                 <div class="text-center py-80 pb-0">
                     <img src="<?php echo IMAGES_URL ?>/company/about-us/location-map.png" alt="location-map" />
+                </div>
+
+                <div class="col-md-7 offset-md-1">
+                    <div class="row g-3">
+                        <?php
+                        if (have_rows('about_us_location_right_section')):
+                            while (have_rows('about_us_location_right_section')):
+                                the_row(); ?>
+                                <div class="col-md-6">
+                                    <div class="locationsSec_loc">
+                                        <?php $imageArr = get_sub_field('location_right_section_image_section');
+                                        $imageUrl = $imageArr['url'];
+                                        $imgAlt = $imageArr['alt'];
+                                        ?>
+                                        <img src="<?php echo $imageUrl; ?>" alt="<?php echo $imgAlt; ?>" />
+                                        <p> <?php the_sub_field('location_right_section_country_name') ?> </p>
+                                    </div>
+                                </div>
+                            <?php endwhile; ?>
+                        <?php endif; ?>
+                    </div>
                 </div>
             </div>
         </section>

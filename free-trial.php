@@ -273,7 +273,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

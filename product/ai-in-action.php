@@ -18,8 +18,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">'AI-In-Action</li>
                             </ol>
                         </nav>
@@ -27,8 +26,8 @@
                         <h2> Real-time, data-driven AI analytics for enterprisess </h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
-                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png"
-                            alt="workflow banner" />
+                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/products/ai-in-action/ai-in-action-banner.png"
+                            alt="ai-in-action-banner" />
                     </div>
                 </div>
             </div>
@@ -40,7 +39,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process"
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-in-action/icon-1.png" alt="Intelligent Machine Learning"
                                 class="img-fluid" />
                             <h2>Intelligent Machine Learning</h2>
                             <p>Machine Learning unlocks insights, enhances predictions, and drives efficiency through
@@ -49,7 +48,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start"
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-in-action/icon-2.png" alt="Future-Focused Predictive Analytics"
                                 class="img-fluid" />
                             <h2>Future-Focused Predictive Analytics</h2>
                             <p>Machine Learning anticipates trends, empowering businesses with insights for agility and
@@ -58,7 +57,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system"
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-in-action/icon-3.png" alt="Enhanced Natural Language Processing"
                                 class="img-fluid" />
                             <h2>Enhanced Natural Language Processing</h2>
                             <p>Enhanced NLP improves communication, enabling personalized experiences that boost
@@ -67,8 +66,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png"
-                                alt="Effortlessly reuse your work" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/ai-in-action/icon-4.png"
+                                alt="Seamless Advanced Automation" class="img-fluid" />
                             <h2>Seamless Advanced Automation</h2>
                             <p>It streamlines workflows, boosts efficiency, and empowers growth with intuitive,
                                 cutting-edge technology.</p>
@@ -79,12 +78,7 @@
         </section>
 
         <section class="automatedWorkflow">
-            <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Automated Document handling with </br>AIRA IDP </h1>
-                <img src="<?php echo IMAGES_URL ?>/workflow/automated_workflow.png" alt="Automated Workkflow"
-                    class="img-fluid mx-auto d-block" />
-            </div>
-            <div class="automatedWorkflowList">
+            <div class="automatedWorkflowList noImg">
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
@@ -94,7 +88,7 @@
                                 as a compass in navigating complex scenarios, steering towards success.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid"
+                            <img src="<?php echo IMAGES_URL ?>/products//visualizeWorkflow.png" class="img-fluid"
                                 alt="Visualize your workflow" />
                         </div>
                     </div>
@@ -334,7 +328,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

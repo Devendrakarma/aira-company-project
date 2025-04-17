@@ -16,8 +16,7 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="<?php echo BASE_URL?>/">Home</a></li>
-                        <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                        <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                        <li class="breadcrumb-item"><a href="#">Products</a></li>
                         <li class="breadcrumb-item active" aria-current="page">Workflows</li>
                     </ol>
                 </nav>
@@ -291,7 +290,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

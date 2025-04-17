@@ -18,8 +18,7 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL?>/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
                                 <li class="breadcrumb-item active" aria-current="page">IDP</li>
                             </ol>
                         </nav>
@@ -27,7 +26,7 @@
                <h2>Experience a cutting-edge AI-driven solution, designed to automate every step of your </br> document workflow seamlessly.</h2>
                     </div>
                     <div class="col-md-8 innerBanner_right">
-                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png" alt="workflow banner" />
+                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/intelligent-document-processing-banner.png" alt="intelligent-document-processing-banner" />
                     </div>
                 </div>
             </div>
@@ -39,28 +38,28 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/icon-1.png" alt="Automated Data Extraction" class="img-fluid" />
                             <h2>Automated Data Extraction</h2>
                             <p>Our advanced algorithms can handle various document types, such as invoices, receipts, contracts, and emails. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/icon-2.png" alt="Integration Capabilities" class="img-fluid" />
                             <h2>Integration Capabilities</h2>
                             <p>Seamlessly integrate with your existing systems and applications for a more cohesive workflow.  </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/icon-3.png" alt="Document Classification" class="img-fluid" />
                             <h2>Document Classification</h2>
                             <p>The system uses machine learning models to recognize different document types and classify them accordingly. </p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png" alt="Effortlessly reuse your work" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/icon-4.png" alt="Customizable Workflows" class="img-fluid" />
                             <h2>Customizable Workflows</h2>
                             <p>We offer a flexible workflow engine that allows you to design and implement processes that align with your unique operational needs.  </p>
                         </div>
@@ -82,12 +81,12 @@
                             <p>Efficiently extract data from scanned documents, regardless of their format or source. Automate communication to minimize the need for manual follow-up on discrepancies. Additionally, filter out spam and duplicate documents to streamline your workflow.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid" alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/details-1.png" class="img-fluid" alt="Automate at Speed" />
                         </div>
                     </div>
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid" alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/details-2.png" class="img-fluid" alt="Adapt to Document Layout Changes" />
                         </div>
                         <div class="col-md-6">
                             <h2 class="text-42 font-sm">Adapt to Document Layout Changes</h2>
@@ -100,7 +99,7 @@
                             <p>Eliminate manual processes such as calculations, sorting, and endless email exchanges regarding your processed documents. Tailor automations to match your business requirements effortlessly through our intuitive low-code interface. Overcome communication barriers with external partners and ensure seamless sharing of real-time updates.</p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/execute_idea.png" class="img-fluid" alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/intelligent-document-processing/details-3.png" class="img-fluid" alt="Consolidate Automation" />
                         </div>
                     </div>
                 </div>
@@ -290,7 +289,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

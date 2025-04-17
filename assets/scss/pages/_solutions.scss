@@ -39,5 +39,21 @@
                 }
             }
         }
+
+        @include media-breakpoint-down(xxl) {
+            padding: 24px;
+            h3 {
+                font-size: 20px;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            min-height: 200px;
+            img{
+                width: 35px;
+            }
+            h3 {
+                margin-top: 20px;
+            }
+        }
     }
 }

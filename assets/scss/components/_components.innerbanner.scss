@@ -76,6 +76,9 @@
     @include media-breakpoint-down(lg){
         padding-top: 120px;
         padding-bottom: 30px;
+        &-sm{
+            min-height: auto;
+        }
         h1{
             font-size: 38px;
         }
@@ -85,6 +88,11 @@
     }
     @include media-breakpoint-down(md){
         padding-top: 90px;
+        &-sm{
+            .breadcrumb{
+                margin-bottom: 25px;
+            }
+        }
         h1{
             font-size: 32px;
             margin-bottom: 10px;
@@ -94,6 +102,9 @@
         }
     }
     @include media-breakpoint-down(sm){
+        h1{
+            font-size: 26px;
+        }
         &_right{
             margin-bottom: 20px;
         }

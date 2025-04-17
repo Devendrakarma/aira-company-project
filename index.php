@@ -20,9 +20,9 @@
                             <h1>Transform with Purpose, Automate with AI Agents</h1>
                             <p>Effortlessly automate complex processes and solve real-world business problems with
                                 AI-driven actionable insights</p>
-                            <button class="btn btn-light btn-rounded">
+                            <a href="<?php echo BASE_URL ?>/solutions" class="btn btn-light btn-rounded d-inline-flex">
                                 Know More <em class="icon-arrow-right"></em>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-7">
@@ -70,9 +70,10 @@
                                                         efficiency by 75%,</span> while clients enjoyed instant,
                                                     personalised portfolio
                                                     insights anytime, anywhere</p>
-                                                <button class="btn btn-warning btn-rounded">
+                                                <a href="<?php echo BASE_URL ?>/resources/case-study-details.php"
+                                                    class="btn btn-warning btn-rounded d-inline-flex">
                                                     Know More <em class="icon-arrow-right"></em>
-                                                </button>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-md-7 h-100">
@@ -95,9 +96,10 @@
                                                     customer interactions, <span class="font-bd">reducing wait times by
                                                         60%</span> and enhancing service
                                                     with <span class="font-bd">24/7 AIRA AI agents</span></p>
-                                                <button class="btn btn-warning btn-rounded">
+                                                <a href="<?php echo BASE_URL ?>/resources/case-study-details.php"
+                                                    class="btn btn-warning btn-rounded d-inline-flex">
                                                     Know More <em class="icon-arrow-right"></em>
-                                                </button>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-md-7 h-100">
@@ -119,9 +121,10 @@
                                                     by integrating AIRA intelligent document processing (IDP) with
                                                     generative AI to improve <span class="font-bd">order fulfilment
                                                         speed by 50%</span></p>
-                                                <button class="btn btn-warning btn-rounded">
+                                                <a href="<?php echo BASE_URL ?>/resources/case-study-details.php"
+                                                    class="btn btn-warning btn-rounded d-inline-flex">
                                                     Know More <em class="icon-arrow-right"></em>
-                                                </button>
+                                                </a>
                                             </div>
                                         </div>
                                         <div class="col-md-7 h-100">
@@ -1043,7 +1046,7 @@
                                                 alt="datacenter" />
                                             <div class="tabContent_cnt">
                                                 <h3>Elevate above storage and servers.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/datacenter.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/datacenter.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1113,7 +1116,7 @@
                                                 alt="logistics" />
                                             <div class="tabContent_cnt">
                                                 <h3>Step past delivering and tracking.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/logistics.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/logistics.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1182,7 +1185,7 @@
                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/it.png" alt="it" />
                                             <div class="tabContent_cnt">
                                                 <h3>Transform beyond maintaining and supporting.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/it-department.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1251,7 +1254,7 @@
                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/hr.png" alt="hr" />
                                             <div class="tabContent_cnt">
                                                 <h3>Rise above hiring and managing.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/hr.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1322,7 +1325,7 @@
                                                 alt="supply-chain" />
                                             <div class="tabContent_cnt">
                                                 <h3>Advance past planning and procuring.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/supply-chain.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1392,7 +1395,7 @@
                                                 alt="finance" />
                                             <div class="tabContent_cnt">
                                                 <h3>Go further than balancing and allocating.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/finance.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1462,7 +1465,7 @@
                                                 alt="sales-and-marketing" />
                                             <div class="tabContent_cnt">
                                                 <h3>Move ahead of pitching and persuading.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/sales-and-marketing.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1532,7 +1535,7 @@
                                                 alt="customer-support" />
                                             <div class="tabContent_cnt">
                                                 <h3>Progress past answering and assisting.</h3>
-                                                <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
+                                                <a href="<?php echo BASE_URL ?>/solutions/departments/customer-support.php"
                                                     class="btn btn-warning btn-rounded position-relative d-inline-flex">
                                                     Know More
                                                     <em class="icon-arrow-right"></em>
@@ -1626,10 +1629,10 @@
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-1.png" class="w-100"
                                 alt="innovate-one" />
-                            <button class="btn btn-warning btn-rounded">
+                            <a href="<?php echo BASE_URL?>/product/workflow.php" class="btn btn-warning btn-rounded d-inline-flex">
                                 Know More
                                 <em class="icon-arrow-right"></em>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1639,10 +1642,10 @@
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-2.png" class="w-100"
                                 alt="innovate-one" />
-                            <button class="btn btn-warning btn-rounded right">
+                            <a href="<?php echo BASE_URL?>/product/ai-in-action.php" class="btn btn-warning btn-rounded d-inline-flex right">
                                 Know More
                                 <em class="icon-arrow-right"></em>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-5 ps-4">
@@ -1672,10 +1675,10 @@
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-3.png" class="w-100"
                                 alt="innovate-one" />
-                            <button class="btn btn-warning btn-rounded top">
+                            <a href="<?php echo BASE_URL?>/product/ai-agents.php" class="btn btn-warning btn-rounded d-inline-flex top">
                                 Know More
                                 <em class="icon-arrow-right"></em>
-                            </button>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1685,10 +1688,10 @@
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-4.png" class="w-100"
                                 alt="innovate-one" />
-                            <button class="btn btn-warning btn-rounded right">
+                            <a href="<?php echo BASE_URL?>/product/intelligent-document-processing.php" class="btn btn-warning btn-rounded d-inline-flex right">
                                 Know More
                                 <em class="icon-arrow-right"></em>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <div class="col-md-5 ps-4">
@@ -1822,7 +1825,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

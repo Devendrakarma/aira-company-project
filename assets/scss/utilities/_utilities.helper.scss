@@ -124,6 +124,15 @@
 .text-24{
   font-size: 24px;
   font-family: font(rg);
+  @include media-breakpoint-down(lg){
+    font-size: 20px;
+  }
+  @include media-breakpoint-down(md){
+    font-size: 18px;
+  }
+  @include media-breakpoint-down(sm){
+    font-size: 16px;
+  }
 }
 .text-18{
   font-size: 18px;
@@ -137,5 +146,8 @@
   }
   @include media-breakpoint-down(md){
     margin-bottom: 30px;
+  }
+  @include media-breakpoint-down(sm){
+    margin-bottom: 20px;
   }
 }

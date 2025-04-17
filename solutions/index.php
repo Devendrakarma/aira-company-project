@@ -34,7 +34,7 @@
                     </div>
 
                     <div class="row g-4">
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/manufacturing.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -45,7 +45,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/bfsi.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -56,7 +56,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/telecom.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -67,7 +67,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/retail.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -78,7 +78,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/healthcare.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -89,7 +89,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/pharma.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -100,7 +100,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/hospitality.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -111,7 +111,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/textiles.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -122,7 +122,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/industries/oil-gas.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -141,7 +141,7 @@
                     </div>
 
                     <div class="row g-4">
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/datacenter.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -152,7 +152,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/it-department.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -163,7 +163,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/sales-and-marketing.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -174,7 +174,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/finance.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -186,7 +186,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/customer-support.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -197,7 +197,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/hr.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -208,7 +208,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/logistics.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -219,7 +219,7 @@
                                 </div>
                             </a>
                         </div>
-                        <div class="col-md-3 h-100">
+                        <div class="col-xl-3 col-md-4 col-sm-6 h-100">
                             <a href="<?php echo BASE_URL ?>/solutions/departments/supply-chain.php"
                                 class="solutions_card commonBorder h-100">
                                 <div>
@@ -350,7 +350,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>

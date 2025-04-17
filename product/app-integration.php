@@ -18,17 +18,16 @@
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>/">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Solutions</a></li>
-                                <li class="breadcrumb-item"><a href="#">Industries</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">'App Integration</li>
+                                <li class="breadcrumb-item"><a href="#">Products</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">App Integration</li>
                             </ol>
                         </nav>
                         <h1>App Integration </h1>
                         <h2>Empower Your Workflow with AIRA's App Integration Solutions
                     </div>
                     <div class="col-md-8 innerBanner_right">
-                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/workflow/banner.png"
-                            alt="workflow banner" />
+                        <img class="img-fluid" src="<?php echo IMAGES_URL ?>/products/app-integration/app-integration-banner.png"
+                            alt="app-integration" />
                     </div>
                 </div>
             </div>
@@ -40,7 +39,7 @@
                 <div class="row">
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/complexProcesses.png" alt="complex process"
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/icon-1.png" alt="Intelligent Data Sync"
                                 class="img-fluid" />
                             <h2>Intelligent Data Sync
                                 <p>Say goodbye to delays and discrepancies as updates are instantaneously propagated
@@ -49,7 +48,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/quickStart.png" alt="quick start"
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/icon-2.png" alt="Cross-Platform Compatibility"
                                 class="img-fluid" />
                             <h2>Cross-Platform Compatibility</h2>
                             <p>It makes collaborating easy and ensures everyone can access and use the apps they need,
@@ -58,7 +57,7 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/connect.png" alt="Connect to any system"
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/icon-3.png" alt="AI-Powered Automation"
                                 class="img-fluid" />
                             <h2>AI-Powered Automation </h2>
                             <p>AI-powered automation frees time from mundane tasks, enabling teams to focus on
@@ -67,8 +66,8 @@
                     </div>
                     <div class="col-md-3">
                         <div class="workflowAutomationBox commonBorder">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/reuseWork.png"
-                                alt="Effortlessly reuse your work" class="img-fluid" />
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/icon-4.png"
+                                alt="Robust Security Measures" class="img-fluid" />
                             <h2>Robust Security Measures </h2>
                             <p>AIRA secures your data with advanced protocols, ensuring confidentiality and integrity
                                 across systems.</p>
@@ -79,12 +78,7 @@
         </section>
 
         <section class="automatedWorkflow">
-            <div class="container">
-                <h1 class="text-42 text-center font-bd mb-50">Automated Document handling with </br>AIRA IDP </h1>
-                <img src="<?php echo IMAGES_URL ?>/workflow/automated_workflow.png" alt="Automated Workkflow"
-                    class="img-fluid mx-auto d-block" />
-            </div>
-            <div class="automatedWorkflowList">
+            <div class="automatedWorkflowList noImg">
                 <div class="container">
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
@@ -97,14 +91,14 @@
                                 availability as well as automation orchestration </p>
                         </div>
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/visualizeWorkflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/details-1.png" class="img-fluid"
+                                alt="Effortless Compatibility" />
                         </div>
                     </div>
                     <div class="row align-items-center mb-84">
                         <div class="col-md-6">
-                            <img src="<?php echo IMAGES_URL ?>/workflow/unlimited_workflow.png" class="img-fluid"
-                                alt="Visualize your workflow" />
+                            <img src="<?php echo IMAGES_URL ?>/products/app-integration/details-2.png" class="img-fluid"
+                                alt="Efficient Adaptability" />
                         </div>
                         <div class="col-md-6">
                             <h2 class="text-42 font-sm">Efficient Adaptability </h2>
@@ -326,7 +320,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative d-inline-flex">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>
