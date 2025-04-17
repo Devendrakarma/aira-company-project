@@ -56,4 +56,17 @@
             padding: 10px 10px;
         }
     }
+    @include media-breakpoint-down(sm){
+        height: auto;
+        h2{
+            min-height: auto;
+        }
+        &_inner{
+            ul{
+                li{
+                    min-height: auto;
+                }
+            }
+        }
+    }
 }

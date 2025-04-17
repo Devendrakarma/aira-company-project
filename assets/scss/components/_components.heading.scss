@@ -3,7 +3,21 @@
     &_title{
         font-size: 48px;
         font-family: font(bd);
-        letter-spacing: -2px!important;
+    }
+    @include media-breakpoint-down(xxl){
+        &_title{
+            font-size: 30px;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        &_title{
+            font-size: 24px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        &_title{
+            font-size: 20px;
+        }
     }
 }
 

@@ -48,7 +48,8 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/product/intelligent-document-processing.php">
+                                            <a
+                                                href="<?php echo BASE_URL ?>/product/intelligent-document-processing.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-note-list"></em>
                                                 </span>
@@ -95,7 +96,8 @@
                                         <div class="col-md-12">
                                             <ul class="list-unstyled">
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/manufacturing.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/industries/manufacturing.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-tool"></em>
                                                         </span>
@@ -128,7 +130,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/healthcare.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/industries/healthcare.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-heart-pulse"></em>
                                                         </span>
@@ -144,7 +147,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/industries/hospitality.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/industries/hospitality.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-bed"></em>
                                                         </span>
@@ -177,7 +181,8 @@
                                         <div class="col-md-12">
                                             <ul class="list-unstyled">
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/datacenter.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/datacenter.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-database"></em>
                                                         </span>
@@ -185,7 +190,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/it-department.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/it-department.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-laptop-code"></em>
                                                         </span>
@@ -201,7 +207,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/sales-and-marketing.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/sales-and-marketing.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-chart-pie"></em>
                                                         </span>
@@ -209,7 +216,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/customer-support.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/customer-support.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-hand-holding-user"></em>
                                                         </span>
@@ -225,7 +233,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/logistics.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/logistics.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-truck"></em>
                                                         </span>
@@ -233,7 +242,8 @@
                                                     </a>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/solutions/departments/supply-chain.php">
+                                                    <a
+                                                        href="<?php echo BASE_URL ?>/solutions/departments/supply-chain.php">
                                                         <span class="dropdownItem_icon">
                                                             <em class="icon-box-check"></em>
                                                         </span>
@@ -248,45 +258,45 @@
                                     <h3>By application</h3>
                                     <div class="row">
                                         <div class="col-md-12">
-                                            <ul class="list-unstyled">
+                                            <ul class="list-unstyled noHover">
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/salesforce.php">
+                                                    <div class="d-flex align-items-center">
                                                         <span class="dropdownItem_icon">
                                                             <img src="<?php echo IMAGES_URL ?>/common/header/salesforce-icon.png"
                                                                 alt="Sales Force" class="img-fluid" />
                                                         </span>
                                                         <span class="dropdownItem_text">Salesforce</span>
-                                                    </a>
+                                                    </div>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/sap.php">
+                                                    <div class="d-flex align-items-center">
                                                         <span class="dropdownItem_icon">
                                                             <img src="<?php echo IMAGES_URL ?>/common/header/sap-icon.png"
                                                                 alt="SAP" class="img-fluid" />
                                                         </span>
                                                         <span class="dropdownItem_text">SAP</span>
-                                                    </a>
+                                                    </div>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/service-now.php">
+                                                    <div class="d-flex align-items-center">
                                                         <span class="dropdownItem_icon">
                                                             <img src="<?php echo IMAGES_URL ?>/common/header/service-now.png"
                                                                 alt="Searvice Now" class="img-fluid" />
                                                         </span>
                                                         <span class="dropdownItem_text">Service Now</span>
-                                                    </a>
+                                                    </div>
                                                 </li>
                                                 <li class="dropdownItem">
-                                                    <a href="<?php echo BASE_URL ?>/jira.php">
+                                                    <div class="d-flex align-items-center">
                                                         <span class="dropdownItem_icon">
                                                             <img src="<?php echo IMAGES_URL ?>/common/header/jira-icon.png"
                                                                 alt="Jira" class="img-fluid" />
                                                         </span>
                                                         <span class="dropdownItem_text">JIRA</span>
-                                                    </a>
+                                                    </div>
                                                 </li>
                                             </ul>
-                                            <a href="<?php echo BASE_URL ?>/" class="learnMore">Learn More</a>
+                                            <a href="<?php echo BASE_URL ?>/product/app-integration.php" class="learnMore">Learn More</a>
                                         </div>
                                     </div>
                                 </div>
@@ -302,7 +312,7 @@
                                 <div class="col-md-12">
                                     <ul class="list-unstyled">
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/documentation.php">
+                                            <a href="https://wiki.aira.fr/" target="_blank">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-document"></em>
                                                 </span>
@@ -310,7 +320,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/blogs.php">
+                                            <a href="<?php echo BASE_URL ?>/resources/blogs.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-papers-text"></em>
                                                 </span>
@@ -318,7 +328,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/whitepaper.php">
+                                            <a href="<?php echo BASE_URL ?>/resources/whitepaper.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-note-text"></em>
                                                 </span>
@@ -326,7 +336,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/brochures.php">
+                                            <a href="<?php echo BASE_URL ?>/resources/brochures.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-book-open"></em>
                                                 </span>
@@ -334,7 +344,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/case-studies.php">
+                                            <a href="<?php echo BASE_URL ?>/resources/case-study.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-file-search"></em>
                                                 </span>
@@ -355,7 +365,7 @@
                                 <div class="col-md-12">
                                     <ul class="list-unstyled">
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/about-us.php">
+                                            <a href="<?php echo BASE_URL ?>/company/about-us.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-users-group-alt"></em>
                                                 </span>
@@ -363,7 +373,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/careers.php">
+                                            <a href="<?php echo BASE_URL ?>/company/careers.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-hand-holding-user"></em>
                                                 </span>
@@ -371,7 +381,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/contact-us.php">
+                                            <a href="<?php echo BASE_URL ?>/company/contact-us.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-phone-call"></em>
                                                 </span>
@@ -379,7 +389,7 @@
                                             </a>
                                         </li>
                                         <li class="dropdownItem">
-                                            <a href="<?php echo BASE_URL ?>/press-releases.php">
+                                            <a href="<?php echo BASE_URL ?>/company/press-releases.php">
                                                 <span class="dropdownItem_icon">
                                                     <em class="icon-newspaper"></em>
                                                 </span>
@@ -428,11 +438,23 @@
                 <button class="btn btn-login btn-md btn-outline-warning btn-rounded font-bd justify-content-center">
                     Login
                 </button>
-                <button
+                <a href="<?php echo BASE_URL ?>/free-trial.php"
                     class="btn btn-getstarted btn-md btn-warning btn-rounded font-bd justify-content-center d-md-flex d-none">
                     Get Started <em class="icon-arrow-right"></em>
-                </button>
+                </a>
             </div>
         </div>
     </nav>
+
+    <!-- <div class="">
+        <button type="button" class="btn btn-secondary" data-bs-container="body" data-bs-toggle="popover"
+            data-bs-placement="left" data-bs-content="Left popover">
+            Popover on left
+        </button>
+    </div> -->
 </header>
+<!-- 
+<script>
+    const exampleEl = document.getElementById('example')
+    const popover = new bootstrap.Popover(exampleEl, options)
+</script> -->

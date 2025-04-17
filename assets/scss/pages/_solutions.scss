@@ -1,0 +1,59 @@
+.solutions {
+    &_card {
+        display: block;
+        background-color: rgba(color(500), 0.20);
+        padding: 30px;
+        border-radius: 30px;
+        min-height: 260px;
+        h3 {
+            font-size: 22px;
+            font-family: font(sm);
+            color: color(50);
+            margin-top: 35px;
+            margin-bottom: 12px;
+            @include transition(all 0.3s ease);
+        }
+
+        p {
+            font-size: 16px;
+            color: color(50);
+            margin-bottom: 0;
+        }
+
+        &.commonBorder {
+            &:after {
+                display: none;
+                @include transition(all 0.3s ease);
+            }
+        }
+
+        &:hover {
+            @include transition(all 0.3s ease);
+            h3 {
+                color: color(600);
+            }
+            &.commonBorder {
+                &:after {
+                    display: block;
+                    @include transition(all 0.3s ease);
+                }
+            }
+        }
+
+        @include media-breakpoint-down(xxl) {
+            padding: 24px;
+            h3 {
+                font-size: 20px;
+            }
+        }
+        @include media-breakpoint-down(lg) {
+            min-height: 200px;
+            img{
+                width: 35px;
+            }
+            h3 {
+                margin-top: 20px;
+            }
+        }
+    }
+}

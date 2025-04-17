@@ -47,4 +47,52 @@
             }
         }
     }
+    @include media-breakpoint-down(xl){
+        h3 {
+            font-size: 26px;
+        }
+        p {
+            font-size: 18px;
+        }
+    }
+    @include media-breakpoint-down(sm){
+        h3 {
+            font-size: 24px;
+        }
+        h4 {
+            font-size: 20px;
+        }
+        p, ul li {
+            font-size: 16px;
+        }
+    }
+}
+
+
+.compliance{
+    .commonHead{
+        p{
+            font-size: 18px;
+            color: rgba(color(50), 0.70);
+        }
+    }
+    &_card{
+        padding: 20px;
+        height: 355px;
+        @include flexcenter(both);
+        flex-direction: column;
+        p{
+            font-size: 24px;
+            font-family: font(sm);
+            margin-top: 55px;
+        }
+    }
+    @include media-breakpoint-down(xl){
+        &_card{
+            img{
+                max-width: 130px;
+                margin: 0 auto;
+            }
+        }
+    }
 }
