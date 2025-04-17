@@ -2,8 +2,8 @@
   &-1760 {
     max-width: 1784px !important;
   }
-  &-sm{
-    max-width: 1360px!important;
+  &-sm {
+    max-width: 1360px !important;
   }
   @include media-breakpoint-down(xxl) {
     max-width: 1300px;
@@ -14,7 +14,7 @@
   }
 }
 
-// swiper arrow design 
+// swiper arrow design
 .swiper {
   &-button {
     width: 60px !important;
@@ -41,6 +41,20 @@
       right: -30px !important;
     }
   }
+
+  @include media-breakpoint-down(xxl) {
+    &-button {
+      height: 40px !important;
+      width: 40px !important;
+      &-prev {
+        left: 0px !important;
+      }
+
+      &-next {
+        right: 0px !important;
+      }
+    }
+  }
 }
 
 .bgGrediantSection {
@@ -48,11 +62,11 @@
   z-index: 1;
 
   &:after {
-    content: '';
+    content: "";
     width: calc(100% - 200px);
     height: 340px;
     background-image: linear-gradient(to bottom, rgba(96, 30, 249, 1), rgba(color(50), 0));
-    @include absolutecenter('both');
+    @include absolutecenter("both");
     top: calc(50% + 70px);
     z-index: -1;
     border-radius: 300px;
@@ -86,18 +100,22 @@
     bottom: -2px;
     border-radius: 30px;
     padding: 2px;
-    background: linear-gradient(to right,
-        rgba(204, 158, 255, 0.28) 0%,
-        rgba(172, 103, 250, 0.0) 50%,
-        rgba(141, 49, 245, 0.22) 100%);
-    -webkit-mask: linear-gradient(white 0 0) content-box, linear-gradient(white 0 0);
+    background: linear-gradient(
+      to right,
+      rgba(204, 158, 255, 0.28) 0%,
+      rgba(172, 103, 250, 0) 50%,
+      rgba(141, 49, 245, 0.22) 100%
+    );
+    -webkit-mask:
+      linear-gradient(white 0 0) content-box,
+      linear-gradient(white 0 0);
     -webkit-mask-composite: xor;
     mask-composite: exclude;
     z-index: -1;
   }
 }
 
-// free trial page scss 
+// free trial page scss
 .freeTrialBanner {
   min-height: 900px;
   display: flex;
@@ -105,6 +123,7 @@
   padding-top: 200px !important;
   background-color: color(500);
   border-radius: 0 0 40px 40px;
+  overflow: hidden;
 
   h1 {
     font-size: 68px;
@@ -121,10 +140,10 @@
     font-size: 22px;
     line-height: normal;
     margin-bottom: 30px;
-    +p {
+    + p {
       font-size: 18px;
       font-family: font(lt);
-      color: rgba(color(50), 0.70);
+      color: rgba(color(50), 0.7);
       margin-bottom: 50px;
     }
   }
@@ -134,12 +153,37 @@
     border-radius: 20px;
     padding: 35px;
   }
+
+  @include media-breakpoint-down(xxl) {
+    min-height: auto;
+    padding-top: 150px !important;
+    h1 {
+      font-size: 55px;
+    }
+  }
+  @include media-breakpoint-down(xl) {
+    h1 {
+      font-size: 45px;
+    }
+  }
+  @include media-breakpoint-down(md) {
+    padding-top: 100px !important;
+    h1 {
+      font-size: 32px;
+    }
+    p{
+      font-size: 18px;
+      &+p {
+        font-size: 16px;
+      }
+    }
+  }
 }
 
-// icons button 
+// icons button
 .iconBtn {
   height: 45px;
-  padding: 0px 14px 0px 5px!important ;
+  padding: 0px 14px 0px 5px !important ;
   min-width: 150px;
   span {
     display: block;
@@ -147,7 +191,7 @@
     width: 35px;
     background-color: color(50);
     @include flexcenter(both);
-    color: #000D49;
+    color: #000d49;
     border-radius: 50%;
     margin-right: 7px;
 
@@ -157,8 +201,8 @@
   }
 }
 
-//fixed menu right 
-.fixedMenu{
+//fixed menu right
+.fixedMenu {
   position: fixed;
   top: 250px;
   right: 0;
@@ -166,29 +210,30 @@
   background-color: color(50);
   border-radius: 10px 0 0 10px;
   z-index: 999;
-  .dropstart{
+  .dropstart {
     width: 100%;
-    .btn{
+    .btn {
       width: 100%;
       padding: 6px !important;
     }
-    .dropdown-toggle{
+    .dropdown-toggle {
       justify-content: center;
-      em{
+      em {
         font-size: 24px;
         color: #737373;
-        margin-left: 0!important;
+        margin-left: 0 !important;
       }
-      &:before{
+      &:before {
         display: none;
       }
     }
-    .dropdown-menu{
-      width: 440px;height: 268px;
-      background-color: #EDEBFF;
+    .dropdown-menu {
+      width: 440px;
+      height: 268px;
+      background-color: #edebff;
       border-radius: 26px;
       padding: 0;
-      p{
+      p {
         margin: 20px 20px 0 20px;
         padding-bottom: 15px;
         border-bottom: 1px dashed color(900);
@@ -196,46 +241,53 @@
         font-family: font(bd);
         color: color(900);
       }
-      .cnt{
+      .cnt {
         padding: 24px;
-        em{
+        em {
           font-size: 52px;
         }
       }
     }
   }
-  &_ul{
+  &_ul {
     position: relative;
-    &:after{
+    &:after {
       position: absolute;
-      content: '';
-      width: 17px;height: 24px;
-      background-image: url('#{$imageurl}/common/bottom-shape.png');
-      background-size: 100%;background-repeat: no-repeat;
-      bottom: -23px;right: 0;z-index: 999;
+      content: "";
+      width: 17px;
+      height: 24px;
+      background-image: url("#{$imageurl}/common/bottom-shape.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      bottom: -23px;
+      right: 0;
+      z-index: 999;
     }
-    &:before{
+    &:before {
       position: absolute;
-      content: '';
-      width: 17px;height: 24px;
-      background-image: url('#{$imageurl}/common/top-shape.png');
-      background-size: 100%;background-repeat: no-repeat;
-      top: -23px;right: 0;z-index: 999;
+      content: "";
+      width: 17px;
+      height: 24px;
+      background-image: url("#{$imageurl}/common/top-shape.png");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      top: -23px;
+      right: 0;
+      z-index: 999;
     }
   }
 }
 
-
 // Learn more button
-.learnMoreBtn{
-  min-width: 130px!important;
-  color: #6A37E3!important;
-  border: 1px solid rgba(#6A37E3, 0.30)!important;
-  filter: drop-shadow(1px 1px 1px rgba(#6A37E3, 0.30))!important;
+.learnMoreBtn {
+  min-width: 130px !important;
+  color: #6a37e3 !important;
+  border: 1px solid rgba(#6a37e3, 0.3) !important;
+  filter: drop-shadow(1px 1px 1px rgba(#6a37e3, 0.3)) !important;
 }
 
 //Badge desig
-.customBadge{
+.customBadge {
   background-color: color(400);
   text-transform: uppercase;
   padding: 7px 20px;

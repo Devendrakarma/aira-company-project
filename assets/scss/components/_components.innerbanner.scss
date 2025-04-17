@@ -60,11 +60,9 @@
         }
     }
 
+
     @include media-breakpoint-down(xxl){
         background-size: 67%;
-    }
-
-    @include media-breakpoint-down(xl){
         h1{
             font-size: 45px;
             margin-bottom: 15px;

@@ -25,4 +25,10 @@
     font-size: 40px;
     font-family: font(bd);
     margin-bottom: 40px;
+    @include media-breakpoint-down(xxl){
+        font-size: 32px;
+    }
+    @include media-breakpoint-down(lg){
+        font-size: 24px;
+    }
 }

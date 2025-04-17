@@ -15,7 +15,7 @@
         <section class="bannerSec">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-5">
+                    <div class="col-md-5 col-lg-5 order-md-0 order-2">
                         <div class="bannerSec_cnt">
                             <h1>Transform with Purpose, Automate with AI Agents</h1>
                             <p>Effortlessly automate complex processes and solve real-world business problems with
@@ -25,7 +25,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-7">
+                    <div class="col-md-7 col-lg-7 order-md-2 order-1">
                         <div class="swiper-container fadeSlider">
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
@@ -60,7 +60,7 @@
                             <div class="swiper-slide">
                                 <div>
                                     <div class="row align-items-center">
-                                        <div class="col-md-5 h-100">
+                                        <div class="col-md-6 col-lg-5 order-md-0 order-2 h-100">
                                             <div class="trustedSwiper_left">
                                                 <h3>Financial Wealth<br /> Management</h3>
                                                 <p>Discover how a leading wealth management firm deployed AIRA
@@ -76,7 +76,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-7 h-100">
+                                        <div class="col-md-6 col-lg-7 order-md-0 order-1 h-100">
                                             <div class="trustedSwiper_right ms-auto">
                                                 <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-1.png"
                                                     alt="trusted-slider" />
@@ -88,7 +88,7 @@
                             <div class="swiper-slide">
                                 <div>
                                     <div class="row align-items-center">
-                                        <div class="col-md-5 h-100">
+                                        <div class="col-md-6 col-lg-5 order-md-0 order-2 h-100">
                                             <div class="trustedSwiper_left">
                                                 <h3>Telecommunications </h3>
                                                 <p>Gain insights into how a major telecom provider automated <span
@@ -102,7 +102,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-7 h-100">
+                                        <div class="col-md-6 col-lg-7 order-md-0 order-1 h-100">
                                             <div class="trustedSwiper_right ms-auto">
                                                 <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-2.png"
                                                     alt="trusted-slider" />
@@ -114,7 +114,7 @@
                             <div class="swiper-slide">
                                 <div>
                                     <div class="row align-items-center">
-                                        <div class="col-md-5 h-100">
+                                        <div class="col-md-6 col-lg-5 order-md-0 order-2 h-100">
                                             <div class="trustedSwiper_left">
                                                 <h3>Manufacturing </h3>
                                                 <p>Find out how a leading manufacturer achieved operational excellence
@@ -127,7 +127,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="col-md-7 h-100">
+                                        <div class="col-md-6 col-lg-7 order-md-0 order-1 h-100">
                                             <div class="trustedSwiper_right ms-auto">
                                                 <img src="<?php echo IMAGES_URL ?>/homepage/trusted-slider-3.png"
                                                     alt="trusted-slider" />
@@ -159,7 +159,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="solutionHomeCard h-100">
                             <div class="solutionHomeCard_img overflow-hidden">
                                 <img src="<?php echo IMAGES_URL ?>/homepage/simplify.png" class="img-fluid w-100"
@@ -171,7 +171,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="solutionHomeCard h-100">
                             <div class="solutionHomeCard_img overflow-hidden">
                                 <img src="<?php echo IMAGES_URL ?>/homepage/automate.png" class="img-fluid w-100"
@@ -183,7 +183,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-12">
                         <div class="solutionHomeCard h-100">
                             <div class="solutionHomeCard_img overflow-hidden">
                                 <img src="<?php echo IMAGES_URL ?>/homepage/transform.png" class="img-fluid w-100"
@@ -224,7 +224,7 @@
                         <div class="tab-pane fade show active" id="industries" role="tabpanel"
                             aria-labelledby="industries-tab" tabindex="0">
                             <div class="commonTabVert_mid commonBorder row align-items-start g-0">
-                                <div class="col-md-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                <div class="col-md-12 col-lg-12 col-xl-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
                                     <button class="nav-link d-flex align-items-center active" id="v-manufacturing-tab"
                                         data-bs-toggle="pill" data-bs-target="#v-manufacturing" type="button" role="tab"
@@ -317,7 +317,7 @@
                                     </button>
 
                                 </div>
-                                <div class="col-md-8 tab-content" id="v-pills-tabContent">
+                                <div class="col-md-12 col-lg-12 col-xl-8 tab-content" id="v-pills-tabContent">
                                     <!-- 1 -->
                                     <div class="commonTabVert_mid_tab tab-pane fade show active" id="v-manufacturing"
                                         role="tabpanel" aria-labelledby="v-manufacturing-tab" tabindex="0">
@@ -333,7 +333,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -346,7 +346,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -359,7 +359,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -372,7 +372,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -403,7 +403,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -416,7 +416,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -429,7 +429,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -442,7 +442,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -473,7 +473,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -486,7 +486,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -499,7 +499,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -512,7 +512,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -543,7 +543,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -556,7 +556,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -569,7 +569,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -582,7 +582,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -613,7 +613,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -626,7 +626,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -639,7 +639,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -652,7 +652,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -696,7 +696,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -709,7 +709,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -722,7 +722,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -753,7 +753,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -766,7 +766,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -779,7 +779,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -792,7 +792,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -823,7 +823,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -836,7 +836,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -849,7 +849,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -862,7 +862,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -893,7 +893,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -906,7 +906,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -919,7 +919,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -932,7 +932,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 ">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -954,7 +954,7 @@
                         <div class="tab-pane fade" id="departments" role="tabpanel" aria-labelledby="departments-tab"
                             tabindex="0">
                             <div class="commonTabVert_mid commonBorder row align-items-start g-0">
-                                <div class="col-md-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
+                                <div class="col-md-12 col-lg-12 col-xl-4 nav flex-column nav-pills" id="v-pills-tab" role="tablist"
                                     aria-orientation="vertical">
                                     <button class="nav-link d-flex align-items-center active" id="v-datacenter-tab"
                                         data-bs-toggle="pill" data-bs-target="#v-datacenter" type="button" role="tab"
@@ -1037,7 +1037,7 @@
                                     </button>
 
                                 </div>
-                                <div class="col-md-8 tab-content" id="v-pills-tabContent">
+                                <div class="col-md-12 col-lg-12 col-xl-8 tab-content" id="v-pills-tabContent">
                                     <!-- 1 -->
                                     <div class="commonTabVert_mid_tab tab-pane fade show active" id="v-datacenter"
                                         role="tabpanel" aria-labelledby="v-datacenter-tab" tabindex="0">
@@ -1053,7 +1053,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1066,7 +1066,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1079,7 +1079,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1092,7 +1092,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1123,7 +1123,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1136,7 +1136,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1149,7 +1149,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1162,7 +1162,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1192,7 +1192,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1205,7 +1205,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1218,7 +1218,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1231,7 +1231,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1261,7 +1261,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1274,7 +1274,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1287,7 +1287,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1301,7 +1301,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1332,7 +1332,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1345,7 +1345,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1358,7 +1358,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1371,7 +1371,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1402,7 +1402,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 col-lg-3">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1415,7 +1415,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6 col-lg-3">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1428,7 +1428,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1441,7 +1441,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1472,7 +1472,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1485,7 +1485,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1498,7 +1498,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1511,7 +1511,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1542,7 +1542,7 @@
                                                 </a>
                                             </div>
                                             <div class="tabContent_btm row g-3">
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1555,7 +1555,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1568,7 +1568,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/up-arrow.png"
@@ -1582,7 +1582,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-3">
+                                                <div class="col-md-3 col-sm-6 col-6">
                                                     <div class="btmCard w-100">
                                                         <div class="btmCard_head d-flex align-items-center">
                                                             <img src="<?php echo IMAGES_URL ?>/homepage/industries/down-arrow.png"
@@ -1615,7 +1615,7 @@
                 </div>
                 <!-- innovate section 1  -->
                 <div class="row align-items-center py-80 pt-0">
-                    <div class="col-md-5">
+                    <div class="col-md-6 col-lg-5 col-sm-12 order-md-0 order-2">
                         <h3 class="commonSubHead">All-in-one, All that you need</h3>
                         <ul class="commonList">
                             <li>Intuitive User Interface</li>
@@ -1625,7 +1625,7 @@
                             <li>Interactive User Input Forms</li>
                         </ul>
                     </div>
-                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-6 col-lg-7 col-sm-12 order-md-0 order-1 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-1.png" class="w-100"
                                 alt="innovate-one" />
@@ -1638,7 +1638,7 @@
                 </div>
                 <!-- innovate section 2  -->
                 <div class="row align-items-center py-80 pt-0">
-                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-6 col-lg-7 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-2.png" class="w-100"
                                 alt="innovate-one" />
@@ -1648,7 +1648,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-5 ps-4">
+                    <div class="col-md-6 col-lg-5 ps-4">
                         <h3 class="commonSubHead">Scale Generative AI to maximize business value</h3>
                         <ul class="commonList">
                             <li>Multi-LLM Support</li>
@@ -1660,7 +1660,7 @@
                 </div>
                 <!-- innovate section 3  -->
                 <div class="row align-items-center py-80 pt-0">
-                    <div class="col-md-5">
+                    <div class="col-md-6 col-lg-5 col-sm-12 order-md-0 order-2">
                         <h3 class="commonSubHead">Make AIRA AI Agent your own Virtual Assistant</h3>
                         <ul class="commonList">
                             <li>24/7 Availability</li>
@@ -1671,7 +1671,7 @@
                             <li>Multilingual Support</li>
                         </ul>
                     </div>
-                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-6 col-lg-7 col-sm-12 order-md-0 order-1 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-3.png" class="w-100"
                                 alt="innovate-one" />

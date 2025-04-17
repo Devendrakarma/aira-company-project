@@ -14,7 +14,7 @@
         <section class="innerBanner d-flex align-items-center">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-4 innerBanner_left">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-4 order-sm-0 order-2 innerBanner_left">
                         <nav aria-label="breadcrumb">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="<?php echo BASE_URL ?>/">Home</a></li>
@@ -25,7 +25,7 @@
                         <h2>An Innovative AI solution provider on a mission to empower industries to be faster, smarter
                             & more efficient</h2>
                     </div>
-                    <div class="col-md-8 innerBanner_right">
+                    <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-8 order-sm-0 order-1 innerBanner_right">
                         <img class="img-fluid" src="<?php echo IMAGES_URL ?>/company/about-us/about-us-banner.png"
                             alt="About Us" />
                     </div>
@@ -82,41 +82,43 @@
             <div class="container">
                 <!-- <h2 class="text-42 text-center font-bd mb-50">AIRA Intelligent Automation Solution</h2> -->
                 <div>
-                    <img src="<?php echo IMAGES_URL ?>/company/about-us/automation.png" />
+                    <img src="<?php echo IMAGES_URL ?>/company/about-us/automation.png" class="img-fluid" />
                 </div>
 
                 <div class="automationSec_cnt">
                     <div class="row gx-5">
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6">
                             <h3 class="head">Global Certifications & Compliance:</h3>
-                            <div class="commonBorder left">
-                                <div class="d-flex align-items-center">
-                                    <img src="<?php echo IMAGES_URL ?>/company/about-us/gdpr.png"
-                                        alt="GDPR Compliant" />
-                                    <p>GDPR Compliant</p>
+                            <div class="globalCertifications">
+                                <div class="commonBorder left">
+                                    <div class="d-flex align-items-center">
+                                        <img src="<?php echo IMAGES_URL ?>/company/about-us/gdpr.png"
+                                            alt="GDPR Compliant" />
+                                        <p>GDPR Compliant</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="commonBorder left">
-                                <div class="d-flex align-items-center">
-                                    <img src="<?php echo IMAGES_URL ?>/company/about-us/soc-2.png"
-                                        alt="SOC2 Certified" />
-                                    <p>SOC2 Certified</p>
+                                <div class="commonBorder left">
+                                    <div class="d-flex align-items-center">
+                                        <img src="<?php echo IMAGES_URL ?>/company/about-us/soc-2.png"
+                                            alt="SOC2 Certified" />
+                                        <p>SOC2 Certified</p>
+                                    </div>
                                 </div>
-                            </div>
 
-                            <div class="commonBorder left">
-                                <div class="d-flex align-items-center">
-                                    <img src="<?php echo IMAGES_URL ?>/company/about-us/iso-certified.png"
-                                        alt="ISO 27001 Certified" />
-                                    <p>ISO 27001 Certified</p>
+                                <div class="commonBorder left">
+                                    <div class="d-flex align-items-center">
+                                        <img src="<?php echo IMAGES_URL ?>/company/about-us/iso-certified.png"
+                                            alt="ISO 27001 Certified" />
+                                        <p>ISO 27001 Certified</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6">
+                        <div class="col-lg-6 col-md-6">
                             <h3 class="head">Typical ROI Benefits:</h3>
                             <div class="row g-4">
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6">
                                     <div class="percentBox commonBorder">
                                         <div class="percentBox_head">
                                             <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon"
@@ -126,7 +128,7 @@
                                         <div class="percentBox_body">Process Efficiency</div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6">
                                     <div class="percentBox commonBorder">
                                         <div class="percentBox_head">
                                             <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon"
@@ -136,7 +138,7 @@
                                         <div class="percentBox_body">Unplanned Downtime</div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6">
                                     <div class="percentBox commonBorder">
                                         <div class="percentBox_head">
                                             <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon"
@@ -146,7 +148,7 @@
                                         <div class="percentBox_body">Operational Cost</div>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-md-6 col-sm-6">
                                     <div class="percentBox commonBorder">
                                         <div class="percentBox_head">
                                             <img src="<?php echo IMAGES_URL ?>/icon/percent-arrow-icon.png" alt="icon"
@@ -166,15 +168,15 @@
         <section class="leadersAira py-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-12 col-lg-12 col-xl-4">
                         <h2 class="text-42 font-bd mb-4">The Leaders<br /> of AIRA</h2>
                         <p class="text-18">The Leaders of AIRA are renowned for their innovative contributions to
                             artificial intelligence, driving advancements in AI technology and applications across
                             various industries.</p>
                     </div>
-                    <div class="col-md-6 offset-md-2">
+                    <div class="col-md-12 col-lg-12 col-xl-6 offset-xl-2">
                         <div class="row gx-3 gy-4">
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <div class="commonBorder">
                                     <div class="leadersAira_card">
                                         <h3>Aziz Fatehi</h3>
@@ -189,7 +191,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <div class="commonBorder">
                                     <div class="leadersAira_card">
                                         <h3>Shashwat Dubey</h3>
@@ -204,7 +206,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <div class="commonBorder">
                                     <div class="leadersAira_card">
                                         <h3>Keshav Thakur</h3>
@@ -219,7 +221,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
+                            <div class="col-md-6 col-sm-6">
                                 <div class="commonBorder">
                                     <div class="leadersAira_card">
                                         <h3>Thomas George</h3>
@@ -308,7 +310,7 @@
                 </div>
 
                 <div class="text-center py-80 pb-0">
-                    <img src="<?php echo IMAGES_URL ?>/company/about-us/location-map.png" alt="location-map" />
+                    <img src="<?php echo IMAGES_URL ?>/company/about-us/location-map.png" alt="location-map" class="img-fluid" />
                 </div>
 
                 <div class="col-md-7 offset-md-1">

@@ -1,8 +1,10 @@
 .bannerSec {
     background-image: url('#{$imageurl}/homepage/banner-bg.png');
     background-size: cover;
-    min-height: 100vh;
-    height: 1000px;
+    min-height: 800px;
+    max-height: 100vh;
+   
+  
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,6 +46,77 @@
     // .swiper-slide:not(.swiper-slide-active) {
     //     display: none;
     // }
+
+    @include media-breakpoint-down(xxl){
+       
+        &_cnt{
+            h1{
+                font-size: 65px;
+            }
+        }
+        .swiper-slide{
+            img{
+                max-width: 500px;
+                margin: 0 auto;
+                display: block;
+            }
+        }
+       
+    }
+
+    @include media-breakpoint-down(xl){
+        min-height: 560px;
+        &_cnt{
+            padding-top: 50px;
+            h1{
+                font-size: 48px;
+                letter-spacing: -1px;
+            }
+        }
+        .swiper-slide{
+            padding-top: 50px;
+        }
+    }
+    @include media-breakpoint-down(lg){
+        min-height: 560px;
+        &_cnt{
+            padding-top: 50px;
+            h1{
+                font-size: 34px;
+                letter-spacing: -1px;
+                margin-bottom: 15px;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        .swiper-slide{
+            padding-top: 70px;
+        }
+    }
+
+    @include media-breakpoint-down(md){
+        max-height: 100%;
+        padding-top: 70px;
+        &_cnt{
+            text-align: center;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            h1{
+                font-size: 28px;
+            }
+            p{
+                font-size: 16px;
+            }
+            .btn{
+                padding: 5px 20px;
+                font-size: 16px;
+            }
+        }
+        .swiper-slide{
+            padding-top: 30px;
+        }
+    }
 }
 
 .trustedSec {
@@ -86,6 +159,7 @@
             img {
                 border-radius: 26px;
                 margin-left: auto;
+                max-width: 100%;
             }
         }
 
@@ -112,6 +186,27 @@
             right: -30px;
         }
     }
+
+    @include media-breakpoint-down(xxl){
+        .trustedSwiper{
+            &_left{
+                h3{
+                    font-size: 32px;
+                }
+                p{
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+    @include media-breakpoint-down(md){
+        .trustedSwiper{
+            &_left{
+                text-align: center;
+                padding: 20px;
+            }
+        }
+    }
 }
 
 .solutionHome {
@@ -123,6 +218,7 @@
         border-radius: 30px;
         background-color: rgba(color(500), 0.41);
         @include transition(all 0.3s ease);
+       
 
         &:after {
             content: "";
@@ -143,14 +239,13 @@
             z-index: -1;
         }
 
-        &_img {
-            border-radius: 30px;
-        }
+      
 
         img {
             height: 275px;
             object-fit: cover;
             @include transition(all 0.3s ease);
+            border-radius: 30px;
         }
 
         &_cnt {
@@ -175,6 +270,42 @@
                 @include transition(all 0.3s ease);
             }
         }
+        @include media-breakpoint-down(xxl){
+          
+            &_cnt{
+              
+                h3{
+                    font-size: 24px;
+                }
+                p{
+                    font-size: 16px;
+                }
+            }
+        }
+
+        @include media-breakpoint-down(lg){
+            &_cnt{
+                padding: 15px;
+            }
+            img{
+                height: 200px;
+            }
+        }
+
+        @include media-breakpoint-down(md){
+            img{
+                height: 142px;
+            }
+
+        }
+
+        @include media-breakpoint-down(sm){
+            margin-bottom: 20px;
+            height: auto !important;
+            img{
+                height: 250px;
+            }
+        }
     }
 }
 
@@ -195,6 +326,7 @@
 }
 
 .innovateSec {
+    overflow: hidden;
     &_img {
         .btn {
             position: absolute;
@@ -213,4 +345,10 @@
             }
         }
     }
+    @include media-breakpoint-down(xxl){
+        &_img{
+            margin-bottom: 20px;
+        }
+    }
+    
 }

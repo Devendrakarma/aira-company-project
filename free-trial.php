@@ -15,7 +15,7 @@
         <section class="freeTrialBanner py-80">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6 col-sm-12">
                         <h2 class="commonSubHead mb-0">Start Your</h2>
                         <h1><span>Free Trial</span> with AIRA</h1>
                         <p>Experience Seamless Workflow Automation, Intelligent Document Processing, and RPA at Your
@@ -30,7 +30,7 @@
                             <li>Dedicated Support</li>
                         </ul>
                     </div>
-                    <div class="col-md-5 offset-md-1 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-12 col-lg-5 offset-lg-1 col-sm-12 offset-0 bgGrediantSection bgGrediantSection-sm">
                         <div class="freeTrialBanner_form">
                             <form>
                                 <div class="form-group">
@@ -63,7 +63,7 @@
                 </div>
                 <!-- innovate section 1  -->
                 <div class="row align-items-center py-80 pt-0">
-                    <div class="col-md-5">
+                    <div class="col-md-5 order-md-0 order-2">
                         <h3 class="commonSubHead">All-in-one, All that you need</h3>
                         <ul class="commonList">
                             <li>Intuitive User Interface</li>
@@ -73,7 +73,7 @@
                             <li>Interactive User Input Forms</li>
                         </ul>
                     </div>
-                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-7 order-md-0 order-1 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-1.png" class="w-100"
                                 alt="innovate-one" />
@@ -108,7 +108,7 @@
                 </div>
                 <!-- innovate section 3  -->
                 <div class="row align-items-center py-80 pt-0">
-                    <div class="col-md-5">
+                    <div class="col-md-5 order-md-0 order-2">
                         <h3 class="commonSubHead">Make AIRA AI Agent your own Virtual Assistant</h3>
                         <ul class="commonList">
                             <li>24/7 Availability</li>
@@ -119,7 +119,7 @@
                             <li>Multilingual Support</li>
                         </ul>
                     </div>
-                    <div class="col-md-7 bgGrediantSection bgGrediantSection-sm">
+                    <div class="col-md-7 order-md-0 order-1 bgGrediantSection bgGrediantSection-sm">
                         <div class="innovateSec_img position-relative">
                             <img src="<?php echo IMAGES_URL ?>/homepage/innovate-3.png" class="w-100"
                                 alt="innovate-one" />
