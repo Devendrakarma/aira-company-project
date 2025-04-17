@@ -32,13 +32,18 @@
         transition: opacity 1s ease-in-out;
     }
 
-    .swiper-slide-active {
-        opacity: 1;
+    .swiper-slide.swiper-slide-prev, .swiper-slide.swiper-slide-next{
+        opacity: 0!important;
     }
 
-    .swiper-slide:not(.swiper-slide-active) {
-        display: none;
+    .swiper-slide.swiper-slide-active {
+        opacity: 1 !important;
+        /* Show only active slide */
     }
+
+    // .swiper-slide:not(.swiper-slide-active) {
+    //     display: none;
+    // }
 }
 
 .trustedSec {

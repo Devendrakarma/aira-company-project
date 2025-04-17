@@ -1,6 +1,7 @@
 html {
   height: 100%;
 }
+
 body {
   font-size: 16px;
   font-family: font(rg);
@@ -8,14 +9,42 @@ body {
   min-height: 100%;
   position: relative;
   background-color: color(550);
+
   @include media-breakpoint-down(sm) {
     font-size: 14px;
   }
 }
+
+#scrollBtn {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 46px;
+  height: 46px;
+  background-color: #D9D9D9;
+  color: #25314C;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.3s;
+  z-index: 999;
+  font-size: 16px;
+  transform: rotate(180deg);
+  align-items: center;
+  justify-content: center;
+}
+
+#scrollBtn:hover {
+  background-color: color(50);
+}
+
 a,
 .btn {
   text-decoration: none;
   transition: all 0.5s;
+
   &:hover {
     text-decoration: none;
   }
@@ -28,6 +57,7 @@ a,
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
+
   @include media-breakpoint-down(lg) {
     width: 4px;
     height: 4px;

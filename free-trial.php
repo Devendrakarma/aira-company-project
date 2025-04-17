@@ -273,7 +273,7 @@
 
                 <div class="dataConnectors_footer">
                     <p>Plug and Play integration with COTS and Legacy Data Systems</p>
-                    <a href="#!" class="btn btn-warning btn-rounded position-relative">
+                    <a href="<?php echo BASE_URL?>/product/app-integration.php" class="btn btn-warning btn-rounded position-relative d-inline-flex">
                         Know More
                         <em class="icon-arrow-right"></em>
                     </a>
@@ -282,7 +282,7 @@
         </section>
         <!--!! Highly Pre-Integrated Data Connectors  -->
 
-        <section class="faq py-80">
+        <section class="faq py-80 pb-0">
             <div class="container">
                 <h1 class="text-42 text-center font-bd mb-50">Frequently Asked Question</h1>
                 <div class="accordion accordion-flush" id="faqAccordion">
